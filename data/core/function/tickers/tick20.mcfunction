@@ -1,5 +1,5 @@
 # Primes the ticker
-scoreboard players set tick20 Timings 20
+scoreboard players set tick20 Tickers 20
 
 ###############
 # 1 Tick Mods #

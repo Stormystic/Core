@@ -1,5 +1,5 @@
 # Primes the ticker
-scoreboard players set tick60 Timings 60
+scoreboard players set tick60 Tickers 60
 
 ###############
 # 3 Tick Mods #

@@ -1,0 +1,1 @@
+$execute run particle trail{color:[$(r),$(g),$(b)],target:[$(tx),$(ty),$(tz)],duration:$(d)} $(x) $(y) $(z) $(dx) $(dy) $(dz) 0 $(c) force

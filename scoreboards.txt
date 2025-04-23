@@ -1,0 +1,25 @@
+Tickers ## 
+tick60
+tick20
+tick10
+tick5
+tick
+
+Time
+day
+day_l
+time
+time_l
+flowing
+flowing_l
+
+
+Bloodmoon ##
+activeBlue # Whether a blue moon is active
+activeRed # Whether a red moon is active
+modulo # Used in an operation to get the moon phase
+operation # Storage for the moon phase operation
+queueBlue # Whether a blue moon is queued up
+queueRed # Whether a red moon is queued up
+rng # The current rng value
+ticked # The last day the world has been ticked
