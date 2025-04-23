@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": [
+      "minecraft:netherite_ingot"
+    ]
+  },
+  "result": {
+    "id": "minecraft:reinforced_deepslate"
+  }
+}

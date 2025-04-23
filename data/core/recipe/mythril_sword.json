@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": "minecraft:breeze_rod",
+    "X": "minecraft:netherite_ingot"
+  },
+  "pattern": [
+    " X ",
+    " X ",
+    " # "
+  ],
+  "result": {
+    "components": {
+      "!minecraft:attribute_modifiers": {},
+      "minecraft:item_model": "dd:mythril_sword",
+      "minecraft:item_name": "\"Mythril Sword\"",
+      "minecraft:max_damage": 9999,
+      "minecraft:equippable": {
+        "slot": "mainhand",
+        "asset_id": "dd:mythril"
+      },
+      "minecraft:attribute_modifiers": {
+        "modifiers": [
+          {
+            "type": "minecraft:attack_damage",
+            "id": "9773d51b-c828-41a6-bd70-073ae423d470",
+            "amount": 12,
+            "operation": "add_value",
+            "slot": "mainhand"
+          }
+        ]
+      }
+    },
+    "count": 1,
+    "id": "minecraft:netherite_sword"
+  }
+}

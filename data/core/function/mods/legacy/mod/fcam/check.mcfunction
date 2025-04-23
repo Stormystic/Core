@@ -1,0 +1,14 @@
+execute as @s[type=armor_stand,tag=camLast] if score @s fcid = @r[limit=1,gamemode=spectator,tag=leavingFreeCam] pid run tag @s add specTarget
+execute as @s[type=armor_stand,tag=camLast] if score @s fcid = @r[limit=1,gamemode=spectator,tag=leavingFreeCam] pid run tag @s add specTarget
+execute as @s[type=armor_stand,tag=camLast] if score @s fcid = @r[limit=1,gamemode=spectator,tag=leavingFreeCam] pid run tag @s add specTarget
+execute as @s[type=armor_stand,tag=camLast] if score @s fcid = @r[limit=1,gamemode=spectator,tag=leavingFreeCam] pid run tag @s add specTarget
+execute as @s[type=armor_stand,tag=camLast] if score @s fcid = @r[limit=1,gamemode=spectator,tag=leavingFreeCam] pid run tag @s add specTarget
+execute as @s[type=armor_stand,tag=camLast] if score @s fcid = @r[limit=1,gamemode=spectator,tag=leavingFreeCam] pid run tag @s add specTarget
+execute as @s[type=armor_stand,tag=camLast] if score @s fcid = @r[limit=1,gamemode=spectator,tag=leavingFreeCam] pid run tag @s add specTarget
+execute as @s[type=armor_stand,tag=camLast] if score @s fcid = @r[limit=1,gamemode=spectator,tag=leavingFreeCam] pid run tag @s add specTarget
+execute as @s[type=armor_stand,tag=camLast] if score @s fcid = @r[limit=1,gamemode=spectator,tag=leavingFreeCam] pid run tag @s add specTarget
+execute as @s[type=armor_stand,tag=camLast] if score @s fcid = @r[limit=1,gamemode=spectator,tag=leavingFreeCam] pid run tag @s add specTarget
+execute as @s[type=armor_stand,tag=camLast] if score @s fcid = @r[limit=1,gamemode=spectator,tag=leavingFreeCam] pid run tag @s add specTarget
+execute as @s[type=armor_stand,tag=camLast] if score @s fcid = @r[limit=1,gamemode=spectator,tag=leavingFreeCam] pid run tag @s add specTarget
+execute as @s[type=armor_stand,tag=camLast] if score @s fcid = @r[limit=1,gamemode=spectator,tag=leavingFreeCam] pid run tag @s add specTarget
+execute as @s[type=armor_stand,tag=camLast] if score @s fcid = @r[limit=1,gamemode=spectator,tag=leavingFreeCam] pid run tag @s add specTarget

@@ -1,0 +1,29 @@
+[
+  {
+	"function": "minecraft:set_custom_data",
+	"tag": {
+	  "xcraft_ver": 2,
+	  "goldfix": true
+	}
+  },
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:attribute_modifiers": {
+        "modifiers": [
+          {
+            "type": "minecraft:attack_damage",
+            "id": "minecraft:639f27b7-2998-4642-95ea-c71a6e3676cd",
+            "amount": 5,
+            "operation": "add_value",
+            "slot": "mainhand"
+          }
+        ]
+      },
+      "minecraft:max_damage": 512,
+      "minecraft:damage_resistant": {
+        "types": "#minecraft:is_fire"
+      }
+    }
+  }
+]

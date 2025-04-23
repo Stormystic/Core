@@ -1,0 +1,2 @@
+#execute as @s at @s run function blazebow:projectile_start with entity @s item.components.minecraft:custom_data
+execute as @s at @s run function blazebow:projectile_tick with entity @s item.components.minecraft:custom_data

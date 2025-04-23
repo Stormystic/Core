@@ -1,0 +1,52 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "X": "minecraft:netherite_ingot"
+  },
+  "pattern": [
+    "X X",
+    "X X"
+  ],
+  "result": {
+    "components": {
+      "minecraft:damage_resistant": {
+        "types": "#is_fire"
+      },
+      "minecraft:max_damage": 9999,
+      "minecraft:attribute_modifiers": {
+        "modifiers": [
+          {
+            "type": "minecraft:armor",
+            "id": "775b8664-33e1-45db-8fd8-afaec4fa1f5c",
+            "amount": 3,
+            "operation": "add_value",
+            "slot": "feet"
+          },
+          {
+            "type": "minecraft:armor_toughness",
+            "id": "9ec4791c-76ac-4360-8a58-9b44c1aa2639",
+            "amount": 5,
+            "operation": "add_value",
+            "slot": "feet"
+          },
+          {
+            "type": "minecraft:knockback_resistance",
+            "id": "c3132c39-af06-479f-bcb1-14f37b2a7a8b",
+            "amount": 0.25,
+            "operation": "add_value",
+            "slot": "feet"
+          }
+        ]
+      },
+      "minecraft:item_name": "\"Mythril Boots\"",
+      "minecraft:equippable": {
+        "slot": "feet",
+        "asset_id": "dd:mythril"
+      },
+      "minecraft:item_model": "dd:mythril_boots"
+    },
+    "count": 1,
+    "id": "minecraft:netherite_boots"
+  }
+}

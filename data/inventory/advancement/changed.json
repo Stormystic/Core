@@ -1,0 +1,39 @@
+{
+  "criteria": {
+    "survival": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "gamemode": [
+              "survival"
+            ]
+          }
+        }
+      }
+    },
+    "adventure": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "gamemode": [
+              "adventure"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "survival",
+      "adventure"
+    ]
+  ],
+  "rewards": {
+    "function": "inventory:changed"
+  }
+}

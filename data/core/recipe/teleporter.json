@@ -1,0 +1,44 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "pattern": [
+    "aba",
+    "cdc",
+    "efe"
+  ],
+  "key": {
+    "a": [
+      "minecraft:copper_ingot"
+    ],
+    "b": [
+      "minecraft:ender_eye"
+    ],
+    "c": [
+      "minecraft:glass"
+    ],
+    "d": [
+      "minecraft:end_crystal"
+    ],
+    "e": [
+      "minecraft:iron_block"
+    ],
+    "f": [
+      "minecraft:dispenser"
+    ]
+  },
+  "result": {
+    "id": "salmon_spawn_egg",
+    "count": 1,
+    "components": {
+      "minecraft:item_model": "teleporter:inactive",
+      "minecraft:item_name": "\"Teleporter Block\"",
+      "minecraft:entity_data": {
+        "id": "minecraft:marker",
+        "Tags": [
+          "TELE_PLACING"
+        ]
+      }
+    }
+  },
+  "show_notification": true
+}

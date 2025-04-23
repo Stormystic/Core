@@ -1,0 +1,1 @@
+data merge storage pfunc {func:"", type:0, arguments: {}}

@@ -1,0 +1,50 @@
+[
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": {
+      "item": "mythril_leggings",
+      "ver": "1.0"
+    },
+    "conditions": []
+  },
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:damage_resistant": {
+        "types": "#is_fire"
+      },
+      "minecraft:max_damage": 9999,
+      "minecraft:attribute_modifiers": {
+        "modifiers": [
+          {
+            "type": "minecraft:armor",
+            "id": "0445adf9-0f65-4a07-8b39-6b7010518f8c",
+            "amount": 6,
+            "operation": "add_value",
+            "slot": "legs"
+          },
+          {
+            "type": "minecraft:armor_toughness",
+            "id": "a00bb56e-d749-47f6-b977-b3c630f979d9",
+            "amount": 5,
+            "operation": "add_value",
+            "slot": "legs"
+          },
+          {
+            "type": "minecraft:knockback_resistance",
+            "id": "9783a577-2641-4e49-b999-4f064dfb9bd5",
+            "amount": 0.25,
+            "operation": "add_value",
+            "slot": "legs"
+          }
+        ]
+      },
+      "minecraft:item_name": "\"Mythril Leggings\"",
+      "minecraft:equippable": {
+        "slot": "legs",
+        "asset_id": "dd:mythril"
+      },
+      "minecraft:item_model": "dd:mythril_leggings"
+    }
+  }
+]

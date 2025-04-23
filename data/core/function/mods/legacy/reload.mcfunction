@@ -1,0 +1,5 @@
+execute run datapack disable "file/dataDyne"
+execute run datapack disable "file/Celestial"
+execute run datapack enable "file/dataDyne"
+execute run datapack enable "file/Celestial"
+tellraw @s "Reloaded Datapacks."

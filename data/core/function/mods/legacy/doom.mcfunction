@@ -1,0 +1,1 @@
+execute as @s unless entity @s[x_rotation=0] run execute as @s at @s rotated as @s run teleport @s ~ ~ ~ ~ 0

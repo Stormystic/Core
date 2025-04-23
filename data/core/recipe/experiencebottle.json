@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "121",
+    "232",
+    "121"
+  ],
+  "key": {
+    "1": [
+      "minecraft:gold_nugget"
+    ],
+    "2": [
+      "minecraft:emerald"
+    ],
+    "3": [
+      "minecraft:glass_bottle"
+    ]
+  },
+  "result": {
+    "id": "minecraft:experience_bottle"
+  }
+}

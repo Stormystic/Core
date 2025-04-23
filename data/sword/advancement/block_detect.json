@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "used_item": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": "#minecraft:swords"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "used_item"
+    ]
+  ],
+  "rewards": {
+    "function": "sword:block"
+  },
+  "sends_telemetry_event": false
+}

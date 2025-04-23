@@ -1,0 +1,15 @@
+{
+  "type": "crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    [            
+      "minecraft:sugar",
+      "minecraft:water_bucket",
+      "minecraft:lime_dye"
+    ]
+  ],
+  "result": {
+    "id": "minecraft:slime_ball",
+    "count": 4
+  }
+}

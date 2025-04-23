@@ -1,0 +1,3 @@
+# Checks for an item on a valid structure
+
+execute as @e[type=item] at @s if block ~ ~-1 ~ minecraft:lapis_block if block ~1 ~-1 ~ minecraft:glowstone if block ~ ~-1 ~1 minecraft:glowstone if block ~-1 ~-1 ~ minecraft:glowstone if block ~ ~-1 ~-1 minecraft:glowstone if block ~1 ~ ~ minecraft:soul_torch if block ~ ~ ~1 minecraft:soul_torch if block ~-1 ~ ~ minecraft:soul_torch if block ~ ~ ~-1 minecraft:soul_torch run function core:mods/synthesis/check

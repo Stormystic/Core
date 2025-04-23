@@ -1,0 +1,5 @@
+execute as @s at @s anchored eyes run summon item_display ~ ~ ~ {Tags:["BBFIRE","BBCREATED","mrcd_bullet"],item_display:"thirdperson_righthand",brightness:{sky:15,block:15},transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0.85f,0f,0f,1f],translation:[0f,0f,0f],scale:[1f,1f,1f]},item:{id:"minecraft:blaze_rod",count:1,components:{"minecraft:custom_data":{Owner:[I;0,0,0,0],speed:1.0d}}}}
+execute as @s run data modify entity @e[limit=1,tag=BBCREATED] item.components.minecraft:custom_data.Owner set from entity @s UUID
+execute as @s store result entity @e[limit=1,tag=BBCREATED] item.components.minecraft:custom_data.speed double 0.01 run scoreboard players get @s dummy
+execute as @s at @s anchored eyes rotated as @s run teleport @e[limit=1,tag=BBCREATED] ^ ^ ^ ~ ~ 
+execute as @e[limit=1,tag=BBCREATED] run tag @s remove BBCREATED

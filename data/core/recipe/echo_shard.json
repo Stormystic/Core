@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": [
+      "minecraft:echo_shard"
+    ]
+  },
+  "result": {
+    "id": "minecraft:deepslate_emerald_ore"
+  }
+}

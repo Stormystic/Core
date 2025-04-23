@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": [
+        " 12",
+        " 31",
+        "3  "
+    ],
+    "key": {
+        "1": [
+            "minecraft:iron_ingot"
+        ],
+        "2": [
+            "minecraft:heart_of_the_sea"
+        ],
+        "3": [
+            "minecraft:diamond"
+        ]
+    },
+    "result": {
+        "id": "minecraft:trident"
+    }
+}

@@ -1,0 +1,53 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "X": "minecraft:netherite_ingot"
+  },
+  "pattern": [
+    "X X",
+    "XXX",
+    "XXX"
+  ],
+  "result": {
+    "components": {
+      "minecraft:damage_resistant": {
+        "types": "#is_fire"
+      },
+      "minecraft:max_damage": 9999,
+      "minecraft:attribute_modifiers": {
+        "modifiers": [
+          {
+            "type": "minecraft:armor",
+            "id": "e11076f9-dbd0-4482-b81a-581608ee0a50",
+            "amount": 8,
+            "operation": "add_value",
+            "slot": "chest"
+          },
+          {
+            "type": "minecraft:armor_toughness",
+            "id": "677d107d-2246-423d-b081-71f605358129",
+            "amount": 5,
+            "operation": "add_value",
+            "slot": "chest"
+          },
+          {
+            "type": "minecraft:knockback_resistance",
+            "id": "778f112c-e454-4c48-b592-b4e5f0914cb6",
+            "amount": 0.25,
+            "operation": "add_value",
+            "slot": "chest"
+          }
+        ]
+      },
+      "minecraft:item_name": "\"Mythril Chestplate\"",
+      "minecraft:equippable": {
+        "slot": "chest",
+        "asset_id": "dd:mythril"
+      },
+      "minecraft:item_model": "dd:mythril_chestplate"
+    },
+    "count": 1,
+    "id": "minecraft:netherite_chestplate"
+  }
+}

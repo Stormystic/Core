@@ -1,0 +1,1 @@
+execute as @a if items entity @s armor.head minecraft:golden_helmet if items entity @s armor.chest minecraft:golden_chestplate if items entity @s armor.legs minecraft:golden_leggings if items entity @s armor.feet minecraft:golden_boots run effect give @s minecraft:fire_resistance 1 1 true

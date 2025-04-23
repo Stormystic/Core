@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+        " 1 ",
+        "121",
+        " 1 "
+    ],
+    "key": {
+        "1": [
+            "minecraft:diamond"
+        ],
+        "2": [
+            "minecraft:chorus_fruit"
+        ]
+    },
+    "result": {
+        "id": "minecraft:ender_pearl",
+        "count": 4
+    }
+}

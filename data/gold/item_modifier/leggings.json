@@ -1,0 +1,36 @@
+[
+  {
+	"function": "minecraft:set_custom_data",
+	"tag": {
+	  "xcraft_ver": 2,
+	  "goldfix": true
+	}
+  },
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:attribute_modifiers": {
+        "modifiers": [
+          {
+            "type": "minecraft:armor",
+            "id": "minecraft:bb41b54d-92a9-405d-992d-9a8e63fa4d7a",
+            "amount": 5,
+            "operation": "add_value",
+            "slot": "legs"
+          },
+          {
+            "type": "minecraft:armor_toughness",
+            "id": "minecraft:8e06d053-0775-49e5-81e8-6c266d95348a",
+            "amount": 1,
+            "operation": "add_value",
+            "slot": "legs"
+          }
+        ]
+      },
+      "minecraft:max_damage": 345,
+      "minecraft:damage_resistant": {
+        "types": "#minecraft:is_fire"
+      }
+    }
+  }
+]

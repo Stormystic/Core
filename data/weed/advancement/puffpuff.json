@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "used_item": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:blaze_rod"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "used_item"
+    ]
+  ],
+  "rewards": {
+    "function": "weed:blaze_rod"
+  },
+  "sends_telemetry_event": false
+}

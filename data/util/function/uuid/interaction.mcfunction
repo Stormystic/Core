@@ -1,0 +1,1 @@
+$execute as @e[nbt={UUID:$(player)}] run function util:call_ref with storage pfunc
