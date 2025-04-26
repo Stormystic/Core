@@ -1,11 +1,5 @@
 {
     "values": [
-        "util:tick",
-        "pid:tick",
-        "core:core_tick",
-        "gold:tick",
-        "classic:tick",
-        "sfly:tick",
-        "sword:tick"
+        "core:core_tick"
     ]
 }
