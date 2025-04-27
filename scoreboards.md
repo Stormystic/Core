@@ -1,3 +1,5 @@
+# Index of scoreboards and their values
+
 ## Tickers  
 **tick60:** Ticks once every 3 seconds  
 **tick20:** Ticks once every second  
