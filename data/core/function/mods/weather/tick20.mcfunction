@@ -1,1 +1,0 @@
-execute in minecraft:legacy if predicate core:thundering run function core:mods/weather/severe_thunderstorm
