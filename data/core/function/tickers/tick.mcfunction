@@ -7,5 +7,8 @@ function core:mods/combat/tick
 function core:mods/crawl/tick
 function core:mods/sit/tick
 
+function core:utils/bonezone/tick
+
+
 
 
