@@ -14,7 +14,8 @@ scoreboard players set tick20 Tickers 0
 scoreboard players set tick60 Tickers 0
 
 # Load mods
-function core:mods/teleporters/load    
+function core:mods/teleporters/load
+function core:utils/commands/load    
 
 # Sends load status message
 tellraw @a ["",{"text":"Loaded","color":"light_purple"},{"text":" Core","color":"light_purple"},{"text":" 1.2","color":"light_purple"}]
