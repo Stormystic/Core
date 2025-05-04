@@ -6,5 +6,5 @@ scoreboard players set tick10 Tickers 10
 ################
 
 # Synthesis
-function core:mods/synthesis/tick
+#function core:mods/synthesis/tick
 function core:mods/spectre/tick10
