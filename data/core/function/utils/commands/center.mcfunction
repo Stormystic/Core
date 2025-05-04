@@ -1,5 +1,6 @@
-# Floors the players coordinates, adds .5 to xz and summons an armor stand there
-execute align xyz run summon armor_stand ~0.5 ~ ~0.5 {Small:1b,Marker:1b,Invisible:1b,Silent:1b,Tags:["center"]}
+# Floors the players coordinates, adds .5 to xz and summons an armor stand there. If the player is grounded then y is also floored.
+execute if predicate core:is_on_ground align xz run summon armor_stand ~0.5 ~ ~0.5 {Small:1b,Marker:1b,Invisible:1b,Silent:1b,Tags:["center"]}
+execute unless predicate core:is_on_ground align xyz run summon armor_stand ~0.5 ~ ~0.5 {Small:1b,Marker:1b,Invisible:1b,Silent:1b,Tags:["center"]}
 
 # Copies the players rotation onto the armor stand
 data modify entity @e[type=minecraft:armor_stand,tag=center,distance=..4,limit=1] Rotation[0] set from entity @s Rotation[0]
