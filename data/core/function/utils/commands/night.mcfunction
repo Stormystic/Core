@@ -15,6 +15,6 @@ execute if score localtime Time matches 13000.. run scoreboard players operation
 execute if score localtime Time matches 13000.. store result storage core:commands time_to_add int 1 run scoreboard players operation daycycle Time -= operation Time
 execute if score localtime Time matches 13000.. run function core:utils/commands/set_time with storage core:commands
 
-# Night occurs in the middle of the daylight cycle at tick 13000, rather than at the beginning of it (0). You don't always have to advance the day count to go night. 
-# If it is still early in the current day you can simply advance to that night rather than skipping an entire day to reach the next night
+# Night occurs in the middle of the daylight cycle at tick 13000, rather than at the beginning of it (0)
+# If it's early in the current day you can just advance to that night instead of skipping an entire day to reach the next
 # Some additional logic was needed for this to work
