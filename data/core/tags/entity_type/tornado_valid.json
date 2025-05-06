@@ -24,6 +24,6 @@
     "minecraft:polar_bear",
     "minecraft:illusioner",
     "minecraft:pillager",
-    "minecraft:#boat"
+    "#minecraft:boat"
   ]
 }
