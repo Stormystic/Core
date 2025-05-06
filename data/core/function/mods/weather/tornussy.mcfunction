@@ -4,11 +4,11 @@ execute as @s at @s run teleport @s ~ ~23.48 ~
 execute store result storage minecraft:trailmacro x double 1 run data get entity @s Pos[0]
 execute store result storage minecraft:trailmacro y double 1 run data get entity @s Pos[1]
 execute store result storage minecraft:trailmacro z double 1 run data get entity @s Pos[2]
-execute as @s at @s run teleport @s ~.5 ~-22.98 ~.5
+execute as @s at @s run teleport @s ~.25 ~-22.98 ~.25
 execute store result storage minecraft:trailmacro tx double 1 run data get entity @s Pos[0]
 execute store result storage minecraft:trailmacro ty double 1 run data get entity @s Pos[1]
 execute store result storage minecraft:trailmacro tz double 1 run data get entity @s Pos[2]
-execute as @s at @s run teleport @s ~-.5 ~-.5 ~-.5
+execute as @s at @s run teleport @s ~-.25 ~-.5 ~-.25
 function util:particletrail with storage minecraft:trailmacro
 particle minecraft:ash ~ ~13 ~ 3 8 3 0.1 10 force
 particle minecraft:smoke ~ ~15 ~ 3 3 3 0.1 10 force
