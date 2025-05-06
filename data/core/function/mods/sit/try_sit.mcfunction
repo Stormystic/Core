@@ -1,7 +1,6 @@
-execute as @s rotated as @s run summon armor_stand ~ ~0.075 ~ {NoGravity:1b,Marker:1b,Tags:["SIT_REF"],Invisible:1b,DisabledSlots:4144959}
+execute as @s rotated as @s run summon armor_stand ~ ~0.075 ~ {NoGravity:0b,Small:1b,Invisible:1b,Tags:["SIT_REF"],Invisible:1b,DisabledSlots:4144959}
 execute at @e[type=minecraft:armor_stand,tag=SIT_REF,sort=nearest,limit=1] rotated as @s run teleport @e[type=minecraft:armor_stand,tag=SIT_REF,sort=nearest,limit=1] ~ ~ ~ ~ ~
-execute at @e[type=minecraft:armor_stand,tag=SIT_REF,sort=nearest,limit=1] run loot replace entity @e[type=minecraft:armor_stand,tag=SIT_REF,sort=nearest,limit=1] armor.head mine ~ ~-0.085 ~ netherite_pickaxe[unbreakable={show_in_tooltip:false},enchantments={levels:{"minecraft:silk_touch":100,"minecraft:unbreaking":100}}]
-execute run data modify entity @e[type=minecraft:armor_stand,tag=SIT_REF,sort=nearest,limit=1] ArmorItems[0] set from entity @e[type=minecraft:armor_stand,tag=SIT_REF,sort=nearest,limit=1] ArmorItems[3]
-execute run data modify entity @e[type=minecraft:armor_stand,tag=SIT_REF,sort=nearest,limit=1] ArmorItems[3] set value {}
-execute if data entity @e[type=minecraft:armor_stand,tag=SIT_REF,sort=nearest,limit=1] ArmorItems[0].id run function core:mods/sit/sit_success
-execute unless data entity @e[type=minecraft:armor_stand,tag=SIT_REF,sort=nearest,limit=1] ArmorItems[0].id run kill @e[type=minecraft:armor_stand,tag=SIT_REF,sort=nearest,limit=1]
+execute as @e[type=minecraft:armor_stand,tag=SIT_REF,sort=nearest,limit=1] run attribute @e[type=minecraft:armor_stand,tag=SIT_REF,sort=nearest,limit=1] minecraft:scale base set 0.05
+execute as @s run ride @s mount @e[type=minecraft:armor_stand,tag=SIT_REF,sort=nearest,limit=1]
+execute run tag @e[type=minecraft:armor_stand,tag=SIT_REF,sort=nearest,limit=1] add SIT
+execute run tag @e[type=minecraft:armor_stand,tag=SIT_REF,sort=nearest,limit=1] remove SIT_REF
