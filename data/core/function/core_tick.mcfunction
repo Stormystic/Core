@@ -9,6 +9,10 @@
 scoreboard players remove tick Tickers 1
 function core:tickers/tick
 
+# 2 tick
+execute unless score tick2 Tickers matches 0 run scoreboard players remove tick2 Tickers 1
+execute if score tick2 Tickers matches ..0 run function core:tickers/tick2
+
 # 5 tick
 execute unless score tick5 Tickers matches 0 run scoreboard players remove tick5 Tickers 1
 execute if score tick5 Tickers matches ..0 run function core:tickers/tick5
