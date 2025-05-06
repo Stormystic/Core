@@ -1,10 +1,10 @@
 # aeh aw shit bro the tornussy coming'
 data merge storage trailmacro {x:0.0,y:0.0,z:0.0,tx:0.0,ty:0.0,tz:0.0,r:0.55,g:0.55,b:0.55,dx:4,dy:1,dz:4,c:128,d:60}
-teleport @s ~ ~23.48~
+teleport @s ~ ~23.48 ~
 execute store result storage minecraft:trailmacro x double 1 run data get entity @s Pos[0]
 execute store result storage minecraft:trailmacro y double 1 run data get entity @s Pos[1]
 execute store result storage minecraft:trailmacro z double 1 run data get entity @s Pos[2]
-teleport @s ~ ~-23.48~
+teleport @s ~ ~-23.48 ~
 execute store result storage minecraft:trailmacro ty double 1 run data get entity @s Pos[1]
 data modify storage minecraft:trailmacro tx set from storage minecraft:trailmacro x
 data modify storage minecraft:trailmacro tz set from storage minecraft:trailmacro z
