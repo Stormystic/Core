@@ -2,9 +2,9 @@
 #	Mechanics
 #
 execute run scoreboard players set #2 dummy 2
-execute as @s at @s run summon marker ~1 ~ ~ {Tags:["tornadoang"]}
+execute as @s at @s run summon marker ^ ^ ^1 {Tags:["tornadoang"]}
 
-execute as @s at @s facing entity @e[type=!minecraft:armor_stand,type=!minecraft:painting,type=!minecraft:item_frame,type=!minecraft:item,type=!minecraft:arrow,type=!minecraft:falling_block,type=!minecraft:block_display,type=!minecraft:text_display,type=!minecraft:item_display,type=!minecraft:area_effect_cloud,type=!marker,tag=!tornado,sort=nearest,distance=..90,limit=1] feet rotated ~ 0 positioned ^ ^ ^1 run teleport @e[sort=nearest,limit=1,tag=tornadoang] ~ ~ ~ ~ ~
+execute as @s at @s facing entity @e[type=!minecraft:armor_stand,type=!minecraft:painting,type=!minecraft:item_frame,type=!minecraft:item,type=!minecraft:arrow,type=!minecraft:falling_block,type=!minecraft:block_display,type=!minecraft:text_display,type=!minecraft:item_display,type=!minecraft:area_effect_cloud,type=!marker,tag=!tornado,sort=nearest,distance=..60,limit=1] feet rotated ~ 0 positioned ^ ^ ^1 run teleport @e[sort=nearest,limit=1,tag=tornadoang] ~ ~ ~ ~ ~
 execute as @s at @s store result score #ofx dummy run data get entity @e[sort=nearest,limit=1,tag=tornadoang] Pos[0] 2000
 execute as @s at @s store result score #ofz dummy run data get entity @e[sort=nearest,limit=1,tag=tornadoang] Pos[2] 2000
 
