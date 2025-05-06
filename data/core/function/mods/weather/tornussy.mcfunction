@@ -4,7 +4,7 @@ execute as @s at @s run summon marker ~ ~23.48 ~ {Tags:["tornadocalc"]}
 execute as @s at @s store result storage minecraft:trailmacro x double 0.00001 run data get entity @e[sort=nearest,limit=1,tag=tornadocalc] Pos[0] 100000
 execute as @s at @s store result storage minecraft:trailmacro y double 0.00001 run data get entity @e[sort=nearest,limit=1,tag=tornadocalc] Pos[1] 100000
 execute as @s at @s store result storage minecraft:trailmacro z double 0.00001 run data get entity @e[sort=nearest,limit=1,tag=tornadocalc] Pos[2] 100000
-execute as @s at @s run teleport @e[sort=nearest,limit=1,tag=tornadocalc] ~.5 ~.01 ~.5
+execute as @s at @s run teleport @e[sort=nearest,limit=1,tag=tornadocalc] ~.25 ~.01 ~.25
 execute as @s at @s store result storage minecraft:trailmacro tx double 0.00001 run data get entity @e[sort=nearest,limit=1,tag=tornadocalc] Pos[0] 100000
 execute as @s at @s store result storage minecraft:trailmacro ty double 0.00001 run data get entity @e[sort=nearest,limit=1,tag=tornadocalc] Pos[1] 100000
 execute as @s at @s store result storage minecraft:trailmacro tz double 0.00001 run data get entity @e[sort=nearest,limit=1,tag=tornadocalc] Pos[2] 100000
