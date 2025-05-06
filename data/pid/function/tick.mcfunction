@@ -1,1 +1,0 @@
-execute as @a[tag=!pIDAssigned] run function pid:newplayer

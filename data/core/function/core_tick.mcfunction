@@ -36,3 +36,6 @@ execute in minecraft:legacy store result score day_l Time run time query day
 # Track if time is flowing in the survival worlds
 execute in minecraft:overworld store result score flowing Time run gamerule doDaylightCycle
 execute in minecraft:legacy store result score flowing_l Time run gamerule doDaylightCycle
+
+# Assign PID to players
+execute as @a[tag=!PID] run function core:utils/pid/assign

@@ -5,6 +5,7 @@
 # Add important scoreboards
 scoreboard objectives add Time dummy
 scoreboard objectives add Tickers dummy
+scoreboard objectives add PID dummy
 
 # Resets all tickers everytime the server starts.
 scoreboard players set tick Tickers 0

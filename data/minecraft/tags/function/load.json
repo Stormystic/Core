@@ -1,6 +1,5 @@
 {
     "values": [
-        "pid:load",
         "core:core_load",
         "sfly:load",
         "util:load",
