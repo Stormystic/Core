@@ -8,4 +8,3 @@ scoreboard players set tick10 Tickers 10
 # Synthesis
 #function core:mods/synthesis/tick
 function core:mods/spectre/tick10
-execute as @e[tag=tornado] at @s run function core:mods/weather/tornussy/break
