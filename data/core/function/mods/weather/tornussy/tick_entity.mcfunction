@@ -8,7 +8,6 @@ execute run scoreboard players remove #th dummy 1
 execute store result entity @s Health float 1 run scoreboard players get #th dummy
 execute run scoreboard players reset #th dummy
 
-
 execute at @s rotated ~ 0 run summon marker ^ ^ ^0.75 {Tags:["tornadoang"]}
 
 execute as @s at @s facing entity @e[type=#core:tornado_valid,predicate=core:can_see_sky,predicate=core:above_sea_level,tag=!tornado,sort=nearest,distance=..60,limit=1] feet rotated ~ 0 positioned ^ ^ ^0.75 run teleport @e[sort=nearest,limit=1,tag=tornadoang] ~ ~ ~ ~ ~
@@ -47,11 +46,11 @@ execute run scoreboard players reset #oz dummy
 execute as @s at @s positioned ~ ~15 ~ at @e[type=#core:tornado_valid,predicate=core:can_see_sky,predicate=core:above_sea_level,sort=nearest,tag=!tornado,distance=..10] run damage @e[type=#core:tornado_valid,predicate=core:can_see_sky,predicate=core:above_sea_level,sort=nearest,tag=!tornado,limit=1] 0.1 minecraft:wind_charge at ~ ~-1 ~
 execute as @s at @s positioned ~ ~9 ~ at @e[type=#core:tornado_valid,predicate=core:can_see_sky,predicate=core:above_sea_level,sort=nearest,tag=!tornado,distance=..8] run damage @e[type=#core:tornado_valid,predicate=core:can_see_sky,predicate=core:above_sea_level,sort=nearest,tag=!tornado,limit=1] 0.15 minecraft:wind_charge at ~ ~-1 ~
 execute as @s at @s positioned ~ ~3 ~ at @e[type=#core:tornado_valid,predicate=core:can_see_sky,predicate=core:above_sea_level,sort=nearest,tag=!tornado,distance=..5] run damage @e[type=#core:tornado_valid,predicate=core:can_see_sky,predicate=core:above_sea_level,sort=nearest,tag=!tornado,limit=1] 0.25 minecraft:wind_charge at ~ ~-1 ~
-execute as @s at @s positioned ~ ~2 ~ at @e[type=#core:tornado_valid,predicate=core:can_see_sky,predicate=core:above_sea_level,sort=nearest,tag=!tornado,distance=..2.5] run effect give @e[type=#core:tornado_valid,predicate=core:can_see_sky,predicate=core:above_sea_level,sort=nearest,tag=!tornado,limit=1] minecraft:levitation 1 15 true
+execute as @s at @s positioned ~ ~2 ~ at @e[type=#core:tornado_valid,predicate=core:can_see_sky,predicate=core:above_sea_level,sort=nearest,tag=!tornado,distance=..2.5] run effect give @e[type=#core:tornado_valid,predicate=core:can_see_sky,predicate=core:above_sea_level,sort=nearest,tag=!tornado,limit=1] minecraft:levitation 1 12 true
 execute as @s at @s positioned ~ ~14 ~ at @e[type=#core:tornado_valid,predicate=core:can_see_sky,predicate=core:above_sea_level,sort=nearest,tag=!tornado,distance=..4] run effect give @e[type=#core:tornado_valid,predicate=core:can_see_sky,predicate=core:above_sea_level,sort=nearest,tag=!tornado,limit=1] minecraft:levitation 1 2 true
 
-particle minecraft:ash ~ ~13 ~ 3 8 3 0.1 30 force
-particle minecraft:dust_plume ~ ~14 ~ 2 3 2 0.1 32 force
-particle minecraft:smoke ~ ~15 ~ 3 3 3 0.1 10 force
-particle minecraft:dust_plume ~ ~8 ~ 1.5 2 1.5 0.1 7 force
-particle minecraft:smoke ~ ~.14 ~ 0.3 0 0.3 0.1 1 force
+execute as @s at @s run particle minecraft:ash ~ ~13 ~ 3 8 3 0.1 30 force
+execute as @s at @s run particle minecraft:dust_plume ~ ~14 ~ 2 3 2 0.1 32 force
+execute as @s at @s run particle minecraft:smoke ~ ~15 ~ 3 3 3 0.1 10 force
+execute as @s at @s run particle minecraft:dust_plume ~ ~8 ~ 1.5 2 1.5 0.1 7 force
+execute as @s at @s run particle minecraft:smoke ~ ~.14 ~ 0.3 0 0.3 0.1 1 force
