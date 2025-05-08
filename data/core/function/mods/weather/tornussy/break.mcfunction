@@ -16,8 +16,8 @@ execute if score #rng dummy matches 0..90 at @s run function core:mods/weather/t
 execute run kill @e[type=marker,tag=tb_refresh]
 
 execute if entity @s[tag=BREAK_VALID] if score #rng dummy matches 75..90 at @e[type=marker,tag=tornbreak] run function core:mods/weather/tornussy/break_weak
-execute if entity @s[tag=BREAK_VALID] if score #rng dummy matches 32..74 at @e[type=marker,tag=tornbreak] run function core:mods/weather/tornussy/break_medium
-execute if entity @s[tag=BREAK_VALID] if score #rng dummy matches 0..31 at @e[type=marker,tag=tornbreak] run function core:mods/weather/tornussy/break_strong
+execute if entity @s[tag=BREAK_VALID] if score #rng dummy matches 45..74 at @e[type=marker,tag=tornbreak] run function core:mods/weather/tornussy/break_medium
+execute if entity @s[tag=BREAK_VALID] if score #rng dummy matches 0..44 at @e[type=marker,tag=tornbreak] run function core:mods/weather/tornussy/break_strong
 execute if entity @s[tag=BREAK_VALID] run kill @e[type=marker,tag=tornbreak]
 execute if entity @s[tag=BREAK_VALID] run tag @s remove BREAK_VALID
 execute run scoreboard players reset #breakpoint dummy
