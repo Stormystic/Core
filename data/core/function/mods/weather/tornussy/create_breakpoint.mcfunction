@@ -1,3 +1,4 @@
+execute run kill @e[type=marker,tag=tb_refresh]
 execute at @s run summon marker ~ ~ ~ {Tags:["tornbreak"]}
 execute store result score #btx dummy run data get entity @e[type=marker,limit=1,tag=tornbreak] Pos[0] 1000
 execute store result score #bty dummy run data get entity @e[type=marker,limit=1,tag=tornbreak] Pos[1] 1000
