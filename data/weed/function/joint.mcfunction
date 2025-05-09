@@ -1,4 +1,4 @@
-execute as @s run advancement revoke @s only weed:joint
+execute as @s run advancement revoke @s only weed:puffpuff
 execute as @s at @s anchored eyes positioned ^ ^-.18 ^.42 run particle minecraft:white_smoke ~ ~ ~ .0 .0 .0 .001 1 normal
 execute as @s[tag=!PUFFNAJOIN] run tag @s add PUFFNAJOIN
 execute as @s[tag=BLOWNJOINT] run tag @s remove BLOWNJOINT
