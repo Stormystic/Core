@@ -8,4 +8,4 @@ function core:mods/combat/tick
 #function core:mods/crawl/tick
 function core:mods/sit/tick
 function core:mods/weather/tornussy/tick
-function weed:tick
+execute as @a run function weed:tick
