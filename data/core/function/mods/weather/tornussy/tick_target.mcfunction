@@ -1,0 +1,3 @@
+execute if entity @e[type=armor_stand,tag=tornado,distance=..2.1] run effect give @s minecraft:levitation 1 16 true
+execute at @s positioned ~-3.55 ~1 ~-3.55 if entity @e[type=armor_stand,tag=tornado,dx=7.1,dy=-50,dz=7.1] at @s run damage @s 0.16 minecraft:wind_charge at ~ ~-1 ~
+execute at @s positioned ~-3.5 ~-16 ~-3.5 if entity @e[type=armor_stand,tag=tornado,dx=7,dy=-6,dz=7] at @s run effect give @s minecraft:levitation 1 1 true
