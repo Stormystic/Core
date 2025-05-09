@@ -1,5 +1,4 @@
-execute as @s[tag=!PUFFNAJOIN,tag=!BLOWNJOINT] if score @s weed matches 1.. run scoreboard players remove @s weed 2
-execute as @s[tag=!PUFFNAJOIN,tag=!BLOWNJOINT] if score @s weed matches ..0 run scoreboard players set @s weed 0
+execute as @s[tag=!PUFFNAJOIN,tag=!BLOWNJOINT] if score @s weed matches 1.. run scoreboard players add @s weed 15
 
 execute as @s[tag=BLOWNJOINT] run tag @s remove BLOWNJOINT
 execute as @s[tag=!PUFFNAJOIN] run tag @s add PUFFNAJOIN
