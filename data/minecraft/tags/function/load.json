@@ -1,6 +1,7 @@
 {
     "values": [
         "core:core_load",
+        "weed:load",
         "sfly:load",
         "util:load",
         "inventory:load"
