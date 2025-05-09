@@ -9,9 +9,9 @@ execute as @s unless score @s weed matches 1.. run scoreboard players set @s wee
 
 ## increment da counter
 execute as @s run scoreboard players add @s weed 2
-execute as @s if score @s weed matches 21.. run effect give @s minecraft:nausea 5 0 true
-execute as @s if score @s weed matches 41.. run damage @s 1 minecraft:starve at ~ ~ ~
-execute as @s if score @s weed matches 100.. run scoreboard players set @s weed 99
+execute as @s if score @s weed matches 31.. run effect give @s minecraft:nausea 5 0 true
+execute as @s if score @s weed matches 71.. run damage @s 1 minecraft:starve at ~ ~ ~
+execute as @s if score @s weed matches 121.. run scoreboard players set @s weed 120
 
 
 #give @p bone[item_model="dd:joint",consumable={consume_seconds:999999,animation:"toot_horn"},custom_data={weed:1b},item_name="Joint"] 1
