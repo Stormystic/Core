@@ -11,13 +11,14 @@ execute if entity @s[tag=PUFFNAJOIN] if score @s weed matches 11..15 at @s run t
 execute if entity @s[tag=PUFFNAJOIN] if score @s weed matches 01..10 at @s run title @s actionbar {"bold":true,"color":"#253D6E","score":{"name":"@p","objective":"weed"}}
 
 execute if entity @s[tag=!PUFFNAJOIN,tag=!BLOWNJOINT] if score @s weed matches -2..0 run scoreboard players reset @s weed
-execute if entity @s[tag=BLOWNJOINT] if score @s weed matches 50.. run effect give @s minecraft:hunger 5 2 true
-execute if entity @s[tag=BLOWNJOINT] if score @s weed matches 36.. run effect give @s minecraft:slowness 8 1 true
+execute if entity @s[tag=BLOWNJOINT] if score @s weed matches 50.. run effect give @s minecraft:hunger 5 1 true
+execute if entity @s[tag=BLOWNJOINT] if score @s weed matches 36.. run effect give @s minecraft:slowness 8 0 true
 
 execute if entity @s[tag=BLOWNJOINT] if score @s weed matches 16..35 run effect clear @s nausea
 execute if entity @s[tag=BLOWNJOINT] if score @s weed matches 24..35 run effect clear @s minecraft:slowness
 execute if entity @s[tag=BLOWNJOINT] if score @s weed matches 26..29 run effect give @s minecraft:regeneration 8 1 true
-execute if entity @s[tag=BLOWNJOINT] if score @s weed matches 26 run effect give @s minecraft:instant_health 1 1 true
+execute if entity @s[tag=BLOWNJOINT] if score @s weed matches 16..25 run effect give @s minecraft:regeneration 10 0 true
+execute if entity @s[tag=BLOWNJOINT] if score @s weed matches 26 run effect give @s minecraft:instant_health 1 0 true
 
 execute if entity @s[tag=BLOWNJOINT] if score @s weed matches 51..99 run title @s actionbar {"bold":true,"color":"#850000","text":"Terribly Humongous Hit"}
 execute if entity @s[tag=BLOWNJOINT] if score @s weed matches 36..50 run title @s actionbar {"bold":true,"color":"#9F9200","text":"Large Hit"}
