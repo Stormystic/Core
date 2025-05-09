@@ -12,7 +12,7 @@ execute if entity @s[tag=PUFFNAJOIN] if score @s weed matches 01..10 at @s run t
 
 execute if entity @s[tag=!PUFFNAJOIN,tag=!BLOWNJOINT] if score @s weed matches -2..0 run scoreboard players reset @s weed
 execute if entity @s[tag=BLOWNJOINT] if score @s weed matches 60.. run effect give @s minecraft:mining_fatigue 10 8 true
-execute if entity @s[tag=BLOWNJOINT] if score @s weed matches 70.. run effect give @s minecraft:weakness 10 1 true
+execute if entity @s[tag=BLOWNJOINT] if score @s weed matches 70.. run effect give @s minecraft:weakness 8 0 true
 execute if entity @s[tag=BLOWNJOINT] if score @s weed matches 80.. run effect give @s minecraft:slowness 10 0 true
 
 execute if entity @s[tag=BLOWNJOINT] if score @s weed matches 21..59 run effect clear @s nausea
