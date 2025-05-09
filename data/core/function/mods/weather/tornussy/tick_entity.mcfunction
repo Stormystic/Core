@@ -8,9 +8,9 @@ execute run scoreboard players remove #th dummy 1
 execute store result entity @s Health float 1 run scoreboard players get #th dummy
 execute run scoreboard players reset #th dummy
 
-execute rotated ~ 0 run summon marker ^ ^ ^0.75 {Tags:["tornadoang"]}
+execute rotated ~ 0 run summon marker ^ ^ ^0.66 {Tags:["tornadoang"]}
 
-execute facing entity @e[type=#core:tornado_valid,predicate=core:can_see_sky,tag=!tornado,sort=nearest,distance=..60,limit=1] feet rotated ~ 0 positioned ^ ^ ^0.33 run teleport @e[sort=nearest,limit=1,tag=tornadoang] ~ ~ ~ ~ ~
+execute facing entity @e[type=#core:tornado_valid,predicate=core:can_see_sky,tag=!tornado,sort=nearest,distance=..60,limit=1] feet rotated ~ 0 positioned ^ ^ ^0.66 run teleport @e[sort=nearest,limit=1,tag=tornadoang] ~ ~ ~ ~ ~
 #	execute facing entity @a[predicate=core:can_see_sky,sort=nearest,distance=..12,limit=1] feet rotated ~ 0 positioned ^ ^ ^0.88 run teleport @e[sort=nearest,limit=1,tag=tornadoang] ~ ~ ~ ~ ~
 execute store result score #ofx dummy run data get entity @e[type=marker,sort=nearest,limit=1,tag=tornadoang] Pos[0] 2000
 execute store result score #ofz dummy run data get entity @e[type=marker,sort=nearest,limit=1,tag=tornadoang] Pos[2] 2000
