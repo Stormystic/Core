@@ -6,7 +6,8 @@ execute as @s at @s anchored eyes positioned ^ ^-.18 ^.42 run particle minecraft
 execute as @s unless score @s weed matches 0.. run scoreboard players set @s weed 0
 
 ## increment da counter
-execute as @s if score @s weed matches 0..80 run scoreboard players add @s weed 2
+execute as @s run scoreboard players add @s weed 1
+execute as @s if score @s weed matches 80.. run scoreboard players set @s weed 80
 
 
 #give @p bone[consumable={consume_seconds:9999999,animation:"toot_horn"},custom_data={weed:true}] 1
