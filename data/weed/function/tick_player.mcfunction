@@ -20,9 +20,9 @@ execute if entity @s[tag=BLOWNJOINT] if score @s weed matches 21..59 run effect 
 execute if entity @s[tag=BLOWNJOINT] if score @s weed matches 45..49 run effect give @s minecraft:regeneration 8 1 true
 
 #nbt={active_effects:[{id:"minecraft:absorption",duration:-1}]}
-execute if entity @s[tag=BLOWNJOINT,nbt={active_effects:[{id:"minecraft:absorption",amplifier:3,duration:-1}]}] if score @s weed matches 75..89 run effect give @s minecraft:absorption infinite 4 true
-execute if entity @s[tag=BLOWNJOINT,nbt={active_effects:[{id:"minecraft:absorption",amplifier:2,duration:-1}]}] if score @s weed matches 75..89 run effect give @s minecraft:absorption infinite 3 true
-execute if entity @s[tag=BLOWNJOINT,nbt={active_effects:[{id:"minecraft:absorption",amplifier:1,duration:-1}]}] if score @s weed matches 75..89 run effect give @s minecraft:absorption infinite 2 true
+execute if entity @s[tag=BLOWNJOINT,nbt={active_effects:[{id:"minecraft:absorption",amplifier:3b,duration:-1}]}] if score @s weed matches 75..89 run effect give @s minecraft:absorption infinite 4 true
+execute if entity @s[tag=BLOWNJOINT,nbt={active_effects:[{id:"minecraft:absorption",amplifier:2b,duration:-1}]}] if score @s weed matches 75..89 run effect give @s minecraft:absorption infinite 3 true
+execute if entity @s[tag=BLOWNJOINT,nbt={active_effects:[{id:"minecraft:absorption",amplifier:1b,duration:-1}]}] if score @s weed matches 75..89 run effect give @s minecraft:absorption infinite 2 true
 execute if entity @s[tag=BLOWNJOINT,nbt={active_effects:[{id:"minecraft:absorption",duration:-1}]}] if score @s weed matches 75..89 run effect give @s minecraft:absorption infinite 1 true
 execute if entity @s[tag=BLOWNJOINT,nbt=!{active_effects:[{id:"minecraft:absorption",duration:-1}]}] if score @s weed matches 75..89 run effect give @s minecraft:absorption infinite 0 true
 
