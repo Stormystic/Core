@@ -3,6 +3,13 @@ execute if entity @s[tag=!PUFFNAJOIN,tag=!BLOWNJOINT] if score @s weed matches 1
 execute if entity @s[tag=!PUFFNAJOIN,tag=!BLOWNJOINT] if score @s weed matches 1..200 run scoreboard players remove @s weed 1
 execute if entity @s[tag=!PUFFNAJOIN,tag=!BLOWNJOINT] if score @s weed matches -2..0 run scoreboard players reset @s weed
 
+execute if entity @s[tag=BLOWNJOINT] if score @s weed matches 50.. run effect give @s minecraft:hunger 5 2 true
+execute if entity @s[tag=BLOWNJOINT] if score @s weed matches 36.. run effect give @s minecraft:slowness 8 1 true
+
+execute if entity @s[tag=BLOWNJOINT] if score @s weed matches 16..35 run effect clear @s nausea
+execute if entity @s[tag=BLOWNJOINT] if score @s weed matches 23..35 run effect clear @s minecraft:slowness
+execute if entity @s[tag=BLOWNJOINT] if score @s weed matches 26..35 run effect give @s minecraft:instant_health 1 1 true
+
 execute if entity @s[tag=BLOWNJOINT] if score @s weed matches 51..99 run say Terribly Humongous Hit
 execute if entity @s[tag=BLOWNJOINT] if score @s weed matches 36..50 run say Large Hit
 execute if entity @s[tag=BLOWNJOINT] if score @s weed matches 26..35 run say Perfect Hit
