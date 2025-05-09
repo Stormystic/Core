@@ -21,7 +21,7 @@ execute if entity @s[tag=BLOWNJOINT] if score @s weed matches 45..49 run effect 
 execute if entity @s[tag=BLOWNJOINT] if score @s weed matches 45 run effect give @s minecraft:instant_health 1 5 true
 
 execute if entity @s[tag=BLOWNJOINT] if score @s weed matches 90.. run title @s actionbar {"bold":true,"color":"#850000","text":"Terribly Humongous Hit"}
-execute if entity @s[tag=BLOWNJOINT] if score @s weed matches 60..89 run title @s actionbar {"bold":true,"color":"#9F9200","text":"Large Hit"}
+execute if entity @s[tag=BLOWNJOINT] if score @s weed matches 60..89 run title @s actionbar {"bold":true,"color":"#9F9200","text":"Humongous Hit"}
 execute if entity @s[tag=BLOWNJOINT] if score @s weed matches 45..59 run title @s actionbar {"bold":true,"color":"#ACDB00","text":"Perfect Hit"}
 execute if entity @s[tag=BLOWNJOINT] if score @s weed matches 30..44 run title @s actionbar {"bold":true,"color":"#9FE310","text":"Great Hit"}
 execute if entity @s[tag=BLOWNJOINT] if score @s weed matches 21..29 run title @s actionbar {"bold":true,"color":"#76AC2F","text":"Okay Hit"}

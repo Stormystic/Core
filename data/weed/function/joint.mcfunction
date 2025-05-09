@@ -10,7 +10,7 @@ execute as @s unless score @s weed matches 1.. run scoreboard players set @s wee
 ## increment da counter
 execute as @s run scoreboard players add @s weed 2
 execute as @s if score @s weed matches 31.. run effect give @s minecraft:nausea 5 0 true
-execute as @s if score @s weed matches 71.. run damage @s 1 minecraft:starve at ~ ~ ~
+execute as @s if score @s weed matches 91.. run damage @s 1 minecraft:starve at ~ ~ ~
 execute as @s if score @s weed matches 121.. run scoreboard players set @s weed 120
 
 
