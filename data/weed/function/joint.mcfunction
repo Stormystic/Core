@@ -14,4 +14,4 @@ execute as @s if score @s weed matches 91.. run damage @s 1 minecraft:starve at 
 execute as @s if score @s weed matches 121.. run scoreboard players set @s weed 120
 
 
-#give @p bone[item_model="dd:joint",consumable={consume_seconds:999999,animation:"toot_horn"},custom_data={weed:1b},item_name="Joint"] 1
+#give @p bone[item_model="dd:joint",consumable={consume_seconds:999999,animation:"toot_horn"},custom_data={weed:1b},item_name="Joint",equippable={slot:"head"}] 1

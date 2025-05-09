@@ -16,6 +16,9 @@
 		},
 		"minecraft:custom_data": {
 		"weed": true
+		},
+		"minecraft:equippable": {
+		  "slot": "head"
 		}
 	},
 	"conditions": []
