@@ -10,10 +10,10 @@
 	"components": {
 		"minecraft:consumable": {
 		"consume_seconds": 9999999,
-		"animation": "block"
+		"animation": "toot_horn"
 		},
 		"minecraft:custom_data": {
-		"blocks": true
+		"weed": true
 		}
 	},
 	"conditions": []

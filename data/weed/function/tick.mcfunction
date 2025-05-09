@@ -1,9 +1,6 @@
-execute as @a[tag=EXIT_BLOCKING] run tag @s remove ENB
-execute as @a[tag=EXIT_BLOCKING] run tag @s remove EXIT_BLOCKING
+execute as @a[tag=BLOWNJOINT] at @s anchored eyes positioned ^ ^-.16 ^.45 run particle minecraft:poof ~ ~ ~ .0 .0 .0 .001 4 normal
+execute as @a[tag=BLOWNJOINT] at @s anchored eyes positioned ^ ^-.16 ^.45 run particle minecraft:campfire_cosy_smoke ~ ~ ~ .0 .0 .0 .01 1 normal
+execute as @a[tag=BLOWNJOINT] run tag @s remove BLOWNJOINT
 
-execute as @a[tag=BLOCKING] run tag @s add EXIT_BLOCKING
-execute as @a[tag=BLOCKING] run tag @s remove BLOCKING
-
-
-kill @e[type=minecraft:interaction,tag=PARRY_HIT,tag=PARRY_HIT_DEL]
-execute as @e[type=minecraft:interaction,tag=PARRY_HIT,tag=!PARRY_HIT_DEL] run tag @s add PARRY_HIT_DEL
+execute as @a[tag=PUFFNAJOIN] run tag @s add BLOWNJOINT
+execute as @a[tag=PUFFNAJOIN] run tag @s remove PUFFNAJOIN

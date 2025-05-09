@@ -4,7 +4,7 @@
       "trigger": "minecraft:using_item",
       "conditions": {
         "item": {
-          "items": "minecraft:blaze_rod"
+          "items": "minecraft:bone"
         }
       }
     }
@@ -15,7 +15,7 @@
     ]
   ],
   "rewards": {
-    "function": "weed:blaze_rod"
+    "function": "weed:joint"
   },
   "sends_telemetry_event": false
 }
