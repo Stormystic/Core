@@ -18,7 +18,14 @@ execute if entity @s[tag=BLOWNJOINT] if score @s weed matches 21..59 run effect 
 execute if entity @s[tag=BLOWNJOINT] if score @s weed matches 30..59 run effect clear @s minecraft:slowness
 execute if entity @s[tag=BLOWNJOINT] if score @s weed matches 21..59 run effect give @s minecraft:regeneration 10 0 true
 execute if entity @s[tag=BLOWNJOINT] if score @s weed matches 45..49 run effect give @s minecraft:regeneration 8 1 true
-execute if entity @s[tag=BLOWNJOINT] if score @s weed matches 75..89 run effect give @s minecraft:absorption infinite 4 true
+
+#nbt={active_effects:[{id:"minecraft:absorption",duration:-1}]}
+execute if entity @s[tag=BLOWNJOINT,nbt={active_effects:[{id:"minecraft:absorption",amplifier:3,duration:-1}]}] if score @s weed matches 75..89 run effect give @s minecraft:absorption infinite 4 true
+execute if entity @s[tag=BLOWNJOINT,nbt={active_effects:[{id:"minecraft:absorption",amplifier:2,duration:-1}]}] if score @s weed matches 75..89 run effect give @s minecraft:absorption infinite 3 true
+execute if entity @s[tag=BLOWNJOINT,nbt={active_effects:[{id:"minecraft:absorption",amplifier:1,duration:-1}]}] if score @s weed matches 75..89 run effect give @s minecraft:absorption infinite 2 true
+execute if entity @s[tag=BLOWNJOINT,nbt={active_effects:[{id:"minecraft:absorption",amplifier:0,duration:-1}]}] if score @s weed matches 75..89 run effect give @s minecraft:absorption infinite 1 true
+execute if entity @s[tag=BLOWNJOINT,nbt=!{active_effects:[{id:"minecraft:absorption",duration:-1}]}] if score @s weed matches 75..89 run effect give @s minecraft:absorption infinite 0 true
+
 execute if entity @s[tag=BLOWNJOINT] if score @s weed matches 45 run effect give @s minecraft:instant_health 1 5 true
 
 execute if entity @s[tag=BLOWNJOINT] if score @s weed matches 90.. run title @s actionbar {"bold":true,"color":"#850000","text":"Terribly Humongous Hit"}
