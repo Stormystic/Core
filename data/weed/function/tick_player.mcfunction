@@ -16,7 +16,7 @@ execute if entity @s[tag=BLOWNJOINT] if score @s weed matches 36.. run effect gi
 
 execute if entity @s[tag=BLOWNJOINT] if score @s weed matches 16..35 run effect clear @s nausea
 execute if entity @s[tag=BLOWNJOINT] if score @s weed matches 24..35 run effect clear @s minecraft:slowness
-execute if entity @s[tag=BLOWNJOINT] if score @s weed matches 26..29 run effect give @s minecraft:speed 10 1 true
+execute if entity @s[tag=BLOWNJOINT] if score @s weed matches 26..29 run effect give @s minecraft:regeneration 8 1 true
 execute if entity @s[tag=BLOWNJOINT] if score @s weed matches 26 run effect give @s minecraft:instant_health 1 1 true
 
 execute if entity @s[tag=BLOWNJOINT] if score @s weed matches 51..99 run title @s actionbar {"bold":true,"color":"#850000","text":"Terribly Humongous Hit"}
