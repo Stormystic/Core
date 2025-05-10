@@ -1,4 +1,5 @@
 execute as @s[tag=!PUFFNAJOIN,tag=!BLOWNJOINT,gamemode=!creative] if score @s weed matches 21.. run damage @s 3 minecraft:starve at ~ ~ ~
+execute as @s[tag=!PUFFNAJOIN,tag=!BLOWNJOINT] if score @s weed matches 1.. run tag @s add DOSOULDMG
 execute as @s[tag=!PUFFNAJOIN,tag=!BLOWNJOINT,gamemode=!creative] if score @s weed matches 1.. run scoreboard players add @s weed 7
 execute as @s[tag=BLOWNJOINT] run tag @s remove BLOWNJOINT
 execute as @s[tag=!PUFFNAJOIN] run tag @s add PUFFNAJOIN

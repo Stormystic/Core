@@ -1,6 +1,6 @@
 execute as @s[tag=!JOINTLEFT] if entity @s[nbt={Inventory:[{id:"minecraft:bone",Slot:-106b,components:{"minecraft:custom_data":{joint:1b}}}]}] unless entity @s[nbt={SelectedItem:{id:"minecraft:bone",count:1,components:{"minecraft:custom_data":{joint:1b}}}}] run tag @s add JOINTLEFT
-execute if entity @s[tag=!PUFFNAJOIN,tag=!BLOWNJOINT,tag=!JOINTLEFT,gamemode=!creative] if score @s weed matches 1.. run item modify entity @s weapon.mainhand weed:joint_toofast
-execute if entity @s[tag=!PUFFNAJOIN,tag=!BLOWNJOINT,tag=JOINTLEFT,gamemode=!creative] if score @s weed matches 1.. run item modify entity @s weapon.offhand weed:joint_toofast
+execute if entity @s[tag=DOSOULDMG,tag=!JOINTLEFT,gamemode=!creative] if score @s weed matches 1.. run item modify entity @s weapon.mainhand weed:joint_toofast
+execute if entity @s[tag=DOSOULDMG,tag=JOINTLEFT,gamemode=!creative] if score @s weed matches 1.. run item modify entity @s weapon.offhand weed:joint_toofast
 execute if entity @s[tag=!JOINTLEFT,gamemode=!creative] run item modify entity @s weapon.mainhand weed:joint_decrease
 execute if entity @s[tag=!JOINTLEFT] store result score @s weedburn run data get entity @s SelectedItem.components.minecraft:damage
 execute if entity @s[tag=!JOINTLEFT] if score @s weedburn matches 751.. run item modify entity @s weapon.mainhand weed:jburn5
