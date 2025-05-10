@@ -21,7 +21,7 @@ execute if entity @s[tag=BLOWNJOINT,nbt={active_effects:[{id:"minecraft:absorpti
 execute if entity @s[tag=BLOWNJOINT,nbt={active_effects:[{id:"minecraft:absorption",amplifier:1b,duration:-1}]}] if score @s weed matches 75..89 run effect give @s minecraft:absorption infinite 2 true
 execute if entity @s[tag=BLOWNJOINT,nbt={active_effects:[{id:"minecraft:absorption",duration:-1}]}] if score @s weed matches 75..89 run effect give @s minecraft:absorption infinite 1 true
 execute if entity @s[tag=BLOWNJOINT,nbt=!{active_effects:[{id:"minecraft:absorption",duration:-1}]}] if score @s weed matches 75..89 run effect give @s minecraft:absorption infinite 0 true
-execute if entity @s[tag=BLOWNJOINT] if score @s weed matches 45 run effect give @s minecraft:instant_health 1 5 true
+execute if entity @s[tag=BLOWNJOINT] if score @s weed matches 45..46 run effect give @s minecraft:instant_health 1 5 true
 execute if entity @s[tag=BLOWNJOINT] if score @s weed matches 90.. run title @s actionbar {"bold":true,"color":"#850000","text":"Terribly Humongous Hit"}
 execute if entity @s[tag=BLOWNJOINT] if score @s weed matches 60..89 run title @s actionbar {"bold":true,"color":"#9F9200","text":"Humongous Hit"}
 execute if entity @s[tag=BLOWNJOINT] if score @s weed matches 45..59 run title @s actionbar {"bold":true,"color":"#ACDB00","text":"Perfect Hit"}
@@ -30,6 +30,7 @@ execute if entity @s[tag=BLOWNJOINT] if score @s weed matches 21..29 run title @
 execute if entity @s[tag=BLOWNJOINT] if score @s weed matches 11..20 run title @s actionbar {"bold":true,"color":"#4E744F","text":"Tiny Hit"}
 execute if entity @s[tag=BLOWNJOINT] if score @s weed matches 01..10 run title @s actionbar {"bold":true,"color":"#253D6E","text":"Micro Hit"}
 execute if entity @s[tag=BLOWNJOINT] run tag @s remove BLOWNJOINT
+execute if entity @s[tag=PUFFNAJOIN] at @s run function weed:tick_modifier
 execute if entity @s[tag=PUFFNAJOIN] at @s run function weed:tick_modifier
 execute if entity @s[tag=PUFFNAJOIN] run tag @s add BLOWNJOINT
 execute if entity @s[tag=PUFFNAJOIN] run tag @s remove PUFFNAJOIN
