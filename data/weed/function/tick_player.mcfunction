@@ -32,8 +32,7 @@ execute if entity @s[tag=BLOWNJOINT] if score @s weed matches 01..10 run title @
 execute if entity @s[tag=BLOWNJOINT] run tag @s remove BLOWNJOINT
 execute if entity @s[tag=PUFFNAJOIN] run tag @s add BLOWNJOINT
 execute if entity @s[tag=PUFFNAJOIN] run tag @s remove PUFFNAJOIN
-execute if entity @s[tag=__PRINLO] run tag @s remove PRINLO
-execute if entity @s[tag=__PRINLO] run tag @s remove _PRINLO
-execute if entity @s[tag=__PRINLO] run tag @s remove __PRINLO
-execute if entity @s[tag=_PRINLO] run tag @s add __PRINLO
-execute if entity @s[tag=PRINLO] run tag @s add _PRINLO
+
+#execute if entity @s[tag=_PRINLO,tag=!PRINLO] run tag @s remove _PRINLO
+#execute if entity @s[tag=_PRINLO,tag=PRINLO] run tag @s remove PRINLO
+#execute if entity @s[tag=PRINLO] run tag @s add _PRINLO
