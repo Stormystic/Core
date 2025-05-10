@@ -30,9 +30,6 @@ execute if entity @s[tag=BLOWNJOINT] if score @s weed matches 21..29 run title @
 execute if entity @s[tag=BLOWNJOINT] if score @s weed matches 11..20 run title @s actionbar {"bold":true,"color":"#4E744F","text":"Tiny Hit"}
 execute if entity @s[tag=BLOWNJOINT] if score @s weed matches 01..10 run title @s actionbar {"bold":true,"color":"#253D6E","text":"Micro Hit"}
 execute if entity @s[tag=BLOWNJOINT] run tag @s remove BLOWNJOINT
+execute if entity @s[tag=PUFFNAJOIN] at @s run function weed:tick_modifier
 execute if entity @s[tag=PUFFNAJOIN] run tag @s add BLOWNJOINT
 execute if entity @s[tag=PUFFNAJOIN] run tag @s remove PUFFNAJOIN
-
-#execute if entity @s[tag=_PRINLO,tag=!PRINLO] run tag @s remove _PRINLO
-#execute if entity @s[tag=_PRINLO,tag=PRINLO] run tag @s remove PRINLO
-#execute if entity @s[tag=PRINLO] run tag @s add _PRINLO
