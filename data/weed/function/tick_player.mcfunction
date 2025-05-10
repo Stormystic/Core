@@ -9,11 +9,11 @@ execute if entity @s[tag=PUFFNAJOIN] if score @s weed matches 21..28 at @s run t
 execute if entity @s[tag=PUFFNAJOIN] if score @s weed matches 11..20 at @s run title @s actionbar {"bold":true,"color":"#4E744F","score":{"name":"@p","objective":"weed"}}
 execute if entity @s[tag=PUFFNAJOIN] if score @s weed matches 01..10 at @s run title @s actionbar {"bold":true,"color":"#253D6E","score":{"name":"@p","objective":"weed"}}
 execute if entity @s[tag=!PUFFNAJOIN,tag=!BLOWNJOINT] if score @s weed matches -2..0 run scoreboard players reset @s weed
-execute if entity @s[tag=BLOWNJOINT] if score @s weed matches 60.. run effect give @s minecraft:mining_fatigue 10 7 true
+execute if entity @s[tag=BLOWNJOINT] if score @s weed matches 60.. run effect give @s minecraft:mining_fatigue 9 7 true
 execute if entity @s[tag=BLOWNJOINT] if score @s weed matches 70.. run effect give @s minecraft:weakness 8 0 true
 execute if entity @s[tag=BLOWNJOINT] if score @s weed matches 80.. run effect give @s minecraft:slowness 10 1 true
-execute if entity @s[tag=BLOWNJOINT] if score @s weed matches 21..59 run effect clear @s nausea
-execute if entity @s[tag=BLOWNJOINT] if score @s weed matches 30..59 run effect clear @s minecraft:slowness
+execute if entity @s[tag=BLOWNJOINT] if score @s weed matches 30..52 run effect clear @s minecraft:nausea
+execute if entity @s[tag=BLOWNJOINT] if score @s weed matches 30..65 run effect clear @s minecraft:slowness
 execute if entity @s[tag=BLOWNJOINT] if score @s weed matches 21..59 run effect give @s minecraft:regeneration 10 0 true
 execute if entity @s[tag=BLOWNJOINT] if score @s weed matches 45..49 run effect give @s minecraft:regeneration 8 1 true
 execute if entity @s[tag=BLOWNJOINT,nbt={active_effects:[{id:"minecraft:absorption",amplifier:3b,duration:-1}]}] if score @s weed matches 75..89 run effect give @s minecraft:absorption infinite 4 true
@@ -31,6 +31,8 @@ execute if entity @s[tag=BLOWNJOINT] if score @s weed matches 11..20 run title @
 execute if entity @s[tag=BLOWNJOINT] if score @s weed matches 01..10 run title @s actionbar {"bold":true,"color":"#253D6E","text":"Micro Hit"}
 execute if entity @s[tag=BLOWNJOINT] run tag @s remove BLOWNJOINT
 execute if entity @s[tag=PUFFNAJOIN] at @s run function weed:tick_modifier
+execute if entity @s[tag=PUFFNAJOIN] run tag @s add _PUFF
 execute if entity @s[tag=PUFFNAJOIN] run tag @s add BLOWNJOINT
 execute if entity @s[tag=PUFFNAJOIN] run tag @s remove PUFFNAJOIN
 execute if entity @s[tag=DOSOULDMG] run tag @s remove DOSOULDMG
+execute if entity @s[tag=_PUFF,tag=!BLOWNJOINT,tag=!PUFFNAJOIN] run tag @s remove _PUFF

@@ -41,6 +41,11 @@ execute run particle dust{color:[0.8,0.8,0.8],scale:3} ~ ~21 ~ 2 2.5 2 1 3 force
 execute run particle dust{color:[0.8,0.8,0.8],scale:2} ~ ~14 ~ 1.3 3 1.3 1 2 force
 execute run particle dust{color:[0.8,0.8,0.8],scale:2} ~ ~7 ~ 0.5 2 0.5 1 2 force
 
+execute run particle minecraft:cloud ~ ~13 ~ 1.2 6 1.2 0 4 force
+execute run particle minecraft:cloud ~ ~21 ~ 2.5 2.5 2.5 0 4 force
+execute run particle minecraft:cloud ~ ~14 ~ 0.75 3 0.75 0 4 force
+execute run particle minecraft:cloud ~ ~7 ~ 0.5 2 0.5 0 4 force
+
 execute run particle minecraft:ash ~ ~20 ~ 3 5 3 0.1 10 force
 execute run particle minecraft:dust_plume ~ ~18 ~ 2 3 2 0.1 12 force
 execute run particle minecraft:smoke ~ ~17 ~ 3 3 3 0.1 10 force
