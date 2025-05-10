@@ -16,7 +16,6 @@ execute if entity @s[tag=BLOWNJOINT] if score @s weed matches 21..59 run effect 
 execute if entity @s[tag=BLOWNJOINT] if score @s weed matches 30..59 run effect clear @s minecraft:slowness
 execute if entity @s[tag=BLOWNJOINT] if score @s weed matches 21..59 run effect give @s minecraft:regeneration 10 0 true
 execute if entity @s[tag=BLOWNJOINT] if score @s weed matches 45..49 run effect give @s minecraft:regeneration 8 1 true
-#nbt={active_effects:[{id:"minecraft:absorption",duration:-1}]}
 execute if entity @s[tag=BLOWNJOINT,nbt={active_effects:[{id:"minecraft:absorption",amplifier:3b,duration:-1}]}] if score @s weed matches 75..89 run effect give @s minecraft:absorption infinite 4 true
 execute if entity @s[tag=BLOWNJOINT,nbt={active_effects:[{id:"minecraft:absorption",amplifier:2b,duration:-1}]}] if score @s weed matches 75..89 run effect give @s minecraft:absorption infinite 3 true
 execute if entity @s[tag=BLOWNJOINT,nbt={active_effects:[{id:"minecraft:absorption",amplifier:1b,duration:-1}]}] if score @s weed matches 75..89 run effect give @s minecraft:absorption infinite 2 true
@@ -32,4 +31,5 @@ execute if entity @s[tag=BLOWNJOINT] if score @s weed matches 11..20 run title @
 execute if entity @s[tag=BLOWNJOINT] if score @s weed matches 01..10 run title @s actionbar {"bold":true,"color":"#253D6E","text":"Micro Hit"}
 execute if entity @s[tag=BLOWNJOINT] run tag @s remove BLOWNJOINT
 execute if entity @s[tag=PUFFNAJOIN] run tag @s add BLOWNJOINT
+execute if entity @s[tag=PUFFNAJOIN] run tag @s remove PRINLO
 execute if entity @s[tag=PUFFNAJOIN] run tag @s remove PUFFNAJOIN
