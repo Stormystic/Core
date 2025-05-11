@@ -3,7 +3,7 @@
 #
 execute run tag @s remove BROKEN
 execute run scoreboard players set #2k dummy 1000
-execute run scoreboard players set #breakpoint dummy 30
+execute run scoreboard players set #breakpoint dummy 15
 execute store result score #rng dummy run random value 1..100 minecraft:entities/player
 execute store result score #bx dummy run random value -3..3 minecraft:entities/player
 execute store result score #by dummy run random value -1..5 minecraft:entities/player
