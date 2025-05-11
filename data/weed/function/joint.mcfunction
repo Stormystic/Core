@@ -11,5 +11,4 @@ execute as @s run scoreboard players add @s weed 2
 execute as @s[gamemode=!creative] if score @s weed matches 61.. run effect give @s minecraft:nausea 8 0 true
 execute as @s if score @s weed matches 21..60 run effect give @s minecraft:nausea 5 0 true
 execute as @s[gamemode=!creative] if score @s weed matches 84..99 run damage @s 1 minecraft:starve at ~ ~ ~
-execute as @s[gamemode=!creative] if score @s weed matches 120.. run damage @s 2 minecraft:starve at ~ ~ ~
-execute as @s if score @s weed matches 150.. run scoreboard players set @s weed 150
+#execute as @s if score @s weed matches 150.. run scoreboard players set @s weed 150
