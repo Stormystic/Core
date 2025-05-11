@@ -19,12 +19,12 @@ execute if entity @s[tag=JOINTLEFT] if score @s weedburn matches 451..600 run it
 execute if entity @s[tag=JOINTLEFT] if score @s weedburn matches 301..450 run item modify entity @s weapon.offhand weed:jburn2
 execute if entity @s[tag=JOINTLEFT] if score @s weedburn matches 150..300 run item modify entity @s weapon.offhand weed:jburn1
 
-execute as @s if score @s weedburn matches 0..333 anchored eyes positioned ^-.033 ^-.32 ^.5 run particle minecraft:white_smoke ~ ~ ~ .01 .01 .01 .001 1 force
-execute as @s if score @s weedburn matches 334..666 anchored eyes positioned ^-.033 ^-.37 ^.45 run particle minecraft:white_smoke ~ ~ ~ .01 .01 .01 .001 1 force
-execute as @s if score @s weedburn matches 667.. anchored eyes positioned ^-.033 ^-.42 ^.4 run particle minecraft:white_smoke ~ ~ ~ .01 .01 .01 .001 1 force
-execute as @s if score @s weedburn matches 0..333 anchored eyes positioned ^-.033 ^-.32 ^.5 run particle minecraft:small_flame ~ ~ ~ .01 .01 .01 .001 1 force
-execute as @s if score @s weedburn matches 334..666 anchored eyes positioned ^-.033 ^-.37 ^.45 run particle minecraft:small_flame ~ ~ ~ .01 .01 .01 .001 1 force
-execute as @s if score @s weedburn matches 667.. anchored eyes positioned ^-.033 ^-.42 ^.4 run particle minecraft:small_flame ~ ~ ~ .01 .01 .01 .001 1 force
+execute as @s if score @s weedburn matches 0..333 anchored eyes positioned ^-.033 ^-.3 ^.5 run particle minecraft:white_smoke ~ ~ ~ .01 .01 .01 .001 1 force
+execute as @s if score @s weedburn matches 334..666 anchored eyes positioned ^-.033 ^-.35 ^.45 run particle minecraft:white_smoke ~ ~ ~ .01 .01 .01 .001 1 force
+execute as @s if score @s weedburn matches 667.. anchored eyes positioned ^-.033 ^-.4 ^.4 run particle minecraft:white_smoke ~ ~ ~ .01 .01 .01 .001 1 force
+execute as @s if score @s weedburn matches 0..333 anchored eyes positioned ^-.033 ^-.3 ^.5 run particle minecraft:small_flame ~ ~ ~ .01 .01 .01 .001 1 force
+execute as @s if score @s weedburn matches 334..666 anchored eyes positioned ^-.033 ^-.35 ^.45 run particle minecraft:small_flame ~ ~ ~ .01 .01 .01 .001 1 force
+execute as @s if score @s weedburn matches 667.. anchored eyes positioned ^-.033 ^-.4 ^.4 run particle minecraft:small_flame ~ ~ ~ .01 .01 .01 .001 1 force
 
 scoreboard players reset @s weedburn
 execute as @s run clear @s bone[minecraft:damage=1000]
