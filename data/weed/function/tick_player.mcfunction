@@ -1,10 +1,11 @@
 execute run advancement revoke @s only weed:puffpuff
 execute as @s[gamemode=!creative] if score @s weed matches 110.. run damage @s 2 minecraft:starve at ~ ~ ~
+execute as @s[gamemode=!creative] if score @s weed matches 110.. run effect give @s minecraft:nausea 6 1 true
 execute if entity @s[tag=!PUFFNAJOIN,tag=!BLOWNJOINT] if score @s weed matches 1.. at @s anchored eyes positioned ^ ^-.16 ^.55 run particle poof ~ ~ ~ .0 .0 .0 .005 1 force
 execute if entity @s[tag=!PUFFNAJOIN,tag=!BLOWNJOINT] if score @s weed matches 1.. run scoreboard players remove @s weed 2
-execute if entity @s[tag=PUFFNAJOIN] if score @s weed matches 220.. at @s run title @s actionbar {"bold":true,"color":"#FF0000","score":{"name":"@p","objective":"weed"}}
-execute if entity @s[tag=PUFFNAJOIN] if score @s weed matches 150..219 at @s run title @s actionbar {"bold":true,"color":"#AE0000","score":{"name":"@p","objective":"weed"}}
-execute if entity @s[tag=PUFFNAJOIN] if score @s weed matches 90..149 at @s run title @s actionbar {"bold":true,"color":"#850000","score":{"name":"@p","objective":"weed"}}
+execute if entity @s[tag=PUFFNAJOIN] if score @s weed matches 320.. at @s run title @s actionbar {"bold":true,"color":"#FF0000","score":{"name":"@p","objective":"weed"}}
+execute if entity @s[tag=PUFFNAJOIN] if score @s weed matches 130..319 at @s run title @s actionbar {"bold":true,"color":"#AE0000","score":{"name":"@p","objective":"weed"}}
+execute if entity @s[tag=PUFFNAJOIN] if score @s weed matches 90..129 at @s run title @s actionbar {"bold":true,"color":"#850000","score":{"name":"@p","objective":"weed"}}
 execute if entity @s[tag=PUFFNAJOIN] if score @s weed matches 60..89 at @s run title @s actionbar {"bold":true,"color":"#8E4C05","score":{"name":"@p","objective":"weed"}}
 execute if entity @s[tag=PUFFNAJOIN] if score @s weed matches 45..59 at @s run title @s actionbar {"bold":true,"color":"#96970B","score":{"name":"@p","objective":"weed"}}
 execute if entity @s[tag=PUFFNAJOIN] if score @s weed matches 30..44 at @s run title @s actionbar {"bold":true,"color":"#9FE310","score":{"name":"@p","objective":"weed"}}
@@ -25,9 +26,9 @@ execute if entity @s[tag=BLOWNJOINT,nbt={active_effects:[{id:"minecraft:absorpti
 execute if entity @s[tag=BLOWNJOINT,nbt={active_effects:[{id:"minecraft:absorption",duration:-1}]}] if score @s weed matches 75..89 run effect give @s minecraft:absorption infinite 1 true
 execute if entity @s[tag=BLOWNJOINT,nbt=!{active_effects:[{id:"minecraft:absorption",duration:-1}]}] if score @s weed matches 75..89 run effect give @s minecraft:absorption infinite 0 true
 execute if entity @s[tag=BLOWNJOINT] if score @s weed matches 45..46 run effect give @s minecraft:instant_health 1 5 true
-execute if entity @s[tag=BLOWNJOINT] if score @s weed matches 220.. run title @s actionbar {"bold":true,"color":"#FF0000","text":"Wormulent Hit"}
-execute if entity @s[tag=BLOWNJOINT] if score @s weed matches 150..219 run title @s actionbar {"bold":true,"color":"#AE0000","text":"Terribly Humongous Hit"}
-execute if entity @s[tag=BLOWNJOINT] if score @s weed matches 90..149 run title @s actionbar {"bold":true,"color":"#850000","text":"Absurdly Large Hit"}
+execute if entity @s[tag=BLOWNJOINT] if score @s weed matches 320.. run title @s actionbar {"bold":true,"color":"#FF0000","text":"Wormulent Hit"}
+execute if entity @s[tag=BLOWNJOINT] if score @s weed matches 130..319 run title @s actionbar {"bold":true,"color":"#AE0000","text":"Terribly Humongous Hit"}
+execute if entity @s[tag=BLOWNJOINT] if score @s weed matches 90..129 run title @s actionbar {"bold":true,"color":"#850000","text":"Absurdly Large Hit"}
 execute if entity @s[tag=BLOWNJOINT] if score @s weed matches 60..89 run title @s actionbar {"bold":true,"color":"#8E4C05","text":"Humongous Hit"}
 execute if entity @s[tag=BLOWNJOINT] if score @s weed matches 45..59 run title @s actionbar {"bold":true,"color":"#96970B","text":"Perfect Hit"}
 execute if entity @s[tag=BLOWNJOINT] if score @s weed matches 30..44 run title @s actionbar {"bold":true,"color":"#9FE310","text":"Great Hit"}
