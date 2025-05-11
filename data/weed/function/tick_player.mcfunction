@@ -1,7 +1,7 @@
 execute run advancement revoke @s only weed:puffpuff
 execute as @s[gamemode=!creative] if score @s weed matches 110.. run damage @s 2 minecraft:starve at ~ ~ ~
-execute if entity @s[tag=!PUFFNAJOIN,tag=!BLOWNJOINT] if score @s weed matches 1..200 at @s anchored eyes positioned ^ ^-.16 ^.55 run particle poof ~ ~ ~ .0 .0 .0 .005 1 force
-execute if entity @s[tag=!PUFFNAJOIN,tag=!BLOWNJOINT] if score @s weed matches 1..200 run scoreboard players remove @s weed 2
+execute if entity @s[tag=!PUFFNAJOIN,tag=!BLOWNJOINT] if score @s weed matches 1.. at @s anchored eyes positioned ^ ^-.16 ^.55 run particle poof ~ ~ ~ .0 .0 .0 .005 1 force
+execute if entity @s[tag=!PUFFNAJOIN,tag=!BLOWNJOINT] if score @s weed matches 1.. run scoreboard players remove @s weed 2
 execute if entity @s[tag=PUFFNAJOIN] if score @s weed matches 220.. at @s run title @s actionbar {"bold":true,"color":"#FF0000","score":{"name":"@p","objective":"weed"}}
 execute if entity @s[tag=PUFFNAJOIN] if score @s weed matches 150..219 at @s run title @s actionbar {"bold":true,"color":"#AE0000","score":{"name":"@p","objective":"weed"}}
 execute if entity @s[tag=PUFFNAJOIN] if score @s weed matches 90..149 at @s run title @s actionbar {"bold":true,"color":"#850000","score":{"name":"@p","objective":"weed"}}
