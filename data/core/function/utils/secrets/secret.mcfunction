@@ -114,5 +114,17 @@ execute if score @s CurrentSecret matches 28 run tag @s add 28
 execute if score @s CurrentSecret matches 29 run summon firework_rocket 14.5 25 -520.5 {LifeTime:0,FireworksItem:{id:"minecraft:firework_rocket",count:1,components:{"minecraft:fireworks":{explosions:[{shape:"small_ball",colors:[I;5636095,16733695],fade_colors:[I;16777215]}]}}}}
 execute if score @s CurrentSecret matches 29 run tag @s add 29
 
+# 30 Spleef: Up the ladder
+execute if score @s CurrentSecret matches 30 run summon firework_rocket 0.5 32.5 -615.1 {LifeTime:0,FireworksItem:{id:"minecraft:firework_rocket",count:1,components:{"minecraft:fireworks":{explosions:[{shape:"small_ball",colors:[I;5636095,16733695],fade_colors:[I;16777215]}]}}}}
+execute if score @s CurrentSecret matches 30 run tag @s add 30
+
+# 31 Arena: Top of the pyramid
+execute if score @s CurrentSecret matches 31 run summon firework_rocket 128.5 48.8 -511.5 {LifeTime:0,FireworksItem:{id:"minecraft:firework_rocket",count:1,components:{"minecraft:fireworks":{explosions:[{shape:"small_ball",colors:[I;5636095,16733695],fade_colors:[I;16777215]}]}}}}
+execute if score @s CurrentSecret matches 31 run tag @s add 31
+
+# 32 Overworld Tower: Through the glass
+execute in minecraft:overworld if score @s CurrentSecret matches 32 run summon firework_rocket 0.5 88 0.5 {LifeTime:0,FireworksItem:{id:"minecraft:firework_rocket",count:1,components:{"minecraft:fireworks":{explosions:[{shape:"small_ball",colors:[I;5636095,16733695],fade_colors:[I;16777215]}]}}}}
+execute if score @s CurrentSecret matches 32 run tag @s add 32
+
 scoreboard players add @s Secrets 1
 scoreboard players set @s CurrentSecret 0
