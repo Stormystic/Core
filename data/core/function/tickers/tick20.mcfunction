@@ -9,3 +9,4 @@ scoreboard players set tick20 Tickers 20
 function core:mods/allayallay/tick
 function core:mods/spectre/tick20
 function core:mods/weather/tick20
+function core:utils/spleef/tick20
