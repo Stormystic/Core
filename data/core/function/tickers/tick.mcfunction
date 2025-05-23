@@ -16,6 +16,9 @@ function core:mods/combat/tick
 # Sit
 function core:mods/sit/tick
 
+# Time
+function core:utils/time/tick
+
 # Weather
 function core:mods/weather/tick
 

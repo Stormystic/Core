@@ -29,17 +29,5 @@ execute if score tick20 Tickers matches ..0 run function core:tickers/tick20
 execute unless score tick60 Tickers matches 0 run scoreboard players remove tick60 Tickers 1
 execute if score tick60 Tickers matches ..0 run function core:tickers/tick60
 
-# Track the time in the surival worlds
-execute in minecraft:overworld store result score time Time run time query daytime
-execute in minecraft:legacy store result score time_l Time run time query daytime
-
-# Track the day in the survival worlds
-execute in minecraft:overworld store result score day Time run time query day
-execute in minecraft:legacy store result score day_l Time run time query day
-
-# Track if time is flowing in the survival worlds
-execute in minecraft:overworld store result score flowing Time run gamerule doDaylightCycle
-execute in minecraft:legacy store result score flowing_l Time run gamerule doDaylightCycle
-
 # Assign PID to players
 execute as @a[tag=!PID] run function core:utils/pid/assign
