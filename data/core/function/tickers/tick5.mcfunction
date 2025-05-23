@@ -20,3 +20,8 @@ function core:mods/teleporters/tick
 
 # Weather
 execute as @e[tag=tornado] at @s run function core:mods/weather/tornussy/break
+
+# Zones
+function core:utils/zones/void
+function core:utils/zones/arena
+function core:utils/zones/spleef
