@@ -1,1 +1,0 @@
-execute as @a if predicate core:is_on_ground if predicate core:is_sneaking at @s rotated ~ 0 if block ~ ~1 ~ #minecraft:air positioned ^ ^ ^.31 align xyz if block ~ ~ ~ #minecraft:air unless block ~ ~1 ~ #minecraft:air at @s rotated ~ 0 run teleport @s ^ ^.0001 ^.0001
