@@ -1,5 +1,5 @@
 # NOTES FOR MYSELF;
-# While torandos work in every world, we're only using strong storms in the overworld and potentially beta world.
+# While torandos work in every world, we're only using strong storms in the overworld, legacy and potentially the classic worlds.
 # As such they will only naturally spawn there.
 # 
 # Use static scoreboard for weather info and disable normal cycle?
