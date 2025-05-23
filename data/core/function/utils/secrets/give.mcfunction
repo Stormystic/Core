@@ -122,9 +122,21 @@ execute if score @s CurrentSecret matches 30 run tag @s add 30
 execute if score @s CurrentSecret matches 31 run summon firework_rocket 128.5 48.8 -511.5 {LifeTime:0,FireworksItem:{id:"minecraft:firework_rocket",count:1,components:{"minecraft:fireworks":{explosions:[{shape:"small_ball",colors:[I;5636095,16733695],fade_colors:[I;16777215]}]}}}}
 execute if score @s CurrentSecret matches 31 run tag @s add 31
 
-# 32 Overworld Tower: Through the glass
+# 32 Tower: Overworld
 execute in minecraft:overworld if score @s CurrentSecret matches 32 run summon firework_rocket 0.5 88 0.5 {LifeTime:0,FireworksItem:{id:"minecraft:firework_rocket",count:1,components:{"minecraft:fireworks":{explosions:[{shape:"small_ball",colors:[I;5636095,16733695],fade_colors:[I;16777215]}]}}}}
 execute if score @s CurrentSecret matches 32 run tag @s add 32
+
+# 33 Tower: Alpha
+execute in minecraft:alpha if score @s CurrentSecret matches 33 run summon firework_rocket 0.5 71.8 0.5 {LifeTime:0,FireworksItem:{id:"minecraft:firework_rocket",count:1,components:{"minecraft:fireworks":{explosions:[{shape:"small_ball",colors:[I;5636095,16733695],fade_colors:[I;16777215]}]}}}}
+execute if score @s CurrentSecret matches 33 run tag @s add 33
+
+# 34 Tower: Beta
+execute in minecraft:beta if score @s CurrentSecret matches 34 run summon firework_rocket 0.5 75 0.5 {LifeTime:0,FireworksItem:{id:"minecraft:firework_rocket",count:1,components:{"minecraft:fireworks":{explosions:[{shape:"small_ball",colors:[I;5636095,16733695],fade_colors:[I;16777215]}]}}}}
+execute if score @s CurrentSecret matches 34 run tag @s add 34
+
+# 35 Tower: Legacy
+execute in minecraft:legacy if score @s CurrentSecret matches 35 run summon firework_rocket 0.5 44 0.5 {LifeTime:0,FireworksItem:{id:"minecraft:firework_rocket",count:1,components:{"minecraft:fireworks":{explosions:[{shape:"small_ball",colors:[I;5636095,16733695],fade_colors:[I;16777215]}]}}}}
+execute if score @s CurrentSecret matches 35 run tag @s add 35
 
 scoreboard players add @s Secrets 1
 scoreboard players set @s CurrentSecret 0
