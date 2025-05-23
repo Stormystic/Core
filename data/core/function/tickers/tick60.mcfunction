@@ -1,8 +1,14 @@
 # Primes the ticker
 scoreboard players set tick60 Tickers 60
 
-###############
-# 3 Tick Mods #
-###############
+#################
+# 60 Tick Funcs #
+#################
 
-function core:mods/spectre/tick60
+# Effects
+function core:utils/effects/spawn
+function core:utils/effects/towers
+
+# Particles
+function core:utils/particles/spawn/effects 
+#function core:utils/particles/spawn/drips
