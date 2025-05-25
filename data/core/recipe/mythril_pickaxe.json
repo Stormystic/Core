@@ -11,6 +11,7 @@
     " # "
   ],
   "result": {
+    "id": "minecraft:netherite_pickaxe",
     "components": {
       "!minecraft:attribute_modifiers": {},
       "minecraft:item_model": "dd:mythril_pickaxe",
@@ -38,19 +39,16 @@
           }
         ]
       },
-      "minecraft:attribute_modifiers": {
-        "modifiers": [
-          {
-            "type": "minecraft:attack_damage",
-            "id": "9773d51b-c828-41a6-bd70-073ae423d470",
-            "amount": 6,
-            "operation": "add_value",
-            "slot": "mainhand"
-          }
-        ]
-      }
+      "minecraft:attribute_modifiers": [
+        {
+          "type": "minecraft:attack_damage",
+          "id": "9773d51b-c828-41a6-bd70-073ae423d470",
+          "amount": 6,
+          "operation": "add_value",
+          "slot": "mainhand"
+        }
+      ]
     },
-    "count": 1,
-    "id": "minecraft:netherite_pickaxe"
+    "count": 1
   }
 }

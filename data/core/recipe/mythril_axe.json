@@ -33,8 +33,7 @@
           }
         ]
       },
-      "minecraft:attribute_modifiers": {
-        "modifiers": [
+      "minecraft:attribute_modifiers": [
           {
             "type": "minecraft:attack_damage",
             "id": "9773d51b-c828-41a6-bd70-073ae423d470",
@@ -43,7 +42,6 @@
             "slot": "mainhand"
           }
         ]
-      }
     },
     "count": 1,
     "id": "minecraft:netherite_axe"

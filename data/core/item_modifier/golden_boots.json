@@ -1,0 +1,31 @@
+[
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": {
+      "item": "golden_boots",
+      "version": "1.0"
+    }
+  },
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:max_damage": 299,
+      "minecraft:attribute_modifiers": [
+         {
+            "type": "minecraft:armor",
+            "id": "2fb85599-e12f-4f44-834e-9c01c5d9f8c5",
+            "amount": 3,
+            "operation": "add_value",
+            "slot": "feet"
+         },
+         {
+            "type": "minecraft:armor_toughness",
+            "id": "281256e4-2668-4410-a615-e6ed7ba831e8",
+            "amount": 1,
+            "operation": "add_value",
+            "slot": "feet"
+         }
+      ]
+    }
+  }
+]

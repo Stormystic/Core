@@ -14,8 +14,7 @@
         "types": "#is_fire"
       },
       "minecraft:max_damage": 858,
-      "minecraft:attribute_modifiers": {
-        "modifiers": [
+      "minecraft:attribute_modifiers": [
           {
             "type": "minecraft:armor",
             "id": "775b8664-33e1-45db-8fd8-afaec4fa1f5c",
@@ -45,6 +44,5 @@
         "asset_id": "dd:emerald"
       },
       "minecraft:item_model": "dd:emerald_boots"
-    }
   }
 ]

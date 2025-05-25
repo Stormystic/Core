@@ -14,8 +14,7 @@
         "types": "#is_fire"
       },
       "minecraft:max_damage": 675,
-      "minecraft:attribute_modifiers": {
-        "modifiers": [
+      "minecraft:attribute_modifiers": [
           {
             "type": "minecraft:armor",
             "id": "0445adf9-0f65-4a07-8b39-6b7010518f8c",
@@ -37,8 +36,7 @@
             "operation": "add_value",
             "slot": "legs"
           }
-        ]
-      },
+        ],
       "minecraft:item_name": "\"Emerald Leggings\"",
       "minecraft:equippable": {
         "slot": "legs",

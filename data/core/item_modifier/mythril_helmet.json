@@ -14,8 +14,7 @@
         "types": "#is_fire"
       },
       "minecraft:max_damage": 9999,
-      "minecraft:attribute_modifiers": {
-        "modifiers": [
+      "minecraft:attribute_modifiers": [
           {
             "type": "minecraft:armor",
             "id": "63751447-3468-446e-9b00-9f99558cd15a",
@@ -37,8 +36,7 @@
             "operation": "add_value",
             "slot": "head"
           }
-        ]
-      },
+        ],
       "minecraft:item_name": "\"Mythril Helmet\"",
       "minecraft:equippable": {
         "slot": "head",

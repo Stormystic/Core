@@ -1,0 +1,31 @@
+[
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": {
+      "item": "golden_helmet",
+      "version": "1.0"
+    }
+  },
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:max_damage": 253,
+      "minecraft:attribute_modifiers": [
+          {
+            "type": "minecraft:armor",
+            "id": "ca7355ff-5b70-48a3-8d27-d5cba4246273",
+            "amount": 3,
+            "operation": "add_value",
+            "slot": "head"
+          },
+          {
+            "type": "minecraft:armor_toughness",
+            "id": "56fe087e-d045-4313-add8-eaa547274518",
+            "amount": 1,
+            "operation": "add_value",
+            "slot": "head"
+          }
+       ]
+     }
+   }
+]

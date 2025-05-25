@@ -1,0 +1,31 @@
+[
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": {
+      "item": "golden_leggings",
+      "version": "1.0"
+    }
+  },
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:max_damage": 345,
+      "minecraft:attribute_modifiers": [
+          {
+            "type": "minecraft:armor",
+            "id": "aea630e7-8852-4135-9d58-a8fbe85f05e8",
+            "amount": 5,
+            "operation": "add_value",
+            "slot": "legs"
+          },
+          {
+            "type": "minecraft:armor_toughness",
+            "id": "42931576-5a23-4025-af32-aeaf67c84019",
+            "amount": 1,
+            "operation": "add_value",
+            "slot": "legs"
+          }
+      ]
+    }
+  }
+]
