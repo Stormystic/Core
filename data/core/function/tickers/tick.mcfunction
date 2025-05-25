@@ -13,11 +13,14 @@ function core:mods/combat/tick
 # Crawl
 #function core:mods/crawl/try_crawl
 
+# PID
+function core:utils/pid/check
+
 # Sit
 function core:mods/sit/tick
 
 # Time
-function core:utils/time/tick
+function core:utils/time/check
 
 # Weather
 function core:mods/weather/tick

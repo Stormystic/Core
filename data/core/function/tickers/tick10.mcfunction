@@ -10,4 +10,4 @@ scoreboard players set tick10 Tickers 10
 function core:mods/spectre/tick10
 
 # Particles
-function core:utils/spawn/pockets
+function core:utils/particles/spawn/pockets

@@ -28,6 +28,3 @@ execute if score tick20 Tickers matches ..0 run function core:tickers/tick20
 # 60 tick
 execute unless score tick60 Tickers matches 0 run scoreboard players remove tick60 Tickers 1
 execute if score tick60 Tickers matches ..0 run function core:tickers/tick60
-
-# Assign PID to players
-execute as @a[tag=!PID] run function core:utils/pid/assign
