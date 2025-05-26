@@ -1,0 +1,30 @@
+[
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": {
+      "item": "golden_sword",
+      "version": "1.0"
+    },
+    "conditions": []
+  },
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:max_damage": 512,
+      "!minecraft:attribute_modifiers": {},
+      "minecraft:attribute_modifiers": [
+        {
+          "type": "minecraft:attack_damage",
+          "id": "c297d26c-4231-479c-96f9-6e0e76a1fe42",
+          "amount": 7,
+          "operation": "add_value",
+          "slot": "mainhand"
+        }
+      ],
+      "minecraft:damage_resistant": {
+        "types": "#minecraft:is_fire"
+      }
+    },
+    "conditions": []
+  }
+]
