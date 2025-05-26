@@ -1,0 +1,24 @@
+{
+  "criteria": {
+    "A": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": {},
+        "damage": {
+          "blocked": true,
+          "type": {
+            "tags": [
+              {
+                "id": "core:deflect",
+                "expected": false
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "core:mods/combat/block"
+  }
+}
