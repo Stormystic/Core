@@ -3,6 +3,7 @@
   "components": {
     "minecraft:blocks_attacks": {
       "disable_cooldown_scale": 0,
+	  "bypassed_by": "#bypasses_sword_parry",
       "damage_reductions": [
         {
           "base": 1,
