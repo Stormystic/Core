@@ -8,7 +8,8 @@ function core:mods/bloodmoon/tick
 #function core:utils/bonezone/try_bonezone
 
 # Combat
-function core:mods/combat/tick
+function core:mods/combat/parry
+function core:mods/combat/cooldown
 
 # Crawl
 #function core:mods/crawl/try_crawl

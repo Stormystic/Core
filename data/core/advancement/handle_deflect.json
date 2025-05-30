@@ -5,6 +5,7 @@
       "conditions": {
         "player": {},
         "damage": {
+          "taken": 0,
           "blocked": true,
           "type": {
             "tags": [

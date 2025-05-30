@@ -1,6 +1,19 @@
 {
   "values": [
-    "minecraft:arrow"
+    "minecraft:arrow",
+    "minecraft:fireball",
+    "minecraft:indirect_magic",
+    "minecraft:lightning_bolt",
+    "minecraft:magic",
+    "minecraft:mob_projectile",
+    "minecraft:sonic_boom",
+    "minecraft:spit",
+    "minecraft:sting",
+    "minecraft:thrown",
+    "minecraft:trident",
+    "minecraft:unattributed_fireball",
+    "minecraft:wind_charge",
+    "minecraft:wither_skull"
   ]
 }
 

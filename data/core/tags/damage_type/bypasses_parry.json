@@ -1,0 +1,7 @@
+{
+  "values": [
+        "#minecraft:bypasses_shield",
+	"core:knockback_only",
+        "minecraft:cactus"
+  ]
+}

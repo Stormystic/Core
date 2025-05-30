@@ -1,0 +1,16 @@
+{
+  "replace": true,
+  "values": [
+    "#minecraft:bypasses_armor",
+    "minecraft:campfire",
+    "minecraft:dry_out",
+    "minecraft:falling_anvil",
+    "minecraft:falling_stalactite",
+    "minecraft:hot_floor",
+    "minecraft:in_fire",
+    "minecraft:lava",
+    "minecraft:lightning_bolt",
+    "minecraft:sonic_boom",
+    "minecraft:sweet_berry_bush"
+  ]
+}

@@ -1,2 +1,3 @@
 playsound minecraft:item.shield.deflect player @a ~ ~ ~
-advancement revoke @s only core:deflect
+
+schedule function core:mods/combat/deflect_reset 1t replace

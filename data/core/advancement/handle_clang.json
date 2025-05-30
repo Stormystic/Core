@@ -19,6 +19,6 @@
     }
   },
   "rewards": {
-    "function": "core:mods/combat/block"
+    "function": "core:mods/combat/clang"
   }
 }

@@ -1,4 +1,5 @@
 {
+  "replace": true,
   "values": [
     "minecraft:on_fire",
     "minecraft:in_wall",
@@ -17,7 +18,6 @@
     "minecraft:indirect_magic",
     "minecraft:out_of_world",
     "minecraft:generic_kill",
-    "minecraft:sonic_boom",
     "minecraft:outside_border"
   ]
 }

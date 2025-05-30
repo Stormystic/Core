@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "A": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": {},
+        "damage": {
+          "taken": {
+            "min": 0.1
+          },
+          "blocked": true
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "core:mods/combat/knockback"
+  }
+}
