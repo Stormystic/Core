@@ -13,10 +13,6 @@
       "minecraft:item_model": "dd:mythril_pickaxe",
       "minecraft:item_name": "\"Mythril Pickaxe\"",
       "minecraft:max_damage": 9999,
-      "minecraft:equippable": {
-        "slot": "mainhand",
-        "asset_id": "dd:mythril"
-      },
       "minecraft:tool": {
         "rules": [
           {

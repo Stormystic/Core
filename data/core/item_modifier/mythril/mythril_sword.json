@@ -1,0 +1,43 @@
+[
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": {
+      "item": "mythril_sword",
+      "version": "1.0"
+    }
+  },
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "!minecraft:attribute_modifiers": {},
+      "minecraft:item_model": "dd:mythril_sword",
+      "minecraft:item_name": "Mythril Sword",
+      "minecraft:max_damage": 9999,
+      "minecraft:attribute_modifiers": [
+        {
+          "type": "minecraft:attack_damage",
+          "id": "9773d51b-c828-41a6-bd70-073ae423d470",
+          "amount": 12,
+          "operation": "add_value",
+          "slot": "mainhand"
+        }
+      ],
+      "minecraft:blocks_attacks": {
+        "disable_cooldown_scale": 0,
+        "damage_reductions": [
+          {
+            "base": 1,
+            "factor": 1,
+            "horizontal_blocking_angle": 180
+          }
+        ],
+        "item_damage": {
+          "threshold": 0,
+          "base": 0,
+          "factor": 0
+        },
+        "bypassed_by": "#bypasses_sword_parry"
+      }
+    }
+  }
+]

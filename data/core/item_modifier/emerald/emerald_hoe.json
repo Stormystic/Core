@@ -2,7 +2,7 @@
   {
     "function": "minecraft:set_custom_data",
     "tag": {
-      "item": "emerald_shovel",
+      "item": "emerald_hoe",
       "ver": "1.0"
     }
   },
@@ -10,13 +10,9 @@
     "function": "minecraft:set_components",
     "components": {
       "!minecraft:attribute_modifiers": {},
-      "minecraft:item_model": "dd:emerald_shovel",
-      "minecraft:item_name": "\"Emerald Shovel\"",
+      "minecraft:item_model": "dd:emerald_hoe",
+      "minecraft:item_name": "\"Emerald Hoe\"",
       "minecraft:max_damage": 2048,
-      "minecraft:equippable": {
-        "slot": "mainhand",
-        "asset_id": "dd:emerald"
-      },
       "minecraft:tool": {
         "rules": [
           {
@@ -24,8 +20,8 @@
             "correct_for_drops": false
           },
           {
-            "blocks": "#minecraft:mineable/shovel",
-            "speed": 10,
+            "blocks": "#minecraft:mineable/hoe",
+            "speed": 9,
             "correct_for_drops": true
           }
         ]

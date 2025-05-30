@@ -2,7 +2,7 @@
   {
     "function": "minecraft:set_custom_data",
     "tag": {
-      "item": "emerald_pickaxe",
+      "item": "mythril_shovel",
       "ver": "1.0"
     }
   },
@@ -10,13 +10,9 @@
     "function": "minecraft:set_components",
     "components": {
       "!minecraft:attribute_modifiers": {},
-      "minecraft:item_model": "dd:emerald_pickaxe",
-      "minecraft:item_name": "\"Emerald Pickaxe\"",
-      "minecraft:max_damage": 2048,
-      "minecraft:equippable": {
-        "slot": "mainhand",
-        "asset_id": "dd:emerald"
-      },
+      "minecraft:item_model": "dd:mythril_shovel",
+      "minecraft:item_name": "\"Mythril Shovel\"",
+      "minecraft:max_damage": 9999,
       "minecraft:tool": {
         "rules": [
           {
@@ -24,8 +20,8 @@
             "correct_for_drops": false
           },
           {
-            "blocks": "#minecraft:mineable/pickaxe",
-            "speed": 10,
+            "blocks": "#minecraft:mineable/shovel",
+            "speed": 15,
             "correct_for_drops": true
           }
         ]
@@ -39,6 +35,6 @@
             "slot": "mainhand"
           }
         ]
-    }
+      }
   }
 ]

@@ -2,7 +2,7 @@
   {
     "function": "minecraft:set_custom_data",
     "tag": {
-      "item": "emerald_axe",
+      "item": "mythril_axe",
       "ver": "1.0"
     }
   },
@@ -10,13 +10,9 @@
     "function": "minecraft:set_components",
     "components": {
       "!minecraft:attribute_modifiers": {},
-      "minecraft:item_model": "dd:emerald_axe",
-      "minecraft:item_name": "\"Emerald Axe\"",
-      "minecraft:max_damage": 2048,
-      "minecraft:equippable": {
-        "slot": "mainhand",
-        "asset_id": "dd:emerald"
-      },
+      "minecraft:item_model": "dd:mythril_axe",
+      "minecraft:item_name": "\"Mythril Axe\"",
+      "minecraft:max_damage": 9999,
       "minecraft:tool": {
         "rules": [
           {
@@ -25,7 +21,7 @@
           },
           {
             "blocks": "#minecraft:mineable/axe",
-            "speed": 10,
+            "speed": 15,
             "correct_for_drops": true
           }
         ]
@@ -34,11 +30,12 @@
           {
             "type": "minecraft:attack_damage",
             "id": "9773d51b-c828-41a6-bd70-073ae423d470",
-            "amount": 2,
+            "amount": 4,
             "operation": "add_value",
             "slot": "mainhand"
           }
         ]
       }
+
   }
 ]

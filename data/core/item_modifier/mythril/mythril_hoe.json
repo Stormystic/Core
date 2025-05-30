@@ -2,7 +2,7 @@
   {
     "function": "minecraft:set_custom_data",
     "tag": {
-      "item": "mythril_axe",
+      "item": "mythril_hoe",
       "ver": "1.0"
     }
   },
@@ -10,13 +10,9 @@
     "function": "minecraft:set_components",
     "components": {
       "!minecraft:attribute_modifiers": {},
-      "minecraft:item_model": "dd:mythril_axe",
-      "minecraft:item_name": "\"Mythril Axe\"",
+      "minecraft:item_model": "dd:mythril_hoe",
+      "minecraft:item_name": "\"Mythril Hoe\"",
       "minecraft:max_damage": 9999,
-      "minecraft:equippable": {
-        "slot": "mainhand",
-        "asset_id": "dd:mythril"
-      },
       "minecraft:tool": {
         "rules": [
           {
@@ -24,8 +20,8 @@
             "correct_for_drops": false
           },
           {
-            "blocks": "#minecraft:mineable/axe",
-            "speed": 15,
+            "blocks": "#minecraft:mineable/hoe",
+            "speed": 12,
             "correct_for_drops": true
           }
         ]
@@ -39,7 +35,6 @@
             "slot": "mainhand"
           }
         ]
-      }
-
+    }
   }
 ]

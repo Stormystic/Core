@@ -1,0 +1,31 @@
+[
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": {
+      "item": "magic_shield",
+      "version": "1.0"
+    }
+  },
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:item_name": "Magic Shield",
+      "minecraft:max_damage": 9999,
+      "minecraft:blocks_attacks": {
+        "disable_cooldown_scale": 0,
+        "damage_reductions": [
+          {
+            "base": 1,
+            "factor": 1,
+            "horizontal_blocking_angle": 180
+          }
+        ],
+        "item_damage": {
+          "threshold": 0,
+          "base": 0,
+          "factor": 0
+        }
+      }
+    }
+  }
+]

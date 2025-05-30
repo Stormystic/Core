@@ -2,7 +2,7 @@
   {
     "function": "minecraft:set_custom_data",
     "tag": {
-      "item": "emerald_hoe",
+      "item": "emerald_axe",
       "ver": "1.0"
     }
   },
@@ -10,13 +10,9 @@
     "function": "minecraft:set_components",
     "components": {
       "!minecraft:attribute_modifiers": {},
-      "minecraft:item_model": "dd:emerald_hoe",
-      "minecraft:item_name": "\"Emerald Hoe\"",
+      "minecraft:item_model": "dd:emerald_axe",
+      "minecraft:item_name": "\"Emerald Axe\"",
       "minecraft:max_damage": 2048,
-      "minecraft:equippable": {
-        "slot": "mainhand",
-        "asset_id": "dd:emerald"
-      },
       "minecraft:tool": {
         "rules": [
           {
@@ -24,8 +20,8 @@
             "correct_for_drops": false
           },
           {
-            "blocks": "#minecraft:mineable/hoe",
-            "speed": 9,
+            "blocks": "#minecraft:mineable/axe",
+            "speed": 10,
             "correct_for_drops": true
           }
         ]

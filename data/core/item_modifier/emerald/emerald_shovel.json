@@ -2,7 +2,7 @@
   {
     "function": "minecraft:set_custom_data",
     "tag": {
-      "item": "emerald_sword",
+      "item": "emerald_shovel",
       "ver": "1.0"
     }
   },
@@ -10,18 +10,27 @@
     "function": "minecraft:set_components",
     "components": {
       "!minecraft:attribute_modifiers": {},
-      "minecraft:item_model": "dd:emerald_sword",
-      "minecraft:item_name": "\"Emerald Sword\"",
+      "minecraft:item_model": "dd:emerald_shovel",
+      "minecraft:item_name": "\"Emerald Shovel\"",
       "minecraft:max_damage": 2048,
-      "minecraft:equippable": {
-        "slot": "mainhand",
-        "asset_id": "dd:emerald"
+      "minecraft:tool": {
+        "rules": [
+          {
+            "blocks": "#minecraft:incorrect_for_diamond_tool",
+            "correct_for_drops": false
+          },
+          {
+            "blocks": "#minecraft:mineable/shovel",
+            "speed": 10,
+            "correct_for_drops": true
+          }
+        ]
       },
       "minecraft:attribute_modifiers": [
           {
             "type": "minecraft:attack_damage",
             "id": "9773d51b-c828-41a6-bd70-073ae423d470",
-            "amount": 6,
+            "amount": 2,
             "operation": "add_value",
             "slot": "mainhand"
           }
