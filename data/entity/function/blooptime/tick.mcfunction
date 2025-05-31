@@ -1,0 +1,1 @@
+execute as @e[scores={Blooptime=1}] at @s run function entity:blooptime/apply

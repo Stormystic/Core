@@ -1,1 +1,0 @@
-execute if block ~ ~ ~ #core:tornado_weak run setblock ~ ~ ~ minecraft:air destroy

@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "used_item": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:bone"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "used_item"
+    ]
+  ],
+  "rewards": {
+    "function": "items:george/joint"
+  },
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,1 @@
+execute in minecraft:spectre as @a at @s unless entity @s[x=79,y=-64,z=-561,dx=99,dy=384,dz=99] run 

@@ -1,1 +1,0 @@
-execute in minecraft:spectre as @a if score @s CurrentSecret matches 1.. run function core:utils/secrets/give

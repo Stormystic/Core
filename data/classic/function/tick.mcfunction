@@ -1,1 +1,0 @@
-# execute as @a run attribute @s minecraft:attack_speed base set 25

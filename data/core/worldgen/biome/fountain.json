@@ -1,0 +1,24 @@
+{
+  "temperature": 0.7,
+  "downfall": 0.8,
+  "has_precipitation": false,
+  "effects": {
+    "sky_color": 65535,
+    "fog_color": 255,
+    "water_color": 5775615,
+    "water_fog_color": 16777215,
+    "grass_color": 5775615,
+    "foliage_color": 4259839,
+    "grass_color_modifier": "none",
+    "particle": {
+      "options": {
+        "type": "minecraft:soul_fire_flame"
+      },
+      "probability": 0.005
+    }
+  },
+  "spawners": {},
+  "spawn_costs": {},
+  "carvers": [],
+  "features": []
+}

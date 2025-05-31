@@ -1,0 +1,1 @@
+execute as @a at @s unless score @s PID matches 0.. run function utils:pid/assign

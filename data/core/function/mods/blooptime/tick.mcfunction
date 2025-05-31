@@ -1,1 +1,0 @@
-execute as @e[scores={Blooptime=1}] at @s run function core:mods/blooptime/apply

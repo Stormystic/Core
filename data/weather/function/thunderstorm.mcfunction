@@ -1,0 +1,2 @@
+execute unless data storage weather:state strongstorm store result score #rng dummy run random roll 1..400 minecraft:entities/player
+execute unless data storage weather:state strongstorm if score #rng dummy matches ..2 run function weather:strongstorm/init
