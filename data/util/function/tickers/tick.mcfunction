@@ -5,7 +5,7 @@ function bloodmoon:tick
 #function entity:blooptime/tick
 
 # Bonezone
-#function utils:utils/bonezone/try_bonezone
+#function util:bonezone/try_bonezone
 
 # Combat
 function combat:parry
@@ -18,13 +18,13 @@ function combat:cooldown
 function util:inputs/update
 
 # PID
-function utils:pid/check
+function util:pid/check
 
 # Sit
 function util:commands/sit/tick
 
 # Time
-function utils:time/check
+function util:time/check
 
 # Weather
 function weather:tick

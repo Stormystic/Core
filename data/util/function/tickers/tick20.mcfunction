@@ -6,8 +6,8 @@ scoreboard players set tick20 Tickers 20
 #################
 
 # Particles
-function utils:particles/spawn/trails
-function utils:particles/spawn/sky
+function util:particles/spawn/trails
+function util:particles/spawn/sky
 
 # Weather
 function weather:tick20

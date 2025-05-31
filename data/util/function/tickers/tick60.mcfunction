@@ -6,9 +6,9 @@ scoreboard players set tick60 Tickers 60
 #################
 
 # Effects
-function utils:effects/spawn
-function utils:effects/towers
+function util:effects/spawn
+function util:effects/towers
 
 # Particles
-function utils:particles/spawn/effects 
-#function utils:particles/spawn/drips
+function util:particles/spawn/effects 
+#function util:particles/spawn/drips
