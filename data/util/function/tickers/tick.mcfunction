@@ -18,7 +18,7 @@ function combat:cooldown
 function utils:pid/check
 
 # Sit
-function sit:tick
+function util:commands/sit/tick
 
 # Time
 function utils:time/check

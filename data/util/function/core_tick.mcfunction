@@ -7,24 +7,24 @@
 
 # Every tick
 scoreboard players remove tick Tickers 1
-function utils:tickers/tick
+function util:tickers/tick
 
 # 2 tick
 execute unless score tick2 Tickers matches 0 run scoreboard players remove tick2 Tickers 1
-execute if score tick2 Tickers matches ..0 run function utils:tickers/tick2
+execute if score tick2 Tickers matches ..0 run function util:tickers/tick2
 
 # 5 tick
 execute unless score tick5 Tickers matches 0 run scoreboard players remove tick5 Tickers 1
-execute if score tick5 Tickers matches ..0 run function utils:tickers/tick5
+execute if score tick5 Tickers matches ..0 run function util:tickers/tick5
 
 # 10 tick
 execute unless score tick10 Tickers matches 0 run scoreboard players remove tick10 Tickers 1
-execute if score tick10 Tickers matches ..0 run function utils:tickers/tick10
+execute if score tick10 Tickers matches ..0 run function util:tickers/tick10
 
 # 20 tick
 execute unless score tick20 Tickers matches 0 run scoreboard players remove tick20 Tickers 1
-execute if score tick20 Tickers matches ..0 run function utils:tickers/tick20
+execute if score tick20 Tickers matches ..0 run function util:tickers/tick20
 
 # 60 tick
 execute unless score tick60 Tickers matches 0 run scoreboard players remove tick60 Tickers 1
-execute if score tick60 Tickers matches ..0 run function utils:tickers/tick60
+execute if score tick60 Tickers matches ..0 run function util:tickers/tick60

@@ -2,4 +2,4 @@ scoreboard players add index PID 1
 scoreboard players operation @s PID = index PID
 
 # Updaters
-function utils:secrets/update
+function util:secrets/update

@@ -11,9 +11,9 @@ scoreboard players set tick20 Tickers 0
 scoreboard players set tick60 Tickers 0
 
 # Load functions
-function utils/time/load
-function utils/pid/load
-#function utils:mods/teleporters/load
+function util:time/load
+function util:pid/load
+#function teleporters:load
   
 # Sends load status message
 tellraw @a ["",{"text":"Loaded","color":"light_purple"},{"text":" Core","color":"light_purple"},{"text":" 1.4","color":"light_purple"}]
