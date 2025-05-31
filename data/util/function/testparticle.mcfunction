@@ -20,4 +20,4 @@ execute run scoreboard players reset #pdz dummy
 execute run scoreboard players reset #pdvx dummy
 execute run scoreboard players reset #pdvy dummy
 execute run scoreboard players reset #pdvz dummy
-execute at @s as @s run function util:particletrail with storage minecraft:trailmacro
+execute at @s as @s run function util:particles/particletrail with storage minecraft:trailmacro

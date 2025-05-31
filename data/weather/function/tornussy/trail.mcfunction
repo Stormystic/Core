@@ -28,11 +28,11 @@ execute as @s at @s store result storage minecraft:trailmacro tz double 0.00001 
 # execute run scoreboard players reset #pdvx dummy
 # execute run scoreboard players reset #pdvy dummy
 # execute run scoreboard players reset #pdvz dummy
-function util:particletrail with storage minecraft:trailmacro
+function util:particles/particletrail with storage minecraft:trailmacro
 execute as @s at @s run teleport @e[sort=nearest,limit=1,tag=tornadocalc] ~ ~14 ~
 data merge storage trailmacro {dx:1.75,dy:1,dz:1.75,c:32,d:25,r:0.55,g:0.55,b:0.55}
 execute as @s at @s store result storage minecraft:trailmacro x double 0.00001 run data get entity @e[sort=nearest,limit=1,tag=tornadocalc] Pos[0] 100000
 execute as @s at @s store result storage minecraft:trailmacro y double 0.00001 run data get entity @e[sort=nearest,limit=1,tag=tornadocalc] Pos[1] 100000
 execute as @s at @s store result storage minecraft:trailmacro z double 0.00001 run data get entity @e[sort=nearest,limit=1,tag=tornadocalc] Pos[2] 100000
-function util:particletrail with storage minecraft:trailmacro
+function util:particles/particletrail with storage minecraft:trailmacro
 execute as @s at @s run kill @e[sort=nearest,limit=1,tag=tornadocalc]

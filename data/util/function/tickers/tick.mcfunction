@@ -14,6 +14,9 @@ function combat:cooldown
 # Crawl
 #function crawl:try_crawl
 
+# Inputs
+function util:inputs/update
+
 # PID
 function utils:pid/check
 
