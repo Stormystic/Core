@@ -1,0 +1,36 @@
+{
+  "anvil_cost": 4,
+  "description": {
+    "translate": "enchantment.minecraft.feather_falling"
+  },
+  "effects": {
+    "minecraft:attributes": [
+      {
+        "attribute": "minecraft:safe_fall_distance",
+        "id": "e374b4b2-1d05-4054-82a7-cea56a7f9e5f",
+        "amount": 1,
+        "operation": "add_multiplied_base"
+      },
+      {
+        "attribute": "minecraft:fall_damage_multiplier",
+        "id": "94d46947-2911-4498-9442-ae9066936c6a",
+        "amount": -0.3,
+        "operation": "add_multiplied_base"
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 20,
+    "per_level_above_first": 0
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 10,
+    "per_level_above_first": 0
+  },
+  "slots": [
+    "feet"
+  ],
+  "supported_items": "#minecraft:enchantable/foot_armor",
+  "weight": 3
+}
