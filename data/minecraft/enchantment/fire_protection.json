@@ -1,5 +1,5 @@
 {
-  "anvil_cost": 2,
+  "anvil_cost": 3,
   "description": {
     "translate": "enchantment.minecraft.fire_protection"
   },
@@ -8,59 +8,27 @@
       {
         "amount": {
           "type": "minecraft:linear",
-          "base": -0.15,
-          "per_level_above_first": -0.15
+          "base": -1,
+          "per_level_above_first": 0
         },
         "attribute": "minecraft:burning_time",
         "id": "minecraft:enchantment.fire_protection",
         "operation": "add_multiplied_base"
       }
-    ],
-    "minecraft:damage_protection": [
-      {
-        "effect": {
-          "type": "minecraft:add",
-          "value": {
-            "type": "minecraft:linear",
-            "base": 2.0,
-            "per_level_above_first": 2.0
-          }
-        },
-        "requirements": {
-          "condition": "minecraft:all_of",
-          "terms": [
-            {
-              "condition": "minecraft:damage_source_properties",
-              "predicate": {
-                "tags": [
-                  {
-                    "expected": true,
-                    "id": "minecraft:is_fire"
-                  },
-                  {
-                    "expected": false,
-                    "id": "minecraft:bypasses_invulnerability"
-                  }
-                ]
-              }
-            }
-          ]
-        }
-      }
     ]
   },
   "max_cost": {
     "base": 18,
-    "per_level_above_first": 8
+    "per_level_above_first": 0
   },
-  "max_level": 4,
+  "max_level": 1,
   "min_cost": {
-    "base": 10,
-    "per_level_above_first": 8
+    "base": 12,
+    "per_level_above_first": 0
   },
   "slots": [
     "armor"
   ],
-  "supported_items": "#minecraft:enchantable/armor",
-  "weight": 5
+  "supported_items": "#minecraft:enchantable/chest_armor",
+  "weight": 4
 }
