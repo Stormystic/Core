@@ -27,4 +27,4 @@ function util:time/check
 function weather:tick
 
 # Weed
-function george:tick
+function items:george/tick
