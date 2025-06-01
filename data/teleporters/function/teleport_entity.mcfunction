@@ -4,6 +4,6 @@ $execute as @s[tag=!TELEPORTED] positioned $(x) $(y) $(z) align xyz positioned ~
 # Force ourselves into the correct dimension.
 execute as @s[tag=!TELEPORTED] if score LOCAL teleDStorage matches 1 in minecraft:overworld run function teleporters:teleport_entity_end with storage minecraft:teleupdate
 execute as @s[tag=!TELEPORTED] if score LOCAL teleDStorage matches 2 in minecraft:the_end run function teleporters:teleport_entity_end with storage minecraft:teleupdate
-execute as @s[tag=!TELEPORTED] if score LOCAL teleDStorage matches 3 in minecraft:the_nether run functionteleporters:teleport_entity_end with storage minecraft:teleupdate
+execute as @s[tag=!TELEPORTED] if score LOCAL teleDStorage matches 3 in minecraft:the_nether run function teleporters:teleport_entity_end with storage minecraft:teleupdate
 execute as @s[tag=!TELEPORTED] if score LOCAL teleDStorage matches 4 in minecraft:creative run function teleporters:teleport_entity_end with storage minecraft:teleupdate
 execute as @s[tag=!TELEPORTED] if score LOCAL teleDStorage matches 5 in minecraft:spectre run function teleporters:teleport_entity_end with storage minecraft:teleupdate

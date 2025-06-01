@@ -11,9 +11,6 @@ function bloodmoon:tick
 function combat:parry
 function combat:cooldown
 
-# Crawl
-#function crawl:try_crawl
-
 # Inputs
 function util:inputs/update
 

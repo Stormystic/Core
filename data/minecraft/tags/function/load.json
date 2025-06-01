@@ -1,8 +1,7 @@
 {
     "values": [
-        "utils:core_load",
-        "weed:load",
-        "util:load",
+        "util:core_load",
+        "items:george/load",
         "inventory:load"
     ]
 }
