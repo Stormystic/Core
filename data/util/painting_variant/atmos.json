@@ -1,0 +1,13 @@
+{
+  "asset_id": "dd:atmos",
+  "author": {
+    "text": "The Weather Channel",
+    "color": "#AAAAAA"
+  },
+  "title": {
+    "text": "Atmos",
+    "color": "#55ffff"
+  },
+  "height": 2,
+  "width": 3
+}

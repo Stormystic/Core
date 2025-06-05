@@ -1,0 +1,13 @@
+{
+  "asset_id": "dd:tulips",
+  "author": {
+    "text": "Microsoft",
+    "color": "#AAAAAA"
+  },
+  "title": {
+    "text": "Tulips",
+    "color": "#55ffff"
+  },
+  "height": 2,
+  "width": 4
+}

@@ -26,3 +26,5 @@ function util:zones/void
 function util:zones/arena
 function util:zones/spleef
 function util:zones/wizard
+
+function items:heart_high/check

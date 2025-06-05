@@ -1,0 +1,30 @@
+{
+  "anvil_cost": 3,
+  "description": {
+    "text": "Glide"
+  },
+  "max_cost": {
+    "base": 24,
+    "per_level_above_first": 7
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 12,
+    "per_level_above_first": 7
+  },
+  "slots": [
+    "feet"
+  ],
+  "supported_items": "#minecraft:enchantable/foot_armor",
+  "weight": 3,
+  "effects": {
+    "minecraft:attributes": [
+      {
+        "attribute": "minecraft:step_height",
+        "id": "e196a320-38f8-46da-a909-1c5e684d3575",
+        "amount": 0.5,
+        "operation": "add_value"
+      }
+    ]
+  }
+}

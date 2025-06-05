@@ -1,0 +1,10 @@
+execute if items entity @s armor.* *[minecraft:enchantments~[{enchantments:"items:heart_high",levels:1}]] run attribute @s minecraft:max_health modifier add heart_high 2 add_value
+execute if items entity @s armor.* *[minecraft:enchantments~[{enchantments:"items:heart_high",levels:2}]] run attribute @s minecraft:max_health modifier add heart_high 4 add_value
+execute if items entity @s armor.* *[minecraft:enchantments~[{enchantments:"items:heart_high",levels:3}]] run attribute @s minecraft:max_health modifier add heart_high 6 add_value
+execute if items entity @s armor.* *[minecraft:enchantments~[{enchantments:"items:heart_high",levels:4}]] run attribute @s minecraft:max_health modifier add heart_high 8 add_value
+execute if items entity @s armor.* *[minecraft:enchantments~[{enchantments:"items:heart_high",levels:5}]] run attribute @s minecraft:max_health modifier add heart_high 10 add_value
+execute if items entity @s armor.* *[minecraft:enchantments~[{enchantments:"items:heart_high",levels:6}]] run attribute @s minecraft:max_health modifier add heart_high 12 add_value
+execute if items entity @s armor.* *[minecraft:enchantments~[{enchantments:"items:heart_high",levels:7}]] run attribute @s minecraft:max_health modifier add heart_high 14 add_value
+execute if items entity @s armor.* *[minecraft:enchantments~[{enchantments:"items:heart_high",levels:8}]] run attribute @s minecraft:max_health modifier add heart_high 16 add_value
+execute if items entity @s armor.* *[minecraft:enchantments~[{enchantments:"items:heart_high",levels:9}]] run attribute @s minecraft:max_health modifier add heart_high 18 add_value
+execute if items entity @s armor.* *[minecraft:enchantments~[{enchantments:"items:heart_high",levels:10}]] run attribute @s minecraft:max_health modifier add heart_high 20 add_value

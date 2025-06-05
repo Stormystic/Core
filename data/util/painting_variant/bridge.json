@@ -1,0 +1,13 @@
+{
+  "asset_id": "dd:bridge",
+  "author": {
+    "text": "Microsoft",
+    "color": "#AAAAAA"
+  },
+  "title": {
+    "text": "Bridge",
+    "color": "#55ffff"
+  },
+  "height": 3,
+  "width": 3
+}

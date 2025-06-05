@@ -1,0 +1,55 @@
+{
+  "replace": true,
+  "values": [
+    "items:heart_high",
+
+    "minecraft:bane_of_arthropods",
+    "minecraft:density",
+    "minecraft:efficiency",
+    "minecraft:impaling",
+    "minecraft:power",
+    "minecraft:protection",
+    "minecraft:sharpness",
+    "minecraft:smite",
+
+    "minecraft:breach",
+    "minecraft:piercing",
+
+    "minecraft:depth_strider",
+    "minecraft:fire_aspect",
+    "minecraft:fortune",
+    "minecraft:knockback",
+    "minecraft:looting",
+    "minecraft:loyalty",
+    "minecraft:luck_of_the_sea",
+    "minecraft:lure",
+    "minecraft:quick_charge",
+    "items:reach",
+    "minecraft:respiration",
+    "minecraft:riptide",
+    "minecraft:soul_speed",
+    "minecraft:sweeping_edge",
+    "minecraft:swift_sneak",
+    "minecraft:thorns",
+    "minecraft:unbreaking",
+    "minecraft:wind_burst",
+
+
+    "minecraft:frost_walker",
+    "minecraft:punch",
+
+    "minecraft:aqua_affinity",
+    "minecraft:channeling",
+    "minecraft:feather_falling",
+    "minecraft:fire_protection",
+    "minecraft:flame",
+    "items:flame_touch",
+    "minecraft:infinity",
+    "minecraft:mending",
+    "minecraft:multishot",
+    "minecraft:silk_touch",
+
+    "minecraft:binding_curse",
+    "minecraft:vanishing_curse"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "asset_id": "dd:dock",
+  "author": {
+    "text": "Microsoft",
+    "color": "#AAAAAA"
+  },
+  "title": {
+    "text": "Dock",
+    "color": "#55ffff"
+  },
+  "height": 3,
+  "width": 4
+}

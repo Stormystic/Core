@@ -1,7 +1,7 @@
 {
   "anvil_cost": 3,
   "description": {
-    "translate": "enchantment.minecraft.fire_protection"
+    "text": "Fireguard"
   },
   "effects": {
     "minecraft:attributes": [
@@ -18,16 +18,16 @@
     ]
   },
   "max_cost": {
-    "base": 18,
+    "base": 16,
     "per_level_above_first": 0
   },
   "max_level": 1,
   "min_cost": {
-    "base": 12,
+    "base": 8,
     "per_level_above_first": 0
   },
   "slots": [
-    "armor"
+    "chest"
   ],
   "supported_items": "#minecraft:enchantable/chest_armor",
   "weight": 4
