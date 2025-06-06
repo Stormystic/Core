@@ -36,6 +36,7 @@
     "minecraft:breach",
     "items:heart_high",
     "items:reach",
-    "items:glide"
+    "items:glide",
+    "items:acceleration"
   ]
 }

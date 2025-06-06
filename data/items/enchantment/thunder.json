@@ -1,0 +1,68 @@
+{
+  "anvil_cost": 8,
+  "description": {
+    "text": "Thunder"
+  },
+  "effects": {
+    "minecraft:post_attack": [
+      {
+        "requirements": {
+          "condition": "minecraft:entity_properties",
+          "entity": "direct_attacker",
+          "predicate": {
+            "type": "#minecraft:arrows"
+          }
+        },
+        "effect": {
+          "type": "minecraft:all_of",
+          "effects": [
+            {
+              "type": "minecraft:run_function",
+              "function": "util:test"
+            },
+            {
+              "type": "minecraft:damage_entity",
+              "damage_type": "minecraft:lightning_bolt",
+              "min_damage": 50,
+              "max_damage": 50
+            }
+          ]
+        },
+        "enchanted": "attacker",
+        "affected": "victim"
+      }
+    ],
+    "minecraft:hit_block": [
+      {
+        "requirements": {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "type": "#minecraft:arrows"
+          }
+        },
+        "effect": {
+          "type": "minecraft:summon_entity",
+          "entity": "minecraft:lightning_bolt"
+        }
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 50,
+    "per_level_above_first": 0
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 25,
+    "per_level_above_first": 0
+  },
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": [
+    "minecraft:bow",
+    "minecraft:crossbow"
+  ],
+  "weight": 2
+}
