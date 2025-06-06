@@ -1,7 +1,8 @@
 {
   "anvil_cost": 8,
   "description": {
-    "text": "Thunder"
+    "text": "Thunder",
+    "color": "aqua"
   },
   "effects": {
     "minecraft:post_attack": [
@@ -23,8 +24,8 @@
             {
               "type": "minecraft:damage_entity",
               "damage_type": "minecraft:lightning_bolt",
-              "min_damage": 50,
-              "max_damage": 50
+              "min_damage": 8,
+              "max_damage": 8
             }
           ]
         },
