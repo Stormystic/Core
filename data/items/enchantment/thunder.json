@@ -5,46 +5,22 @@
     "color": "aqua"
   },
   "effects": {
-    "minecraft:post_attack": [
-      {
-        "requirements": {
-          "condition": "minecraft:entity_properties",
-          "entity": "direct_attacker",
-          "predicate": {
-            "type": "#minecraft:arrows"
-          }
-        },
-        "effect": {
-          "type": "minecraft:all_of",
-          "effects": [
-            {
-              "type": "minecraft:run_function",
-              "function": "util:test"
-            },
-            {
-              "type": "minecraft:damage_entity",
-              "damage_type": "minecraft:lightning_bolt",
-              "min_damage": 8,
-              "max_damage": 8
-            }
-          ]
-        },
-        "enchanted": "attacker",
-        "affected": "victim"
-      }
-    ],
     "minecraft:hit_block": [
       {
-        "requirements": {
-          "condition": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "type": "#minecraft:arrows"
-          }
-        },
         "effect": {
-          "type": "minecraft:summon_entity",
-          "entity": "minecraft:lightning_bolt"
+          "type": "minecraft:explode",
+          "attribute_to_user": true,
+          "damage_type": "combat:knockback_only",
+          "knockback_multiplier": 0,
+          "radius": 3,
+          "block_interaction": "none",
+          "small_particle": {
+            "type": "minecraft:explosion_emitter"
+          },
+          "large_particle": {
+            "type": "minecraft:explosion"
+          },
+          "sound": "minecraft:entity.generic.explode"
         }
       }
     ]
