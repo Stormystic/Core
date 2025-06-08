@@ -6,7 +6,7 @@
   ],
   "downfall": 0.0,
   "effects": {
-    "fog_color": 8686076,
+    "fog_color": 12638463,
     "mood_sound": {
       "block_search_extent": 8,
       "offset": 2.0,
@@ -25,11 +25,11 @@
       }
     ],
     "music_volume": 1.0,
-    "sky_color": 7777023,
+    "sky_color": 9739519,
     "water_color": 2374399,
     "water_fog_color": 329011,
-    "grass_color": 255,
-    "foliage_color": 9239101,
+    "grass_color": 12105565,
+    "foliage_color": 12105565,
     "grass_color_modifier": "none"
   },
   "features": [
