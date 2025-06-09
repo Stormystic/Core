@@ -1,0 +1,1 @@
+execute as @a run function items:iterator/repair_cost/check
