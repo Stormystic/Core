@@ -41,7 +41,7 @@
                         "predicates": {
                           "minecraft:enchantments": [
                             {
-                              "enchantments": "items:flame_touch",
+                              "enchantments": "items:forging",
                               "levels": {
                                 "min": 1
                               }

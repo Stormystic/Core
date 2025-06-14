@@ -9,15 +9,11 @@
           "children": [
             {
               "type": "minecraft:item",
-              "name": "minecraft:gold_ingot",
+              "name": "minecraft:amethyst_shard",
               "functions": [
                 {
                   "function": "minecraft:set_count",
-                  "count": {
-                    "type": "minecraft:uniform",
-                    "min": 1,
-                    "max": 3
-                  },
+                  "count": 4,
                   "add": false
                 },
                 {
@@ -33,7 +29,7 @@
                     "predicates": {
                       "minecraft:enchantments": [
                         {
-                          "enchantments": "items:forging",
+                          "enchantments": "items:inversion",
                           "levels": {
                             "min": 1
                           }
@@ -63,20 +59,11 @@
                   }
                 }
               ],
-              "name": "minecraft:nether_gold_ore"
+              "name": "minecraft:emerald_ore"
             },
             {
               "type": "minecraft:item",
               "functions": [
-                {
-                  "add": false,
-                  "count": {
-                    "type": "minecraft:uniform",
-                    "max": 6,
-                    "min": 2
-                  },
-                  "function": "minecraft:set_count"
-                },
                 {
                   "enchantment": "minecraft:fortune",
                   "formula": "minecraft:ore_drops",
@@ -86,7 +73,7 @@
                   "function": "minecraft:explosion_decay"
                 }
               ],
-              "name": "minecraft:gold_nugget"
+              "name": "minecraft:emerald"
             }
           ]
         }
@@ -94,5 +81,5 @@
       "rolls": 1
     }
   ],
-  "random_sequence": "minecraft:blocks/nether_gold_ore"
+  "random_sequence": "minecraft:blocks/emerald_ore"
 }

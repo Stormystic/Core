@@ -9,16 +9,13 @@
           "children": [
             {
               "type": "minecraft:item",
-              "name": "minecraft:gold_ingot",
+              "name": "minecraft:diamond",
               "functions": [
                 {
                   "function": "minecraft:set_count",
-                  "count": {
-                    "type": "minecraft:uniform",
-                    "min": 1,
-                    "max": 3
-                  },
-                  "add": false
+                  "count": 2,
+                  "add": false,
+                  "conditions": []
                 },
                 {
                   "function": "minecraft:apply_bonus",
@@ -33,7 +30,7 @@
                     "predicates": {
                       "minecraft:enchantments": [
                         {
-                          "enchantments": "items:forging",
+                          "enchantments": "items:inversion",
                           "levels": {
                             "min": 1
                           }
@@ -63,30 +60,50 @@
                   }
                 }
               ],
-              "name": "minecraft:nether_gold_ore"
+              "name": "minecraft:amethyst_cluster"
             },
             {
-              "type": "minecraft:item",
-              "functions": [
+              "type": "minecraft:alternatives",
+              "children": [
                 {
-                  "add": false,
-                  "count": {
-                    "type": "minecraft:uniform",
-                    "max": 6,
-                    "min": 2
-                  },
-                  "function": "minecraft:set_count"
+                  "type": "minecraft:item",
+                  "conditions": [
+                    {
+                      "condition": "minecraft:match_tool",
+                      "predicate": {
+                        "items": "#minecraft:cluster_max_harvestables"
+                      }
+                    }
+                  ],
+                  "functions": [
+                    {
+                      "add": false,
+                      "count": 2,
+                      "function": "minecraft:set_count"
+                    },
+                    {
+                      "enchantment": "minecraft:fortune",
+                      "formula": "minecraft:ore_drops",
+                      "function": "minecraft:apply_bonus"
+                    }
+                  ],
+                  "name": "minecraft:amethyst_shard"
                 },
                 {
-                  "enchantment": "minecraft:fortune",
-                  "formula": "minecraft:ore_drops",
-                  "function": "minecraft:apply_bonus"
-                },
-                {
-                  "function": "minecraft:explosion_decay"
+                  "type": "minecraft:item",
+                  "functions": [
+                    {
+                      "add": false,
+                      "count": 1,
+                      "function": "minecraft:set_count"
+                    },
+                    {
+                      "function": "minecraft:explosion_decay"
+                    }
+                  ],
+                  "name": "minecraft:amethyst_shard"
                 }
-              ],
-              "name": "minecraft:gold_nugget"
+              ]
             }
           ]
         }
@@ -94,5 +111,5 @@
       "rolls": 1
     }
   ],
-  "random_sequence": "minecraft:blocks/nether_gold_ore"
+  "random_sequence": "minecraft:blocks/amethyst_cluster"
 }

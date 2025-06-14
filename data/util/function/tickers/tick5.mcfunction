@@ -6,7 +6,7 @@ scoreboard players set tick5 Tickers 5
 ################
 
 # Iterator
-function items:iterator/repair_cost/tick
+execute as @a run function items:iterator/iterate
 
 # Particles
 function util:particles/spawn/bubbles
