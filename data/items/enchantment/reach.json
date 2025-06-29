@@ -7,7 +7,7 @@
     "base": 24,
     "per_level_above_first": 7
   },
-  "max_level": 3,
+  "max_level": 4,
   "min_cost": {
     "base": 12,
     "per_level_above_first": 7
@@ -24,7 +24,7 @@
         "id": "efe55a4a-ae44-4d67-995f-4f0657453aa5",
         "amount": {
           "type": "minecraft:linear",
-          "base": 1.5,
+          "base": 0.5,
           "per_level_above_first": 1
         },
         "operation": "add_value"
@@ -34,8 +34,8 @@
         "id": "1cb22ccf-9f5e-4e39-9d12-49af4cf4a6ee",
         "amount": {
           "type": "minecraft:linear",
-          "base": 1.5,
-          "per_level_above_first": 1
+          "base": 0.5,
+          "per_level_above_first": 1.5
         },
         "operation": "add_value"
       }
