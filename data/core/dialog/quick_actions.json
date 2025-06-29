@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:notice",
+  "pause": false,
+  "title": {
+    "text": "Test",
+    "color": "#c01c28"
+  },
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "This is a placeholder menu.",
+        "color": "gold"
+      }
+    }
+  ]
+}

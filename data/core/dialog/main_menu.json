@@ -1,0 +1,49 @@
+{
+  "type": "minecraft:multi_action",
+  "title": {
+    "text": "dataDyne Options",
+    "color": "#ffffff"
+  },
+  "external_title": {
+    "text": "Server",
+    "color": "#ffe352"
+  },
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "This is a placeholder menu.",
+        "color": "gold"
+      }
+    }
+  ],
+  "pause": false,
+  "columns": 1,
+  "actions": [
+    {
+      "label": "Quick Actions",
+      "action": {
+        "type": "show_dialog",
+        "dialog": "core:quick_actions"
+      }
+    },
+    {
+      "label": "Placeholder #1"
+    },
+    {
+      "label": "Placeholder #2"
+    },
+    {
+      "label": "Placeholder #3"
+    },
+    {
+      "label": "Placeholder #4"
+    },
+    {
+      "label": "Placeholder #5"
+    },
+    {
+      "label": "Placeholder #6"
+    }
+  ]
+}
