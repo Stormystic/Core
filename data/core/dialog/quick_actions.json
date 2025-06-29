@@ -15,7 +15,6 @@
   ],
   "can_close_with_escape": true,
   "pause": false,
-  "after_action": "none",
   "columns": 1,
   "actions": [
     {
@@ -23,6 +22,20 @@
       "action": {
         "type": "run_command",
         "command": "trigger sit set 1"
+      }
+    },
+    {
+      "label": "Center Player",
+      "action": {
+        "type": "run_command",
+        "command": "function util:commands/center"
+      }
+    },
+    {
+      "label": "Temporary",
+      "action": {
+        "type": "run_command",
+        "command": "trigger amnu set 2"
       }
     },
     {

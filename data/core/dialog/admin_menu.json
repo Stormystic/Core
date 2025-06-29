@@ -15,7 +15,6 @@
   ],
   "can_close_with_escape": true,
   "pause": false,
-  "after_action": "none",
   "columns": 1,
   "actions": [
     {

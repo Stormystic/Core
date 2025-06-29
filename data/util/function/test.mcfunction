@@ -1,2 +1,1 @@
-execute as @a run say wormmm
-execute as @s run say WOMY2
+execute as @s run say wormmm
