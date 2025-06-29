@@ -20,6 +20,9 @@ function util:pid/check
 # Sit
 function util:commands/sit/tick
 
+# Administrator Menu
+function util:commands/amnu/tick
+
 # Time
 function util:time/check
 

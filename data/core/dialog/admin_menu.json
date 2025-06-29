@@ -1,7 +1,7 @@
 {
   "type": "minecraft:multi_action",
   "title": {
-    "text": "Quick Actions",
+    "text": "Admin Menu",
     "color": "#ffffff"
   },
   "body": [
@@ -23,13 +23,6 @@
       "action": {
         "type": "run_command",
         "command": "trigger sit set 1"
-      }
-    },
-    {
-      "label": "Administrator Menu",
-      "action": {
-        "type": "run_command",
-        "command": "trigger amnu set 1"
       }
     }
   ]

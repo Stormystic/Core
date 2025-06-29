@@ -13,6 +13,8 @@ scoreboard players set tick60 Tickers 0
 # Load functions
 function util:time/load
 function util:pid/load
+function util:commands/amnu/load
+function util:commands/sit/load
 #function teleporters:load
   
 # Sends load status message
