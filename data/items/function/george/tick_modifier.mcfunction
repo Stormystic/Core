@@ -1,4 +1,4 @@
-execute as @s[tag=!JOINTLEFT] if entity @s[nbt={Inventory:[{id:"minecraft:bone",Slot:-106b,components:{"minecraft:custom_data":{joint:1b}}}]}] unless entity @s[nbt={SelectedItem:{id:"minecraft:bone",count:1,components:{"minecraft:custom_data":{joint:1b}}}}] run tag @s add JOINTLEFT
+execute as @s[tag=!JOINTLEFT] if entity @s[nbt={equipment:{offhand:{id:"minecraft:bone",components:{"minecraft:custom_data":{joint:1b}}}}}] unless entity @s[nbt={SelectedItem:{id:"minecraft:bone",count:1,components:{"minecraft:custom_data":{joint:1b}}}}] run tag @s add JOINTLEFT
 execute if entity @s[tag=DOSOULDMG,tag=!JOINTLEFT,gamemode=!creative] if score @s weed matches 1.. run item modify entity @s weapon.mainhand items:george/joint_toofast
 execute if entity @s[tag=DOSOULDMG,tag=JOINTLEFT,gamemode=!creative] if score @s weed matches 1.. run item modify entity @s weapon.offhand items:george/joint_toofast
 execute if entity @s[tag=!JOINTLEFT,gamemode=!creative] run item modify entity @s weapon.mainhand items:george/joint_decrease
