@@ -1,0 +1,1 @@
+$execute as @p[distance=..2] run $(command)

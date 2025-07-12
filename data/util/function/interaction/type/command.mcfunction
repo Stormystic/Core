@@ -1,0 +1,1 @@
+$execute if entity @a[nbt={UUID:$(player)},limit=1] at @a[nbt={UUID:$(player)},limit=1] run function util:interaction/type/command_post with entity @s data
