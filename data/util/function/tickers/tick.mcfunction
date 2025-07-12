@@ -31,3 +31,6 @@ function weather:tick
 
 # Weed
 function items:george/tick
+
+# Easy Interaction System
+function util:interaction/tick

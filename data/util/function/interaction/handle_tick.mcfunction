@@ -1,0 +1,1 @@
+$execute if data entity @s data.tick run function $(tick) with entity @s data

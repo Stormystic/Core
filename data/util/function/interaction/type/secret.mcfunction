@@ -1,0 +1,1 @@
+$execute store result score @a[nbt={UUID:$(player)},limit=1] CurrentSecret run data get entity @s data.secret 1
