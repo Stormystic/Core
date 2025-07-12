@@ -6,3 +6,4 @@ execute in minecraft:spectre as @a[tag=!P_OFF] run particle minecraft:flame 0.5 
 
 # Flaming Cake
 execute in minecraft:spectre as @a[tag=!P_OFF] run particle minecraft:flame 0.5 23.5 0.5 0.22 0.3 0.22 0 1 normal @s
+execute in minecraft:spectre as @a[tag=!7] run particle minecraft:soul_fire_flame 0.5 24 0.5 0.01 0.01 0.01 0 1 normal @s
