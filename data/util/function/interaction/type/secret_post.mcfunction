@@ -1,0 +1,1 @@
+$execute as @p[distance=..2] unless entity @s[tag=$(secret)] run scoreboard players set @s CurrentSecret $(secret)
