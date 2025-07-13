@@ -1,0 +1,79 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "XXX",
+    "XOX",
+    "XXX"
+  ],
+  "key": {
+    "X": "minecraft:diamond_block",
+    "O": "minecraft:apple"
+  },
+  "result": {
+    "id": "minecraft:enchanted_golden_apple",
+    "components": {
+      "minecraft:consumable": {
+        "on_consume_effects": [
+          {
+            "type": "minecraft:apply_effects",
+            "effects": [
+              {
+                "id": "minecraft:instant_health",
+                "duration": 10,
+                "ambient": false,
+                "show_particles": false,
+                "show_icon": false
+              },
+              {
+                "id": "minecraft:regeneration",
+                "amplifier": 2,
+                "duration": 200,
+                "ambient": false,
+                "show_particles": false,
+                "show_icon": false
+              },
+              {
+                "id": "minecraft:absorption",
+                "amplifier": 4,
+                "duration": -1,
+                "ambient": false,
+                "show_particles": false,
+                "show_icon": false
+              }
+            ]
+          },
+          {
+            "type": "minecraft:remove_effects",
+            "effects": [
+              "minecraft:poison",
+              "minecraft:wither",
+              "minecraft:nausea",
+              "minecraft:blindness",
+              "minecraft:darkness",
+              "minecraft:levitation",
+              "minecraft:oozing",
+              "minecraft:wind_charged",
+              "minecraft:infested",
+              "minecraft:weaving",
+              "minecraft:mining_fatigue",
+              "minecraft:slowness",
+              "minecraft:raid_omen",
+              "minecraft:bad_omen",
+              "minecraft:weakness",
+              "minecraft:unluck"
+            ]
+          }
+        ]
+      },
+      "minecraft:food": {
+        "nutrition": 20,
+        "saturation": 20,
+        "can_always_eat": true
+      },
+      "minecraft:item_name": "Enchanted Diamond Apple",
+      "minecraft:item_model": "dd:diamond_apple"
+    },
+    "count": 1
+  }
+}
