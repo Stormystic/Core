@@ -37,7 +37,7 @@
             "slot": "head"
           }
         ],
-      "minecraft:item_name": "\"Emerald Helmet\"",
+      "minecraft:item_name": "Emerald Helmet",
       "minecraft:equippable": {
         "slot": "head",
         "asset_id": "dd:emerald"

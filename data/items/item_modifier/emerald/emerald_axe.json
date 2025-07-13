@@ -11,7 +11,7 @@
     "components": {
       "!minecraft:attribute_modifiers": {},
       "minecraft:item_model": "dd:emerald_axe",
-      "minecraft:item_name": "\"Emerald Axe\"",
+      "minecraft:item_name": "Emerald Axe",
       "minecraft:max_damage": 2048,
       "minecraft:tool": {
         "rules": [

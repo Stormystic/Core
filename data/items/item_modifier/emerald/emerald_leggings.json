@@ -37,7 +37,7 @@
             "slot": "legs"
           }
         ],
-      "minecraft:item_name": "\"Emerald Leggings\"",
+      "minecraft:item_name": "Emerald Leggings",
       "minecraft:equippable": {
         "slot": "legs",
         "asset_id": "dd:emerald"

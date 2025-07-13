@@ -37,7 +37,7 @@
             "slot": "chest"
           }
         ],
-      "minecraft:item_name": "\"Emerald Chestplate\"",
+      "minecraft:item_name": "Emerald Chestplate",
       "minecraft:equippable": {
         "slot": "chest",
         "asset_id": "dd:emerald"
