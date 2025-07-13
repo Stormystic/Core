@@ -23,7 +23,7 @@ execute if score @s CurrentSecret matches 6 run summon firework_rocket -40.5 294
 execute if score @s CurrentSecret matches 6 run tag @s add 6
 
 # 7 Spawn: Flaming Cake
-execute if score @s CurrentSecret matches 7 run summon firework_rocket 0.5 22 0.5 {LifeTime:0,FireworksItem:{id:"minecraft:firework_rocket",count:1,components:{"minecraft:fireworks":{explosions:[{shape:"small_ball",colors:[I;5636095,16733695],fade_colors:[I;16777215]}]}}}}
+execute if score @s CurrentSecret matches 7 run summon firework_rocket 0.5 24 0.5 {LifeTime:0,FireworksItem:{id:"minecraft:firework_rocket",count:1,components:{"minecraft:fireworks":{explosions:[{shape:"small_ball",colors:[I;5636095,16733695],fade_colors:[I;16777215]}]}}}}
 execute if score @s CurrentSecret matches 7 run tag @s add 7
 
 # 8 Spawn: Cheese easter egg
