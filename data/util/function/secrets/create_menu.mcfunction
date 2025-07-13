@@ -3,6 +3,7 @@
 # the tag order here can be changed in any-which way
 # currently, it is in numerical order of creation
 
+execute store result storage secret_page:data CT int 1 run scoreboard players get @s Secrets
 execute if entity @s[tag=1] run data modify storage secret_page:data 1_color set value "green"
 execute if entity @s[tag=1] run data modify storage secret_page:data 1_hover set value {text:"Secret #1",color:"yellow"}
 execute if entity @s[tag=1] run data modify storage secret_page:data 1_command set value "trigger amnu set -1"
@@ -286,167 +287,167 @@ execute unless entity @s[tag=40] run data modify storage secret_page:data 40_com
 execute if entity @s[tag=41] run data modify storage secret_page:data 41_color set value "green"
 execute if entity @s[tag=41] run data modify storage secret_page:data 41_hover set value {text:"Secret #41",color:"yellow"}
 execute if entity @s[tag=41] run data modify storage secret_page:data 41_command set value "trigger amnu set -41"
-execute unless entity @s[tag=41] run data modify storage secret_page:data 41_color set value "red"
-execute unless entity @s[tag=41] run data modify storage secret_page:data 41_hover set value {text:"Locked",color:"red"}
+execute unless entity @s[tag=41] run data modify storage secret_page:data 41_color set value "dark_red"
+execute unless entity @s[tag=41] run data modify storage secret_page:data 41_hover set value {text:"Locked",color:"dark_red"}
 execute unless entity @s[tag=41] run data modify storage secret_page:data 41_command set value "trigger amnu set 0"
 
 execute if entity @s[tag=42] run data modify storage secret_page:data 42_color set value "green"
 execute if entity @s[tag=42] run data modify storage secret_page:data 42_hover set value {text:"Secret #42",color:"yellow"}
 execute if entity @s[tag=42] run data modify storage secret_page:data 42_command set value "trigger amnu set -42"
-execute unless entity @s[tag=42] run data modify storage secret_page:data 42_color set value "red"
-execute unless entity @s[tag=42] run data modify storage secret_page:data 42_hover set value {text:"Locked",color:"red"}
+execute unless entity @s[tag=42] run data modify storage secret_page:data 42_color set value "dark_red"
+execute unless entity @s[tag=42] run data modify storage secret_page:data 42_hover set value {text:"Locked",color:"dark_red"}
 execute unless entity @s[tag=42] run data modify storage secret_page:data 42_command set value "trigger amnu set 0"
 
 execute if entity @s[tag=43] run data modify storage secret_page:data 43_color set value "green"
 execute if entity @s[tag=43] run data modify storage secret_page:data 43_hover set value {text:"Secret #43",color:"yellow"}
 execute if entity @s[tag=43] run data modify storage secret_page:data 43_command set value "trigger amnu set -43"
-execute unless entity @s[tag=43] run data modify storage secret_page:data 43_color set value "red"
-execute unless entity @s[tag=43] run data modify storage secret_page:data 43_hover set value {text:"Locked",color:"red"}
+execute unless entity @s[tag=43] run data modify storage secret_page:data 43_color set value "dark_red"
+execute unless entity @s[tag=43] run data modify storage secret_page:data 43_hover set value {text:"Locked",color:"dark_red"}
 execute unless entity @s[tag=43] run data modify storage secret_page:data 43_command set value "trigger amnu set 0"
 
 execute if entity @s[tag=44] run data modify storage secret_page:data 44_color set value "green"
 execute if entity @s[tag=44] run data modify storage secret_page:data 44_hover set value {text:"Secret #44",color:"yellow"}
 execute if entity @s[tag=44] run data modify storage secret_page:data 44_command set value "trigger amnu set -44"
-execute unless entity @s[tag=44] run data modify storage secret_page:data 44_color set value "red"
-execute unless entity @s[tag=44] run data modify storage secret_page:data 44_hover set value {text:"Locked",color:"red"}
+execute unless entity @s[tag=44] run data modify storage secret_page:data 44_color set value "dark_red"
+execute unless entity @s[tag=44] run data modify storage secret_page:data 44_hover set value {text:"Locked",color:"dark_red"}
 execute unless entity @s[tag=44] run data modify storage secret_page:data 44_command set value "trigger amnu set 0"
 
 execute if entity @s[tag=45] run data modify storage secret_page:data 45_color set value "green"
 execute if entity @s[tag=45] run data modify storage secret_page:data 45_hover set value {text:"Secret #45",color:"yellow"}
 execute if entity @s[tag=45] run data modify storage secret_page:data 45_command set value "trigger amnu set -45"
-execute unless entity @s[tag=45] run data modify storage secret_page:data 45_color set value "red"
-execute unless entity @s[tag=45] run data modify storage secret_page:data 45_hover set value {text:"Locked",color:"red"}
+execute unless entity @s[tag=45] run data modify storage secret_page:data 45_color set value "dark_red"
+execute unless entity @s[tag=45] run data modify storage secret_page:data 45_hover set value {text:"Locked",color:"dark_red"}
 execute unless entity @s[tag=45] run data modify storage secret_page:data 45_command set value "trigger amnu set 0"
 
 execute if entity @s[tag=46] run data modify storage secret_page:data 46_color set value "green"
 execute if entity @s[tag=46] run data modify storage secret_page:data 46_hover set value {text:"Secret #46",color:"yellow"}
 execute if entity @s[tag=46] run data modify storage secret_page:data 46_command set value "trigger amnu set -46"
-execute unless entity @s[tag=46] run data modify storage secret_page:data 46_color set value "red"
-execute unless entity @s[tag=46] run data modify storage secret_page:data 46_hover set value {text:"Locked",color:"red"}
+execute unless entity @s[tag=46] run data modify storage secret_page:data 46_color set value "dark_red"
+execute unless entity @s[tag=46] run data modify storage secret_page:data 46_hover set value {text:"Locked",color:"dark_red"}
 execute unless entity @s[tag=46] run data modify storage secret_page:data 46_command set value "trigger amnu set 0"
 
 execute if entity @s[tag=47] run data modify storage secret_page:data 47_color set value "green"
 execute if entity @s[tag=47] run data modify storage secret_page:data 47_hover set value {text:"Secret #47",color:"yellow"}
 execute if entity @s[tag=47] run data modify storage secret_page:data 47_command set value "trigger amnu set -47"
-execute unless entity @s[tag=47] run data modify storage secret_page:data 47_color set value "red"
-execute unless entity @s[tag=47] run data modify storage secret_page:data 47_hover set value {text:"Locked",color:"red"}
+execute unless entity @s[tag=47] run data modify storage secret_page:data 47_color set value "dark_red"
+execute unless entity @s[tag=47] run data modify storage secret_page:data 47_hover set value {text:"Locked",color:"dark_red"}
 execute unless entity @s[tag=47] run data modify storage secret_page:data 47_command set value "trigger amnu set 0"
 
 execute if entity @s[tag=48] run data modify storage secret_page:data 48_color set value "green"
 execute if entity @s[tag=48] run data modify storage secret_page:data 48_hover set value {text:"Secret #48",color:"yellow"}
 execute if entity @s[tag=48] run data modify storage secret_page:data 48_command set value "trigger amnu set -48"
-execute unless entity @s[tag=48] run data modify storage secret_page:data 48_color set value "red"
-execute unless entity @s[tag=48] run data modify storage secret_page:data 48_hover set value {text:"Locked",color:"red"}
+execute unless entity @s[tag=48] run data modify storage secret_page:data 48_color set value "dark_red"
+execute unless entity @s[tag=48] run data modify storage secret_page:data 48_hover set value {text:"Locked",color:"dark_red"}
 execute unless entity @s[tag=48] run data modify storage secret_page:data 48_command set value "trigger amnu set 0"
 
 execute if entity @s[tag=49] run data modify storage secret_page:data 49_color set value "green"
 execute if entity @s[tag=49] run data modify storage secret_page:data 49_hover set value {text:"Secret #49",color:"yellow"}
 execute if entity @s[tag=49] run data modify storage secret_page:data 49_command set value "trigger amnu set -49"
-execute unless entity @s[tag=49] run data modify storage secret_page:data 49_color set value "red"
-execute unless entity @s[tag=49] run data modify storage secret_page:data 49_hover set value {text:"Locked",color:"red"}
+execute unless entity @s[tag=49] run data modify storage secret_page:data 49_color set value "dark_red"
+execute unless entity @s[tag=49] run data modify storage secret_page:data 49_hover set value {text:"Locked",color:"dark_red"}
 execute unless entity @s[tag=49] run data modify storage secret_page:data 49_command set value "trigger amnu set 0"
 
 execute if entity @s[tag=50] run data modify storage secret_page:data 50_color set value "green"
 execute if entity @s[tag=50] run data modify storage secret_page:data 50_hover set value {text:"Secret #50",color:"yellow"}
 execute if entity @s[tag=50] run data modify storage secret_page:data 50_command set value "trigger amnu set -50"
-execute unless entity @s[tag=50] run data modify storage secret_page:data 50_color set value "red"
-execute unless entity @s[tag=50] run data modify storage secret_page:data 50_hover set value {text:"Locked",color:"red"}
+execute unless entity @s[tag=50] run data modify storage secret_page:data 50_color set value "dark_red"
+execute unless entity @s[tag=50] run data modify storage secret_page:data 50_hover set value {text:"Locked",color:"dark_red"}
 execute unless entity @s[tag=50] run data modify storage secret_page:data 50_command set value "trigger amnu set 0"
 
 execute if entity @s[tag=51] run data modify storage secret_page:data 51_color set value "green"
 execute if entity @s[tag=51] run data modify storage secret_page:data 51_hover set value {text:"Secret #51",color:"yellow"}
 execute if entity @s[tag=51] run data modify storage secret_page:data 51_command set value "trigger amnu set -51"
-execute unless entity @s[tag=51] run data modify storage secret_page:data 51_color set value "red"
-execute unless entity @s[tag=51] run data modify storage secret_page:data 51_hover set value {text:"Locked",color:"red"}
+execute unless entity @s[tag=51] run data modify storage secret_page:data 51_color set value "dark_red"
+execute unless entity @s[tag=51] run data modify storage secret_page:data 51_hover set value {text:"Locked",color:"dark_red"}
 execute unless entity @s[tag=51] run data modify storage secret_page:data 51_command set value "trigger amnu set 0"
 
 execute if entity @s[tag=52] run data modify storage secret_page:data 52_color set value "green"
 execute if entity @s[tag=52] run data modify storage secret_page:data 52_hover set value {text:"Secret #52",color:"yellow"}
 execute if entity @s[tag=52] run data modify storage secret_page:data 52_command set value "trigger amnu set -52"
-execute unless entity @s[tag=52] run data modify storage secret_page:data 52_color set value "red"
-execute unless entity @s[tag=52] run data modify storage secret_page:data 52_hover set value {text:"Locked",color:"red"}
+execute unless entity @s[tag=52] run data modify storage secret_page:data 52_color set value "dark_red"
+execute unless entity @s[tag=52] run data modify storage secret_page:data 52_hover set value {text:"Locked",color:"dark_red"}
 execute unless entity @s[tag=52] run data modify storage secret_page:data 52_command set value "trigger amnu set 0"
 
 execute if entity @s[tag=53] run data modify storage secret_page:data 53_color set value "green"
 execute if entity @s[tag=53] run data modify storage secret_page:data 53_hover set value {text:"Secret #53",color:"yellow"}
 execute if entity @s[tag=53] run data modify storage secret_page:data 53_command set value "trigger amnu set -53"
-execute unless entity @s[tag=53] run data modify storage secret_page:data 53_color set value "red"
-execute unless entity @s[tag=53] run data modify storage secret_page:data 53_hover set value {text:"Locked",color:"red"}
+execute unless entity @s[tag=53] run data modify storage secret_page:data 53_color set value "dark_red"
+execute unless entity @s[tag=53] run data modify storage secret_page:data 53_hover set value {text:"Locked",color:"dark_red"}
 execute unless entity @s[tag=53] run data modify storage secret_page:data 53_command set value "trigger amnu set 0"
 
 execute if entity @s[tag=54] run data modify storage secret_page:data 54_color set value "green"
 execute if entity @s[tag=54] run data modify storage secret_page:data 54_hover set value {text:"Secret #54",color:"yellow"}
 execute if entity @s[tag=54] run data modify storage secret_page:data 54_command set value "trigger amnu set -54"
-execute unless entity @s[tag=54] run data modify storage secret_page:data 54_color set value "red"
-execute unless entity @s[tag=54] run data modify storage secret_page:data 54_hover set value {text:"Locked",color:"red"}
+execute unless entity @s[tag=54] run data modify storage secret_page:data 54_color set value "dark_red"
+execute unless entity @s[tag=54] run data modify storage secret_page:data 54_hover set value {text:"Locked",color:"dark_red"}
 execute unless entity @s[tag=54] run data modify storage secret_page:data 54_command set value "trigger amnu set 0"
 
 execute if entity @s[tag=55] run data modify storage secret_page:data 55_color set value "green"
 execute if entity @s[tag=55] run data modify storage secret_page:data 55_hover set value {text:"Secret #55",color:"yellow"}
 execute if entity @s[tag=55] run data modify storage secret_page:data 55_command set value "trigger amnu set -55"
-execute unless entity @s[tag=55] run data modify storage secret_page:data 55_color set value "red"
-execute unless entity @s[tag=55] run data modify storage secret_page:data 55_hover set value {text:"Locked",color:"red"}
+execute unless entity @s[tag=55] run data modify storage secret_page:data 55_color set value "dark_red"
+execute unless entity @s[tag=55] run data modify storage secret_page:data 55_hover set value {text:"Locked",color:"dark_red"}
 execute unless entity @s[tag=55] run data modify storage secret_page:data 55_command set value "trigger amnu set 0"
 
 execute if entity @s[tag=56] run data modify storage secret_page:data 56_color set value "green"
 execute if entity @s[tag=56] run data modify storage secret_page:data 56_hover set value {text:"Secret #56",color:"yellow"}
 execute if entity @s[tag=56] run data modify storage secret_page:data 56_command set value "trigger amnu set -56"
-execute unless entity @s[tag=56] run data modify storage secret_page:data 56_color set value "red"
-execute unless entity @s[tag=56] run data modify storage secret_page:data 56_hover set value {text:"Locked",color:"red"}
+execute unless entity @s[tag=56] run data modify storage secret_page:data 56_color set value "dark_red"
+execute unless entity @s[tag=56] run data modify storage secret_page:data 56_hover set value {text:"Locked",color:"dark_red"}
 execute unless entity @s[tag=56] run data modify storage secret_page:data 56_command set value "trigger amnu set 0"
 
 execute if entity @s[tag=57] run data modify storage secret_page:data 57_color set value "green"
 execute if entity @s[tag=57] run data modify storage secret_page:data 57_hover set value {text:"Secret #57",color:"yellow"}
 execute if entity @s[tag=57] run data modify storage secret_page:data 57_command set value "trigger amnu set -57"
-execute unless entity @s[tag=57] run data modify storage secret_page:data 57_color set value "red"
-execute unless entity @s[tag=57] run data modify storage secret_page:data 57_hover set value {text:"Locked",color:"red"}
+execute unless entity @s[tag=57] run data modify storage secret_page:data 57_color set value "dark_red"
+execute unless entity @s[tag=57] run data modify storage secret_page:data 57_hover set value {text:"Locked",color:"dark_red"}
 execute unless entity @s[tag=57] run data modify storage secret_page:data 57_command set value "trigger amnu set 0"
 
 execute if entity @s[tag=58] run data modify storage secret_page:data 58_color set value "green"
 execute if entity @s[tag=58] run data modify storage secret_page:data 58_hover set value {text:"Secret #58",color:"yellow"}
 execute if entity @s[tag=58] run data modify storage secret_page:data 58_command set value "trigger amnu set -58"
-execute unless entity @s[tag=58] run data modify storage secret_page:data 58_color set value "red"
-execute unless entity @s[tag=58] run data modify storage secret_page:data 58_hover set value {text:"Locked",color:"red"}
+execute unless entity @s[tag=58] run data modify storage secret_page:data 58_color set value "dark_red"
+execute unless entity @s[tag=58] run data modify storage secret_page:data 58_hover set value {text:"Locked",color:"dark_red"}
 execute unless entity @s[tag=58] run data modify storage secret_page:data 58_command set value "trigger amnu set 0"
 
 execute if entity @s[tag=59] run data modify storage secret_page:data 59_color set value "green"
 execute if entity @s[tag=59] run data modify storage secret_page:data 59_hover set value {text:"Secret #59",color:"yellow"}
 execute if entity @s[tag=59] run data modify storage secret_page:data 59_command set value "trigger amnu set -59"
-execute unless entity @s[tag=59] run data modify storage secret_page:data 59_color set value "red"
-execute unless entity @s[tag=59] run data modify storage secret_page:data 59_hover set value {text:"Locked",color:"red"}
+execute unless entity @s[tag=59] run data modify storage secret_page:data 59_color set value "dark_red"
+execute unless entity @s[tag=59] run data modify storage secret_page:data 59_hover set value {text:"Locked",color:"dark_red"}
 execute unless entity @s[tag=59] run data modify storage secret_page:data 59_command set value "trigger amnu set 0"
 
 execute if entity @s[tag=60] run data modify storage secret_page:data 60_color set value "green"
 execute if entity @s[tag=60] run data modify storage secret_page:data 60_hover set value {text:"Secret #60",color:"yellow"}
 execute if entity @s[tag=60] run data modify storage secret_page:data 60_command set value "trigger amnu set -60"
-execute unless entity @s[tag=60] run data modify storage secret_page:data 60_color set value "red"
-execute unless entity @s[tag=60] run data modify storage secret_page:data 60_hover set value {text:"Locked",color:"red"}
+execute unless entity @s[tag=60] run data modify storage secret_page:data 60_color set value "dark_red"
+execute unless entity @s[tag=60] run data modify storage secret_page:data 60_hover set value {text:"Locked",color:"dark_red"}
 execute unless entity @s[tag=60] run data modify storage secret_page:data 60_command set value "trigger amnu set 0"
 
 execute if entity @s[tag=61] run data modify storage secret_page:data 61_color set value "green"
 execute if entity @s[tag=61] run data modify storage secret_page:data 61_hover set value {text:"Secret #61",color:"yellow"}
 execute if entity @s[tag=61] run data modify storage secret_page:data 61_command set value "trigger amnu set -61"
-execute unless entity @s[tag=61] run data modify storage secret_page:data 61_color set value "red"
-execute unless entity @s[tag=61] run data modify storage secret_page:data 61_hover set value {text:"Locked",color:"red"}
+execute unless entity @s[tag=61] run data modify storage secret_page:data 61_color set value "dark_red"
+execute unless entity @s[tag=61] run data modify storage secret_page:data 61_hover set value {text:"Locked",color:"dark_red"}
 execute unless entity @s[tag=61] run data modify storage secret_page:data 61_command set value "trigger amnu set 0"
 
 execute if entity @s[tag=62] run data modify storage secret_page:data 62_color set value "green"
 execute if entity @s[tag=62] run data modify storage secret_page:data 62_hover set value {text:"Secret #62",color:"yellow"}
 execute if entity @s[tag=62] run data modify storage secret_page:data 62_command set value "trigger amnu set -62"
-execute unless entity @s[tag=62] run data modify storage secret_page:data 62_color set value "red"
-execute unless entity @s[tag=62] run data modify storage secret_page:data 62_hover set value {text:"Locked",color:"red"}
+execute unless entity @s[tag=62] run data modify storage secret_page:data 62_color set value "dark_red"
+execute unless entity @s[tag=62] run data modify storage secret_page:data 62_hover set value {text:"Locked",color:"dark_red"}
 execute unless entity @s[tag=62] run data modify storage secret_page:data 62_command set value "trigger amnu set 0"
 
 execute if entity @s[tag=63] run data modify storage secret_page:data 63_color set value "green"
 execute if entity @s[tag=63] run data modify storage secret_page:data 63_hover set value {text:"Secret #63",color:"yellow"}
 execute if entity @s[tag=63] run data modify storage secret_page:data 63_command set value "trigger amnu set -63"
-execute unless entity @s[tag=63] run data modify storage secret_page:data 63_color set value "red"
-execute unless entity @s[tag=63] run data modify storage secret_page:data 63_hover set value {text:"Locked",color:"red"}
+execute unless entity @s[tag=63] run data modify storage secret_page:data 63_color set value "dark_red"
+execute unless entity @s[tag=63] run data modify storage secret_page:data 63_hover set value {text:"Locked",color:"dark_red"}
 execute unless entity @s[tag=63] run data modify storage secret_page:data 63_command set value "trigger amnu set 0"
 
 execute if entity @s[tag=64] run data modify storage secret_page:data 64_color set value "green"
 execute if entity @s[tag=64] run data modify storage secret_page:data 64_hover set value {text:"Secret #64",color:"yellow"}
 execute if entity @s[tag=64] run data modify storage secret_page:data 64_command set value "trigger amnu set -64"
-execute unless entity @s[tag=64] run data modify storage secret_page:data 64_color set value "red"
-execute unless entity @s[tag=64] run data modify storage secret_page:data 64_hover set value {text:"Locked",color:"red"}
+execute unless entity @s[tag=64] run data modify storage secret_page:data 64_color set value "dark_red"
+execute unless entity @s[tag=64] run data modify storage secret_page:data 64_hover set value {text:"Locked",color:"dark_red"}
 execute unless entity @s[tag=64] run data modify storage secret_page:data 64_command set value "trigger amnu set 0"
