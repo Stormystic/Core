@@ -13,22 +13,11 @@
       "sound": "minecraft:ambient.cave",
       "tick_delay": 6000
     },
-    "music": [
-      {
-        "data": {
-          "max_delay": 24000,
-          "min_delay": 12000,
-          "replace_current_music": false,
-          "sound": "minecraft:music.overworld.forest"
-        },
-        "weight": 1
-      }
-    ],
     "music_volume": 1.0,
-    "sky_color": 10395135,
+    "sky_color": 10592767,
     "water_color": 2374399,
     "water_fog_color": 329011,
-    "grass_color": 11843424,
+    "grass_color": 9746514,
     "foliage_color": 11974495,
     "grass_color_modifier": "none"
   },
