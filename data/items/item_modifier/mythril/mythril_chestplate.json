@@ -37,7 +37,7 @@
             "slot": "chest"
           }
         ],
-      "minecraft:item_name": "\"Mythril Chestplate\"",
+      "minecraft:item_name": "Mythril Chestplate",
       "minecraft:equippable": {
         "slot": "chest",
         "asset_id": "dd:mythril"

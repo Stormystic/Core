@@ -11,7 +11,7 @@
     "components": {
       "!minecraft:attribute_modifiers": {},
       "minecraft:item_model": "dd:mythril_pickaxe",
-      "minecraft:item_name": "\"Mythril Pickaxe\"",
+      "minecraft:item_name": "Mythril Pickaxe",
       "minecraft:max_damage": 9999,
       "minecraft:tool": {
         "rules": [

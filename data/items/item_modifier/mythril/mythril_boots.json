@@ -37,7 +37,7 @@
             "slot": "feet"
           }
         ],
-      "minecraft:item_name": "\"Mythril Boots\"",
+      "minecraft:item_name": "Mythril Boots",
       "minecraft:equippable": {
         "slot": "feet",
         "asset_id": "dd:mythril"

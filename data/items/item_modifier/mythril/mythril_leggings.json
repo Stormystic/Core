@@ -37,7 +37,7 @@
             "slot": "legs"
           }
         ],
-      "minecraft:item_name": "\"Mythril Leggings\"",
+      "minecraft:item_name": "Mythril Leggings",
       "minecraft:equippable": {
         "slot": "legs",
         "asset_id": "dd:mythril"

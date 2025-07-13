@@ -37,7 +37,7 @@
             "slot": "head"
           }
         ],
-      "minecraft:item_name": "\"Mythril Helmet\"",
+      "minecraft:item_name": "Mythril Helmet",
       "minecraft:equippable": {
         "slot": "head",
         "asset_id": "dd:mythril"
