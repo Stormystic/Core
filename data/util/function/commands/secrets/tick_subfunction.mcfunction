@@ -47,7 +47,7 @@ execute if score @s secretmenu matches 12 if entity @s[tag=12] in minecraft:spec
 execute if score @s secretmenu matches 12 if entity @s[tag=!12] run tellraw @s "<Placeholder Hint Message>"
 
 # 13 Spawn: Barracks 
-execute if score @s secretmenu matches 13 if entity @s[tag=13] in minecraft:spectre run teleport @s 54.5 38 -9.5 90 0
+execute if score @s secretmenu matches 13 if entity @s[tag=13] in minecraft:spectre run teleport @s 51.5 38.5 -8.5 136 35
 execute if score @s secretmenu matches 13 if entity @s[tag=!13] run tellraw @s "<Placeholder Hint Message>"
 
 # 14 Spawn: The Cave 
@@ -111,7 +111,7 @@ execute if score @s secretmenu matches 28 if entity @s[tag=28] in minecraft:spec
 execute if score @s secretmenu matches 28 if entity @s[tag=!28] run tellraw @s "<Placeholder Hint Message>"
 
 # 29 Dome: Igloo
-execute if score @s secretmenu matches 29 if entity @s[tag=29] in minecraft:spectre run teleport @s 12.5 26 -522.5 -45 36
+execute if score @s secretmenu matches 29 if entity @s[tag=29] in minecraft:spectre run teleport @s 13.00 26.00 -522.00 -44 47.3
 execute if score @s secretmenu matches 29 if entity @s[tag=!29] run tellraw @s "<Placeholder Hint Message>"
 
 # 30 Spleef: Up the ladder
@@ -125,12 +125,10 @@ execute if score @s secretmenu matches 31 if entity @s[tag=!31] run tellraw @s "
 # 32 Tower: Overworld
 execute if score @s secretmenu matches 32 if entity @s[tag=32] in minecraft:overworld run teleport @s 0.5 87 3.3 180 11
 execute if score @s secretmenu matches 32 if entity @s[tag=!32] run tellraw @s "<Placeholder Hint Message>"
-#execute if score @s secretmenu matches 32 run summon firework_rocket 0.5 88 0.5 {LifeTime:0,FireworksItem:{id:"minecraft:firework_rocket",count:1,components:{"minecraft:fireworks":{explosions:[{shape:"small_ball",colors:[I;5636095,16733695],fade_colors:[I;16777215]}]}}}}
 
 # 33 Tower: Alpha
 execute if score @s secretmenu matches 33 if entity @s[tag=33] in minecraft:alpha run teleport @s 0.5 67 0.5 0 -90
 execute if score @s secretmenu matches 33 if entity @s[tag=!33] run tellraw @s "<Placeholder Hint Message>"
-#execute if score @s secretmenu matches 33 run summon firework_rocket 0.5 71.8 0.5 {LifeTime:0,FireworksItem:{id:"minecraft:firework_rocket",count:1,components:{"minecraft:fireworks":{explosions:[{shape:"small_ball",colors:[I;5636095,16733695],fade_colors:[I;16777215]}]}}}}
 
 # 34 Tower: Beta
 execute if score @s secretmenu matches 34 if entity @s[tag=34] in minecraft:beta run teleport @s 0.5 75 -0.5 0 57
@@ -141,7 +139,7 @@ execute if score @s secretmenu matches 35 if entity @s[tag=35] in minecraft:lega
 execute if score @s secretmenu matches 35 if entity @s[tag=!35] run tellraw @s "<Placeholder Hint Message>"
 
 # 36 Surface: Wizard Tower
-execute if score @s secretmenu matches 36 if entity @s[tag=36] in minecraft:legacy run teleport @s -87.5 114 -95.5 0 4
+execute if score @s secretmenu matches 36 if entity @s[tag=36] in minecraft:spectre run teleport @s -87.5 114 -95.5 0 4
 execute if score @s secretmenu matches 36 if entity @s[tag=!36] run tellraw @s "<Placeholder Hint Message>"
 
 execute as @s run scoreboard players reset @s secretmenu
