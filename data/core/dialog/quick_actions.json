@@ -35,7 +35,7 @@
       "label": "Secrets",
       "action": {
         "type": "run_command",
-        "command": "trigger amnu set 2"
+        "command": "trigger secretmenu set -1"
       }
     },
     {
