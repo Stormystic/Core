@@ -35,70 +35,92 @@ execute if score @s secretmenu matches 9 if entity @s[tag=9] in minecraft:spectr
 execute if score @s secretmenu matches 9 if entity @s[tag=!9] run tellraw @s "<Placeholder Hint Message>"
 
 # 10 Spawn: Bar room
-#execute if score @s secretmenu matches 10 run summon firework_rocket -30.5 16 26.5 {LifeTime:0,FireworksItem:{id:"minecraft:firework_rocket",count:1,components:{"minecraft:fireworks":{explosions:[{shape:"small_ball",colors:[I;5636095,16733695],fade_colors:[I;16777215]}]}}}}
+execute if score @s secretmenu matches 10 if entity @s[tag=10] in minecraft:spectre run teleport @s -32.5 16 26.5 -90 38
+execute if score @s secretmenu matches 10 if entity @s[tag=!10] run tellraw @s "<Placeholder Hint Message>"
 
 # 11 Outskirts: Aquarium
-#execute if score @s secretmenu matches 11 run summon firework_rocket 40.5 30.5 -31.5 {LifeTime:0,FireworksItem:{id:"minecraft:firework_rocket",count:1,components:{"minecraft:fireworks":{explosions:[{shape:"small_ball",colors:[I;5636095,16733695],fade_colors:[I;16777215]}]}}}}
+execute if score @s secretmenu matches 11 if entity @s[tag=11] in minecraft:spectre run teleport @s 40.5 29 -34.5 0 0
+execute if score @s secretmenu matches 11 if entity @s[tag=!11] run tellraw @s "<Placeholder Hint Message>"
 
 # 12 Mineshaft: Dirt room 
-#execute if score @s secretmenu matches 12 run summon firework_rocket -37.5 38 -81.5 {LifeTime:0,FireworksItem:{id:"minecraft:firework_rocket",count:1,components:{"minecraft:fireworks":{explosions:[{shape:"small_ball",colors:[I;5636095,16733695],fade_colors:[I;16777215]}]}}}}
+execute if score @s secretmenu matches 12 if entity @s[tag=12] in minecraft:spectre run teleport @s -37.5 37 -83.5 0 15
+execute if score @s secretmenu matches 12 if entity @s[tag=!12] run tellraw @s "<Placeholder Hint Message>"
 
 # 13 Spawn: Barracks 
-#execute if score @s secretmenu matches 13 run summon firework_rocket 50.5 39 -9.5 {LifeTime:0,FireworksItem:{id:"minecraft:firework_rocket",count:1,components:{"minecraft:fireworks":{explosions:[{shape:"small_ball",colors:[I;5636095,16733695],fade_colors:[I;16777215]}]}}}}
+execute if score @s secretmenu matches 13 if entity @s[tag=13] in minecraft:spectre run teleport @s 54.5 38 -9.5 90 0
+execute if score @s secretmenu matches 13 if entity @s[tag=!13] run tellraw @s "<Placeholder Hint Message>"
 
 # 14 Spawn: The Cave 
-#execute if score @s secretmenu matches 14 run summon firework_rocket 47.5 12 42.5 {LifeTime:0,FireworksItem:{id:"minecraft:firework_rocket",count:1,components:{"minecraft:fireworks":{explosions:[{shape:"small_ball",colors:[I;5636095,16733695],fade_colors:[I;16777215]}]}}}}
+execute if score @s secretmenu matches 14 if entity @s[tag=14] in minecraft:spectre run teleport @s 47.5 11.0625 40.5 0 17
+execute if score @s secretmenu matches 14 if entity @s[tag=!14] run tellraw @s "<Placeholder Hint Message>"
 
 # 15 Spawn: dataDyne Room 
-#execute if score @s secretmenu matches 15 run summon firework_rocket 0.5 15 28.5 {LifeTime:0,FireworksItem:{id:"minecraft:firework_rocket",count:1,components:{"minecraft:fireworks":{explosions:[{shape:"small_ball",colors:[I;5636095,16733695],fade_colors:[I;16777215]}]}}}}
+execute if score @s secretmenu matches 15 if entity @s[tag=15] in minecraft:spectre run teleport @s 0.5 14 26.5 0 16
+execute if score @s secretmenu matches 15 if entity @s[tag=!15] run tellraw @s "<Placeholder Hint Message>"
 
 # 16 Mineshaft: Copper Bulb Room
-#execute if score @s secretmenu matches 16 run summon firework_rocket -92.5 42.5 -88.1 {LifeTime:0,FireworksItem:{id:"minecraft:firework_rocket",count:1,components:{"minecraft:fireworks":{explosions:[{shape:"small_ball",colors:[I;5636095,16733695],fade_colors:[I;16777215]}]}}}}
+execute if score @s secretmenu matches 16 if entity @s[tag=16] in minecraft:spectre run teleport @s -94.5 41 -89.5 -55 2.5
+execute if score @s secretmenu matches 16 if entity @s[tag=!16] run tellraw @s "<Placeholder Hint Message>"
 
 # 17 Mineshaft: Catdog/Bullseye easter egg
-#execute if score @s secretmenu matches 17 run summon firework_rocket -71.9 32.5 -78.5 {LifeTime:0,FireworksItem:{id:"minecraft:firework_rocket",count:1,components:{"minecraft:fireworks":{explosions:[{shape:"small_ball",colors:[I;5636095,16733695],fade_colors:[I;16777215]}]}}}}
+execute if score @s secretmenu matches 17 if entity @s[tag=17] in minecraft:spectre run teleport @s -69.5 32 -78.5 90 25
+execute if score @s secretmenu matches 17 if entity @s[tag=!17] run tellraw @s "<Placeholder Hint Message>"
 
 # 18 Surface: Cloud Parkour
-#execute if score @s secretmenu matches 18 run summon firework_rocket -1.5 298 -4.5 {LifeTime:0,FireworksItem:{id:"minecraft:firework_rocket",count:1,components:{"minecraft:fireworks":{explosions:[{shape:"small_ball",colors:[I;5636095,16733695],fade_colors:[I;16777215]}]}}}}
+execute if score @s secretmenu matches 18 if entity @s[tag=18] in minecraft:spectre run teleport @s -1.5 297 -2.5 180 16
+execute if score @s secretmenu matches 18 if entity @s[tag=!18] run tellraw @s "<Placeholder Hint Message>"
 
 # 19 Surface: Jungle air pocket
-#execute if score @s secretmenu matches 19 run summon firework_rocket 96.5 46 94.5 {LifeTime:0,FireworksItem:{id:"minecraft:firework_rocket",count:1,components:{"minecraft:fireworks":{explosions:[{shape:"small_ball",colors:[I;5636095,16733695],fade_colors:[I;16777215]}]}}}}
+execute if score @s secretmenu matches 19 if entity @s[tag=19] in minecraft:spectre run teleport @s 99.5 47 94.5 90 40
+execute if score @s secretmenu matches 19 if entity @s[tag=!19] run tellraw @s "<Placeholder Hint Message>"
 
 # 20 Surface: Conduit
-#execute if score @s secretmenu matches 20 run summon firework_rocket 90.5 28 -9.5 {LifeTime:0,FireworksItem:{id:"minecraft:firework_rocket",count:1,components:{"minecraft:fireworks":{explosions:[{shape:"small_ball",colors:[I;5636095,16733695],fade_colors:[I;16777215]}]}}}}
+execute if score @s secretmenu matches 20 if entity @s[tag=20] in minecraft:spectre run teleport @s 90.5 30 -9.5 0 90
+execute if score @s secretmenu matches 20 if entity @s[tag=!20] run tellraw @s "<Placeholder Hint Message>"
 
 # 21 Spawn: Bullseye
-#execute if score @s secretmenu matches 21 run summon firework_rocket -1.5 61.9 2.5 {LifeTime:0,FireworksItem:{id:"minecraft:firework_rocket",count:1,components:{"minecraft:fireworks":{explosions:[{shape:"large_ball",colors:[I;5636095,16733695],fade_colors:[I;16777215]}]}}}}
+execute if score @s secretmenu matches 21 if entity @s[tag=21] in minecraft:spectre run teleport @s -1.5 58 2.5 0 -90
+execute if score @s secretmenu matches 21 if entity @s[tag=!21] run tellraw @s "<Placeholder Hint Message>"
 
 # 22 Mineshaft: Long hallway
-#execute if score @s secretmenu matches 22 run summon firework_rocket -100.5 38 -57.5 {LifeTime:0,FireworksItem:{id:"minecraft:firework_rocket",count:1,components:{"minecraft:fireworks":{explosions:[{shape:"small_ball",colors:[I;5636095,16733695],fade_colors:[I;16777215]}]}}}}
+execute if score @s secretmenu matches 22 if entity @s[tag=22] in minecraft:spectre run teleport @s -98.5 37 -57.5 90 15.5
+execute if score @s secretmenu matches 22 if entity @s[tag=!22] run tellraw @s "<Placeholder Hint Message>"
 
 # 23 Outskirts: The Cake is a Lie
-#execute if score @s secretmenu matches 23 run summon firework_rocket 47.5 31.5 18.1 {LifeTime:0,FireworksItem:{id:"minecraft:firework_rocket",count:1,components:{"minecraft:fireworks":{explosions:[{shape:"small_ball",colors:[I;5636095,16733695],fade_colors:[I;16777215]}]}}}}
+execute if score @s secretmenu matches 23 if entity @s[tag=23] in minecraft:spectre run teleport @s 47.5 28 20.5 180 -37.5
+execute if score @s secretmenu matches 23 if entity @s[tag=!23] run tellraw @s "<Placeholder Hint Message>"
 
 # 24 Surface: Brick house bedroom
-#execute if score @s secretmenu matches 24 run summon firework_rocket -63.5 78.9 73.5 {LifeTime:0,FireworksItem:{id:"minecraft:firework_rocket",count:1,components:{"minecraft:fireworks":{explosions:[{shape:"small_ball",colors:[I;5636095,16733695],fade_colors:[I;16777215]}]}}}}
+execute if score @s secretmenu matches 24 if entity @s[tag=24] in minecraft:spectre run teleport @s -62.5 76.5625 73.5 90 -36.8
+execute if score @s secretmenu matches 24 if entity @s[tag=!24] run tellraw @s "<Placeholder Hint Message>"
 
 # 25 Surface: The original secret
-#execute if score @s secretmenu matches 25 run summon firework_rocket 46.5 58 59.5 {LifeTime:0,FireworksItem:{id:"minecraft:firework_rocket",count:1,components:{"minecraft:fireworks":{explosions:[{shape:"small_ball",colors:[I;5636095,16733695],fade_colors:[I;16777215]}]}}}}
+execute if score @s secretmenu matches 25 if entity @s[tag=25] in minecraft:spectre run teleport @s 46.5 60 59.5 0 90
+execute if score @s secretmenu matches 25 if entity @s[tag=!25] run tellraw @s "<Placeholder Hint Message>"
 
 # 26 Surface: Bottom of the well
-#execute if score @s secretmenu matches 26 run summon firework_rocket -94.1 72.5 63.5 {LifeTime:0,FireworksItem:{id:"minecraft:firework_rocket",count:1,components:{"minecraft:fireworks":{explosions:[{shape:"small_ball",colors:[I;5636095,16733695],fade_colors:[I;16777215]}]}}}}
+execute if score @s secretmenu matches 26 if entity @s[tag=26] in minecraft:spectre run teleport @s -97.5 71 63 -90 0
+execute if score @s secretmenu matches 26 if entity @s[tag=!26] run tellraw @s "<Placeholder Hint Message>"
 
 # 27 Dome: In the grass wall
-#execute if score @s secretmenu matches 27 run summon firework_rocket -6.5 27 -493.5 {LifeTime:0,FireworksItem:{id:"minecraft:firework_rocket",count:1,components:{"minecraft:fireworks":{explosions:[{shape:"small_ball",colors:[I;5636095,16733695],fade_colors:[I;16777215]}]}}}}
+execute if score @s secretmenu matches 27 if entity @s[tag=27] in minecraft:spectre run teleport @s -5.5 27 -493.5 90 57
+execute if score @s secretmenu matches 27 if entity @s[tag=!27] run tellraw @s "<Placeholder Hint Message>"
 
 # 28 Dome: Under the melons
-#execute if score @s secretmenu matches 28 run summon firework_rocket -12.5 25 -524.5 {LifeTime:0,FireworksItem:{id:"minecraft:firework_rocket",count:1,components:{"minecraft:fireworks":{explosions:[{shape:"small_ball",colors:[I;5636095,16733695],fade_colors:[I;16777215]}]}}}}
+execute if score @s secretmenu matches 28 if entity @s[tag=28] in minecraft:spectre run teleport @s -12.5 25.9375 -525.5 0 45
+execute if score @s secretmenu matches 28 if entity @s[tag=!28] run tellraw @s "<Placeholder Hint Message>"
 
 # 29 Dome: Igloo
-#execute if score @s secretmenu matches 29 run summon firework_rocket 14.5 25 -520.5 {LifeTime:0,FireworksItem:{id:"minecraft:firework_rocket",count:1,components:{"minecraft:fireworks":{explosions:[{shape:"small_ball",colors:[I;5636095,16733695],fade_colors:[I;16777215]}]}}}}
+execute if score @s secretmenu matches 29 if entity @s[tag=29] in minecraft:spectre run teleport @s 12.5 26 -522.5 -45 36
+execute if score @s secretmenu matches 29 if entity @s[tag=!29] run tellraw @s "<Placeholder Hint Message>"
 
 # 30 Spleef: Up the ladder
-#execute if score @s secretmenu matches 30 run summon firework_rocket 0.5 32.5 -615.1 {LifeTime:0,FireworksItem:{id:"minecraft:firework_rocket",count:1,components:{"minecraft:fireworks":{explosions:[{shape:"small_ball",colors:[I;5636095,16733695],fade_colors:[I;16777215]}]}}}}
+execute if score @s secretmenu matches 30 if entity @s[tag=30] in minecraft:spectre run teleport @s 4.5 31 -615.5 84.1 1
+execute if score @s secretmenu matches 30 if entity @s[tag=!30] run tellraw @s "<Placeholder Hint Message>"
 
 # 31 Arena: Top of the pyramid
-#execute if score @s secretmenu matches 31 run summon firework_rocket 128.5 48.8 -511.5 {LifeTime:0,FireworksItem:{id:"minecraft:firework_rocket",count:1,components:{"minecraft:fireworks":{explosions:[{shape:"small_ball",colors:[I;5636095,16733695],fade_colors:[I;16777215]}]}}}}
+execute if score @s secretmenu matches 31 if entity @s[tag=31] in minecraft:spectre run teleport @s 128.5 43 -511.5 -90 -90
+execute if score @s secretmenu matches 31 if entity @s[tag=!31] run tellraw @s "<Placeholder Hint Message>"
 
 # 32 Tower: Overworld
 #execute if score @s secretmenu matches 32 run summon firework_rocket 0.5 88 0.5 {LifeTime:0,FireworksItem:{id:"minecraft:firework_rocket",count:1,components:{"minecraft:fireworks":{explosions:[{shape:"small_ball",colors:[I;5636095,16733695],fade_colors:[I;16777215]}]}}}}
