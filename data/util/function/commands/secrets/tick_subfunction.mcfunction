@@ -107,7 +107,7 @@ execute if score @s secretmenu matches 27 if entity @s[tag=27] in minecraft:spec
 execute if score @s secretmenu matches 27 if entity @s[tag=!27] run tellraw @s "<Placeholder Hint Message>"
 
 # 28 Dome: Under the melons
-execute if score @s secretmenu matches 28 if entity @s[tag=28] in minecraft:spectre run teleport @s -12.5 25.9375 -525.5 0 45
+execute if score @s secretmenu matches 28 if entity @s[tag=28] in minecraft:spectre run teleport @s -13.5 25.9375 -524.5 -90 72.1
 execute if score @s secretmenu matches 28 if entity @s[tag=!28] run tellraw @s "<Placeholder Hint Message>"
 
 # 29 Dome: Igloo
@@ -123,18 +123,25 @@ execute if score @s secretmenu matches 31 if entity @s[tag=31] in minecraft:spec
 execute if score @s secretmenu matches 31 if entity @s[tag=!31] run tellraw @s "<Placeholder Hint Message>"
 
 # 32 Tower: Overworld
+execute if score @s secretmenu matches 32 if entity @s[tag=32] in minecraft:overworld run teleport @s 0.5 87 3.3 180 11
+execute if score @s secretmenu matches 32 if entity @s[tag=!32] run tellraw @s "<Placeholder Hint Message>"
 #execute if score @s secretmenu matches 32 run summon firework_rocket 0.5 88 0.5 {LifeTime:0,FireworksItem:{id:"minecraft:firework_rocket",count:1,components:{"minecraft:fireworks":{explosions:[{shape:"small_ball",colors:[I;5636095,16733695],fade_colors:[I;16777215]}]}}}}
 
 # 33 Tower: Alpha
+execute if score @s secretmenu matches 33 if entity @s[tag=33] in minecraft:alpha run teleport @s 0.5 67 0.5 0 -90
+execute if score @s secretmenu matches 33 if entity @s[tag=!33] run tellraw @s "<Placeholder Hint Message>"
 #execute if score @s secretmenu matches 33 run summon firework_rocket 0.5 71.8 0.5 {LifeTime:0,FireworksItem:{id:"minecraft:firework_rocket",count:1,components:{"minecraft:fireworks":{explosions:[{shape:"small_ball",colors:[I;5636095,16733695],fade_colors:[I;16777215]}]}}}}
 
 # 34 Tower: Beta
-#execute if score @s secretmenu matches 34 run summon firework_rocket 0.5 75 0.5 {LifeTime:0,FireworksItem:{id:"minecraft:firework_rocket",count:1,components:{"minecraft:fireworks":{explosions:[{shape:"small_ball",colors:[I;5636095,16733695],fade_colors:[I;16777215]}]}}}}
+execute if score @s secretmenu matches 34 if entity @s[tag=34] in minecraft:beta run teleport @s 0.5 75 -0.5 0 57
+execute if score @s secretmenu matches 34 if entity @s[tag=!34] run tellraw @s "<Placeholder Hint Message>"
 
 # 35 Tower: Legacy
-#execute if score @s secretmenu matches 35 run summon firework_rocket 0.5 44 0.5 {LifeTime:0,FireworksItem:{id:"minecraft:firework_rocket",count:1,components:{"minecraft:fireworks":{explosions:[{shape:"small_ball",colors:[I;5636095,16733695],fade_colors:[I;16777215]}]}}}}
+execute if score @s secretmenu matches 35 if entity @s[tag=35] in minecraft:legacy run teleport @s 0.5 45 0.5 0 90
+execute if score @s secretmenu matches 35 if entity @s[tag=!35] run tellraw @s "<Placeholder Hint Message>"
 
 # 36 Surface: Wizard Tower
-#execute if score @s secretmenu matches 36 run summon firework_rocket -87.5 115.5 -94.2 {LifeTime:0,FireworksItem:{id:"minecraft:firework_rocket",count:1,components:{"minecraft:fireworks":{explosions:[{shape:"small_ball",colors:[I;5636095,16733695],fade_colors:[I;16777215]}]}}}}
+execute if score @s secretmenu matches 36 if entity @s[tag=36] in minecraft:legacy run teleport @s -87.5 114 -95.5 0 4
+execute if score @s secretmenu matches 36 if entity @s[tag=!36] run tellraw @s "<Placeholder Hint Message>"
 
 execute as @s run scoreboard players reset @s secretmenu
