@@ -23,6 +23,9 @@ function util:commands/sit/tick
 # Administrator Menu
 function util:commands/amnu/tick
 
+# Secrets Menu
+function util:commands/secrets/tick
+
 # Time
 function util:time/check
 
