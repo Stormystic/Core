@@ -6,7 +6,7 @@
 execute store result storage secret_page:data CT int 1 run scoreboard players get @s Secrets
 
 execute if entity @s[tag=1] run data modify storage secret_page:data 1_color set value "green"
-execute if entity @s[tag=1] run data modify storage secret_page:data 1_hover set value {text:"Hotsauce",extra:[{text:"\n\nWorm Worm Turn Around \n\ncoming near you\n\nOURGHOURGH",color:"light_purple",italic:1}],color:"aqua"}
+execute if entity @s[tag=1] run data modify storage secret_page:data 1_hover set value {text:"Hotsauce",extra:[{text:" ✔",color:"green"},"",{text:"\n\nWorm Worm Turn Around\n",color:"light_purple",italic:1b},{text:"\n[Click to teleport]",color:"green"}],color:"aqua"}
 execute unless entity @s[tag=1] run data modify storage secret_page:data 1_color set value "red"
 execute unless entity @s[tag=1] run data modify storage secret_page:data 1_hover set value {text:"Locked",color:"red"}
 
@@ -36,9 +36,9 @@ execute unless entity @s[tag=6] run data modify storage secret_page:data 6_color
 execute unless entity @s[tag=6] run data modify storage secret_page:data 6_hover set value {text:"Locked",color:"red"}
 
 execute if entity @s[tag=7] run data modify storage secret_page:data 7_color set value "green"
-execute if entity @s[tag=7] run data modify storage secret_page:data 7_hover set value {text:"Secret #7",color:"yellow"}
+execute if entity @s[tag=7] run data modify storage secret_page:data 7_hover set value {text:"Flaming Cake",extra:[{text:" ✔",color:"green"},{text:"\n\nThe organic worm munches the wall, as the gonarch stares in anger",color:"light_purple",italic:1b},{text:"\n\n[Click to Teleport]",color:"green"}],color:"aqua"}
 execute unless entity @s[tag=7] run data modify storage secret_page:data 7_color set value "red"
-execute unless entity @s[tag=7] run data modify storage secret_page:data 7_hover set value {text:"Locked",color:"red"}
+execute unless entity @s[tag=7] run data modify storage secret_page:data 7_hover set value {text:"Flaming Cake",extra:[{text:" 🔒",color:"red"},{text:"\n\nThe organic worm munches the wall, as the gonarch stares in anger",color:"light_purple",italic:1b},{text:"\n\n[Click for Hint]",color:"red"}],color:"aqua"}
 
 execute if entity @s[tag=8] run data modify storage secret_page:data 8_color set value "green"
 execute if entity @s[tag=8] run data modify storage secret_page:data 8_hover set value {text:"Secret #8",color:"yellow"}

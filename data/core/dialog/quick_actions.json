@@ -1,15 +1,15 @@
 {
   "type": "minecraft:multi_action",
   "title": {
-    "text": "Quick Actions",
-    "color": "#ffffff"
+    "text": "ꀓꀓꀓꀓꀓꀓꀓ",
+    "font": "general:images"
   },
   "body": [
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "This is a placeholder menu.",
-        "color": "gold"
+        "text": "Quick Actions",
+        "color": "aqua"
       }
     }
   ],
@@ -17,6 +17,13 @@
   "pause": false,
   "columns": 1,
   "actions": [
+    {
+      "label": "Enderchest",
+      "action": {
+        "type": "run_command",
+        "command": "essentials:enderchest"
+      }
+    },
     {
       "label": "Sit",
       "action": {
@@ -28,7 +35,7 @@
       "label": "Center Player",
       "action": {
         "type": "run_command",
-        "command": "function util:commands/center"
+        "command": "minecraft:function util:commands/center"
       }
     },
     {
