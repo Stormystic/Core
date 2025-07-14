@@ -3,7 +3,7 @@ execute if score @s secretmenu matches 1 if entity @s[tag=1] in minecraft:spectr
 execute if score @s secretmenu matches 1 if entity @s[tag=!1] run tellraw @s "<Placeholder Hint Message>"
 
 # 2 Outskirts: Water room
-execute if score @s secretmenu matches 2 if entity @s[tag=2] in minecraft:spectre run teleport @s -13.5 44 -85.5 180 0
+execute if score @s secretmenu matches 2 if entity @s[tag=2] in minecraft:spectre run teleport @s 13.5 44 -85.5 180 0
 execute if score @s secretmenu matches 2 if entity @s[tag=!2] run tellraw @s "<Placeholder Hint Message>"
 
 # 3 Outskirts: Earth room
