@@ -16,6 +16,9 @@
   "can_close_with_escape": true,
   "after_action": "none",
   "pause": false,
+  "exit_action": {
+    "label": "Back"
+  },
   "columns": 1,
   "actions": [
     {
