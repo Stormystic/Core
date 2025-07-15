@@ -17,7 +17,12 @@
   "after_action": "none",
   "pause": false,
   "exit_action": {
-    "label": "Back"
+    "label": "Back",
+    "width": 20,
+    "action": {
+      "type": "run_command",
+      "command": "trigger clear_dialog set 1"
+    }
   },
   "columns": 1,
   "actions": [
