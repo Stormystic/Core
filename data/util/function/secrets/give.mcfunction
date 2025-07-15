@@ -143,4 +143,7 @@ execute if score @s CurrentSecret matches 36 run summon firework_rocket -87.5 11
 execute if score @s CurrentSecret matches 36 run tag @s add 36
 
 scoreboard players add @s Secrets 1
+
+execute if score @s Secrets matches 40.. run scoreboard players set @s SecretsAll 1
+
 scoreboard players set @s CurrentSecret 0

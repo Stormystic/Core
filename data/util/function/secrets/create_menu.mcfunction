@@ -6,8 +6,10 @@
 execute store result storage secret_page:data CT int 1 run scoreboard players get @s Secrets
 
 execute if entity @s[tag=1] run data modify storage secret_page:data 1_color set value "green"
-execute if entity @s[tag=1] run data modify storage secret_page:data 1_hover set value {text:"Hotsauce",extra:[{text:" ✔",color:"green"},"",{text:"\n\nWorm Worm Turn Around\n",color:"light_purple",italic:1b},{text:"\n[Click to teleport]",color:"green"}],color:"aqua"}
+execute if entity @s[tag=1] run data modify storage secret_page:data 1_ecolor set value "aqua"
+execute if entity @s[tag=1] run data modify storage secret_page:data 1_hover set value {text:"Hotsauce",extra:[{text:" ✔",color:"green"},{text:"\n\nWorm Worm Turn Around\n",color:"light_purple",italic:1b},{text:"\n[Click to teleport]",color:"green"}],color:"aqua"}
 execute unless entity @s[tag=1] run data modify storage secret_page:data 1_color set value "red"
+execute unless entity @s[tag=1] run data modify storage secret_page:data 1_ecolor set value "light_purple"
 execute unless entity @s[tag=1] run data modify storage secret_page:data 1_hover set value {text:"Locked",color:"red"}
 
 execute if entity @s[tag=2] run data modify storage secret_page:data 2_color set value "green"

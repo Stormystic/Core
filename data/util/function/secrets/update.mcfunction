@@ -41,3 +41,4 @@ execute if entity @s[tag=37] run scoreboard players add @s Secrets 1
 execute if entity @s[tag=38] run scoreboard players add @s Secrets 1
 execute if entity @s[tag=39] run scoreboard players add @s Secrets 1
 execute if entity @s[tag=40] run scoreboard players add @s Secrets 1
+execute if score @s Secrets matches 40.. run scoreboard players set @s SecretsAll 1
