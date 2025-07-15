@@ -23,6 +23,9 @@ function util:commands/sit/tick
 # Administrator Menu
 function util:commands/amnu/tick
 
+# XP Bank
+function util:commands/xp_bank/tick
+
 # Secrets Menu
 function util:commands/secrets/tick
 

@@ -14,6 +14,7 @@ scoreboard players set tick60 Tickers 0
 function util:time/load
 function util:pid/load
 function util:commands/secrets/load
+function util:commands/xp_bank/load
 function util:commands/sit/load
 #function teleporters:load
 # Debug for developing GUI; Remove later
