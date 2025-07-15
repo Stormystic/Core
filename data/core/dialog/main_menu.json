@@ -32,6 +32,13 @@
     }
   ],
   "pause": false,
+  "exit_action": {
+    "label": "Back",
+    "action": {
+      "type": "run_command",
+      "command": "trigger clear_dialog set 1"
+    }
+  },
   "columns": 1,
   "actions": [
     {
@@ -42,10 +49,10 @@
       }
     },
     {
-      "label": "Placeholder #1"
+      "label": "Changelog"
     },
     {
-      "label": "Placeholder #2"
+      "label": "Help"
     },
     {
       "label": "Placeholder #3"
