@@ -42,29 +42,19 @@
   "columns": 1,
   "actions": [
     {
-      "label": "Quick Actions",
-      "action": {
-        "type": "show_dialog",
-        "dialog": "core:quick_actions"
-      }
-    },
-    {
       "label": "Changelog"
     },
     {
       "label": "Help"
     },
     {
-      "label": "Placeholder #3"
+      "label": "Resource Pack"
     },
     {
-      "label": "Placeholder #4"
+      "label": "Discord Link"
     },
     {
-      "label": "Placeholder #5"
-    },
-    {
-      "label": "Placeholder #6"
+      "label": "Dynmap Link"
     }
   ]
 }

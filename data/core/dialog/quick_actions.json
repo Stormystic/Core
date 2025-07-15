@@ -26,13 +26,6 @@
   "columns": 1,
   "actions": [
     {
-      "label": "Enderchest",
-      "action": {
-        "type": "run_command",
-        "command": "essentials:enderchest"
-      }
-    },
-    {
       "label": "Sit",
       "action": {
         "type": "run_command",
@@ -40,10 +33,20 @@
       }
     },
     {
-      "label": "Center Player",
+      "label": "Warps"
+    },
+    {
+      "label": "Enderchest",
       "action": {
         "type": "run_command",
-        "command": "minecraft:function util:commands/center"
+        "command": "essentials:enderchest"
+      }
+    },
+    {
+      "label": "Exp. Storage",
+      "action": {
+        "type": "run_command",
+        "command": "trigger xp_bank set -1"
       }
     },
     {
