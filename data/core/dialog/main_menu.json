@@ -13,6 +13,7 @@
 		"type": "minecraft:plain_message",
 		"contents": {
 			"text": "\u0005",
+			"shadow_color": 16777217,
 			"font": "general:images"
 		}
 	},
