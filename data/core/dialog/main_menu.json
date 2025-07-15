@@ -9,6 +9,19 @@
     "color": "#ffe352"
   },
   "body": [
+	{
+		"type": "minecraft:plain_message",
+		"contents": {
+			"text": "\u0005",
+			"font": "general:images"
+		}
+	},
+	{
+		"type": "minecraft:plain_message",
+		"contents": {
+			"text": "\n\n\n\n"
+		}
+	},
     {
       "type": "minecraft:plain_message",
       "contents": {
