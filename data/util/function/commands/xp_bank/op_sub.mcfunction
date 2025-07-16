@@ -1,1 +1,1 @@
-$execute as @s run xp add @s $(target) levels
+$execute as @s run xp set @s $(target) levels
