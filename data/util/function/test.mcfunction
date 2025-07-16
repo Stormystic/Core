@@ -1,1 +1,1 @@
-$tellraw @s "player:$(0).$(1).$(2).$(3)"
+$tellraw @s "player:$(a).$(b).$(c).$(d)"
