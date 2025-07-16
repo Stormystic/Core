@@ -33,7 +33,11 @@
       }
     },
     {
-      "label": "Warps"
+      "label": "Warps",
+      "action": {
+        "type": "run_command",
+        "command": "trigger warp set -1"
+      }
     },
     {
       "label": "Enderchest",

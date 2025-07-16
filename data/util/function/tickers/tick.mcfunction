@@ -40,3 +40,5 @@ function items:george/tick
 
 # Easy Interaction System
 function util:interaction/tick
+
+function util:commands/warps/tick
