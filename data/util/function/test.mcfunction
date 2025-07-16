@@ -1,1 +1,1 @@
-$tellraw @s "player:$(a).$(b).$(c).$(d)"
+$say "UUID Storage Name: player:$(a).$(b).$(c).$(d)"
