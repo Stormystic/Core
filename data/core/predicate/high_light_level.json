@@ -1,0 +1,70 @@
+{
+	"condition": "minecraft:any_of",
+	"terms": [
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"type": "minecraft:player",
+				"slots": {
+					"weapon.offhand": {
+						"items": [
+							"minecraft:torch",
+							"minecraft:lantern",
+							"minecraft:lava_bucket",
+							"minecraft:golden_helmet"
+						]
+					}
+				}
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"type": "minecraft:player",
+				"slots": {
+					"weapon.mainhand": {
+						"items": [
+							"minecraft:torch",
+							"minecraft:lantern",
+							"minecraft:lava_bucket",
+							"minecraft:golden_helmet"
+						]
+					}
+				}
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"type": "minecraft:player",
+				"slots": {
+					"armor.head": {
+						"items": [
+							"minecraft:golden_helmet"
+						]
+					}
+				}
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"type": "minecraft:item",
+				"slots": {
+					"container.0": {
+						"items": [
+							"minecraft:torch",
+							"minecraft:lantern",
+							"minecraft:lava_bucket",
+							"minecraft:golden_helmet"
+						]
+					}
+				}
+			}
+		}
+	]
+}
