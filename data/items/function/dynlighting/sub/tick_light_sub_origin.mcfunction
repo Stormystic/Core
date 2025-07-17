@@ -7,4 +7,4 @@ execute at @s if block ~ ~ ~ minecraft:light[waterlogged=true] run setblock ~ ~ 
 
 # .. change the new block..
 execute at @e[tag=LIGHT_OWNER,limit=1] align xyz run teleport @s ~ ~ ~
-execute at @e[tag=LIGHT_OWNER,limit=1] align xyz positioned ~ ~ ~ run function items:dynlighting/sub/set_light
+execute at @s run function items:dynlighting/sub/set_light
