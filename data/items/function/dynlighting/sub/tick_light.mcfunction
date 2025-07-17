@@ -16,8 +16,8 @@ execute if entity @e[tag=LIGHT_OWNER,predicate=core:high_light_level,limit=1] if
 # If predicate core:light_should_raise passes on the owner, we should move a block above the origin. 
 # First, we check for the predicate core:light_should_raise. if that does, we move to the function to process a block above. Otherwise, move to origin.
 
+execute if entity @e[tag=LIGHT_OWNER,predicate=!core:light_should_raise,limit=1] at @s run function items:dynlighting/sub/tick_light_sub_origin
 execute if entity @e[tag=LIGHT_OWNER,predicate=core:light_should_raise,limit=1] at @s run function items:dynlighting/sub/tick_light_sub_raised
-execute unless entity @e[tag=LIGHT_OWNER,predicate=core:light_should_raise,limit=1] at @s run function items:dynlighting/sub/tick_light_sub_origin
 
 # All logic is done. we should remove the tag and move on.
 
