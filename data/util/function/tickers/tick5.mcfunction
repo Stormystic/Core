@@ -31,4 +31,3 @@ function util:zones/spleef
 function util:zones/wizard
 
 function items:heart_high/check
-function items:dynlighting/tick
