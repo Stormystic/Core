@@ -5,6 +5,13 @@
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
+				"type": "minecraft:fireball"
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
 				"type": "minecraft:player",
 				"slots": {
 					"weapon.offhand": {

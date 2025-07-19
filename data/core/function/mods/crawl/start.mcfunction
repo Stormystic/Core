@@ -1,0 +1,2 @@
+execute as @s run tag @s add crawl
+execute as @s at @s run summon armor_stand ~ ~1000 ~ {Marker:1b,Invisible:1b,Tags:["CRL"],Passengers:[{id:"minecraft:shulker",OnGround:1b,NoGravity:1b,Silent:1b,Invulnerable:1b,DeathLootTable:"minecraft:empty",NoAI:1b,AttachFace:0b,Tags:["CRL"],active_effects:[{id:"minecraft:invisibility",amplifier:5,duration:3999600,show_particles:0b,show_icon:0b,ambient:1b}],attributes:[{id:"minecraft:scale",base:0.01}]}]}

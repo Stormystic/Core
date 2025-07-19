@@ -62,7 +62,7 @@
       "width": 74,
       "action": {
         "type": "run_command",
-        "command": "trigger warps set 2"
+        "command": "trigger warp set 2"
       }
     },
     {

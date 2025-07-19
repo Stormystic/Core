@@ -1,0 +1,3 @@
+execute as @e[tag=CRL,type=minecraft:armor_stand] at @s run function core:mods/crawl/tick_crawler
+execute as @a[tag=crawl] if function core:mods/crawl/check_valid run tag @s remove crawl 
+execute as @a[tag=!crawl] if predicate util:sneak at @s rotated ~ 0 positioned ^ ^ ^.31 align xyz if block ~ ~ ~ #minecraft:air unless block ~ ~1 ~ #minecraft:air unless block ~ ~1 ~ #minecraft:slabs[type=top] at @s as @s run function core:mods/crawl/start

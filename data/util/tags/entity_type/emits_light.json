@@ -1,6 +1,7 @@
 {
     "values": [
         "minecraft:player",
-        "minecraft:item"
+        "minecraft:item",
+        "minecraft:fireball"
     ]
 }
