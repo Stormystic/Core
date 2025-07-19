@@ -9,11 +9,11 @@ scoreboard players set tick5 Tickers 5
 execute as @a run function items:iterator/iterate
 
 # Particles
-function util:particles/spawn/bubbles
-function util:particles/spawn/drips
-function util:particles/spawn/flames
-function util:particles/spawn/rain
-function util:particles/spawn/reefs
+#function util:particles/spawn/bubbles
+#function util:particles/spawn/drips
+#function util:particles/spawn/flames
+#function util:particles/spawn/rain
+#function util:particles/spawn/reefs
 
 # Secrets
 function util:secrets/check

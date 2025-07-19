@@ -6,4 +6,4 @@ scoreboard players set tick10 Tickers 10
 #################
 
 # Particles
-function util:particles/spawn/pockets
+#function util:particles/spawn/pockets

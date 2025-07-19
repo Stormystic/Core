@@ -56,9 +56,9 @@ execute unless entity @s[tag=10] run data modify storage secret_page:data 10_col
 execute unless entity @s[tag=10] run data modify storage secret_page:data 10_hover set value {text:"The Bar Room",extra:[{text:" 🔒\n",color:"red"},{text:"Spawn, Underground",color:"light_purple",italic:1b}],color:"aqua"}
 
 execute if entity @s[tag=11] run data modify storage secret_page:data 11_color set value "green"
-execute if entity @s[tag=11] run data modify storage secret_page:data 11_hover set value {text:"Secret #11",color:"yellow"}
+execute if entity @s[tag=11] run data modify storage secret_page:data 11_hover set value {text:"Into the Aquarium",extra:[{text:" ✔\n",color:"green"},{text:"Spawn, Outskirts\n",color:"light_purple",italic:1b},{text:"\n[Click to teleport]",color:"green"}],color:"aqua"}
 execute unless entity @s[tag=11] run data modify storage secret_page:data 11_color set value "red"
-execute unless entity @s[tag=11] run data modify storage secret_page:data 11_hover set value {text:"Locked",color:"red"}
+execute unless entity @s[tag=11] run data modify storage secret_page:data 11_hover set value {text:"Into the Aquarium",extra:[{text:" 🔒\n",color:"green"},{text:"Spawn, Outskirts",color:"light_purple",italic:1b}],color:"aqua"}
 
 execute if entity @s[tag=12] run data modify storage secret_page:data 12_color set value "green"
 execute if entity @s[tag=12] run data modify storage secret_page:data 12_hover set value {text:"Secret #12",color:"yellow"}
