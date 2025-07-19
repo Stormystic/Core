@@ -43,20 +43,6 @@
 			"condition": "minecraft:entity_properties",
 			"entity": "this",
 			"predicate": {
-				"type": "minecraft:player",
-				"slots": {
-					"armor.head": {
-						"items": [
-							"minecraft:golden_helmet"
-						]
-					}
-				}
-			}
-		},
-		{
-			"condition": "minecraft:entity_properties",
-			"entity": "this",
-			"predicate": {
 				"type": "minecraft:item",
 				"slots": {
 					"container.0": {
