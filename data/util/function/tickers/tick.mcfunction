@@ -42,7 +42,7 @@ function items:george/tick
 function util:interaction/tick
 
 # Crawling
-function core:mods/crawl/tick
+#function core:mods/crawl/tick
 
 # Warps
 function util:commands/warps/tick
