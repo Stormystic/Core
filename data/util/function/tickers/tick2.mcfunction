@@ -5,9 +5,6 @@ scoreboard players set tick2 Tickers 2
 # 2 Tick Funcs #
 ################
 
-# Crawling
-function core:mods/crawl/tick
-
 # Weather
 execute as @e[tag=tornado] at @s run function weather:tornussy/trail
 

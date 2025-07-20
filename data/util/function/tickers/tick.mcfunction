@@ -41,5 +41,8 @@ function items:george/tick
 # Easy Interaction System
 function util:interaction/tick
 
+# Crawling
+function core:mods/crawl/tick
+
 # Warps
 function util:commands/warps/tick

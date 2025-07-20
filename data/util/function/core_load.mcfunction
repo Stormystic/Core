@@ -10,6 +10,9 @@ scoreboard players set tick10 Tickers 0
 scoreboard players set tick20 Tickers 0
 scoreboard players set tick60 Tickers 0
 
+# Timer for double-tap sneak to crouch.
+scoreboard objectives add DoubleSneak dummy
+
 # Load functions
 function util:time/load
 function util:pid/load
