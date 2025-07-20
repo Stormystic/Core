@@ -1,2 +1,2 @@
-execute as @s[tag=crawl] unless predicate util:sneak run tag @s remove crawl 
-execute as @s[tag=!crawl] if predicate util:sneak at @s as @s run function core:mods/crawl/start
+execute as @s[tag=crawl] if function core:mods/crawl/check_valid run tag @s remove crawl 
+execute as @s[tag=!crawl] if predicate util:sneak at @s rotated ~ 0 positioned ^ ^ ^.31 align xyz if block ~ ~ ~ #minecraft:air unless block ~ ~1 ~ #minecraft:air unless block ~ ~1 ~ #minecraft:slabs[type=top] at @s as @s run function core:mods/crawl/start
