@@ -78,6 +78,7 @@ execute unless entity @s[tag=14] run data modify storage secret_page:data 14_hov
 
 execute if entity @s[tag=15] run data modify storage secret_page:data 15_color set value "green"
 execute if entity @s[tag=15] run data modify storage secret_page:data 15_hover set value {text:"Core",extra:[{text:" ✔\n",color:"green"},{text:"Spawn, Underground\n",color:"light_purple",italic:1b},{text:"\n[Click to teleport]",color:"green"}],color:"aqua"}
+execute unless entity @s[tag=15] run data modify storage secret_page:data 15_color set value "red"
 execute unless entity @s[tag=15] run data modify storage secret_page:data 15_hover set value {text:"Core",extra:[{text:" 🔒\n",color:"red"},{text:"Spawn, Underground",color:"light_purple",italic:1b}],color:"aqua"}
 
 execute if entity @s[tag=16] run data modify storage secret_page:data 16_color set value "green"
