@@ -46,12 +46,12 @@ execute unless entity @s[tag=8] run data modify storage secret_page:data 8_color
 execute unless entity @s[tag=8] run data modify storage secret_page:data 8_hover set value {text:"Rareware",extra:[{text:" 🔒\n",color:"red"},{text:"Spawn, Outskirts",color:"light_purple",italic:1b}],color:"aqua"}
 
 execute if entity @s[tag=9] run data modify storage secret_page:data 9_color set value "green"
-execute if entity @s[tag=9] run data modify storage secret_page:data 9_hover set value {text:"Secret #9",color:"yellow"}
+execute if entity @s[tag=9] run data modify storage secret_page:data 9_hover set value {text:"Bearware",extra:[{text:" ✔\n",color:"green"},{text:"Spawn, Underground\n",color:"light_purple",italic:1b},{text:"\n[Click to teleport]",color:"green"}],color:"aqua"}
 execute unless entity @s[tag=9] run data modify storage secret_page:data 9_color set value "red"
-execute unless entity @s[tag=9] run data modify storage secret_page:data 9_hover set value {text:"Locked",color:"red"}
+execute unless entity @s[tag=9] run data modify storage secret_page:data 9_hover set value {text:"Bearware",extra:[{text:" 🔒\n",color:"red"},{text:"Spawn, Underground",color:"light_purple",italic:1b}],color:"aqua"}
 
 execute if entity @s[tag=10] run data modify storage secret_page:data 10_color set value "green"
-execute if entity @s[tag=10] run data modify storage secret_page:data 10_hover set value {text:"The Bar Room",extra:[{text:" ✔\n",color:"green"},{text:"Spawn, Underground\n",color:"light_purple",italic:1b},{text:"\n[Click to teleport]",color:"green"}],color:"aqua"}
+execute if entity @s[tag=10] run data modify storage secret_page:data 10_hover set value {text:"Illusory Walls..",extra:[{text:" ✔\n",color:"green"},{text:"Spawn, Underground\n",color:"light_purple",italic:1b},{text:"\n[Click to teleport]",color:"green"}],color:"aqua"}
 execute unless entity @s[tag=10] run data modify storage secret_page:data 10_color set value "red"
 execute unless entity @s[tag=10] run data modify storage secret_page:data 10_hover set value {text:"The Bar Room",extra:[{text:" 🔒\n",color:"red"},{text:"Spawn, Underground",color:"light_purple",italic:1b}],color:"aqua"}
 
@@ -61,19 +61,20 @@ execute unless entity @s[tag=11] run data modify storage secret_page:data 11_col
 execute unless entity @s[tag=11] run data modify storage secret_page:data 11_hover set value {text:"Into the Aquarium",extra:[{text:" 🔒\n",color:"green"},{text:"Spawn, Outskirts",color:"light_purple",italic:1b}],color:"aqua"}
 
 execute if entity @s[tag=12] run data modify storage secret_page:data 12_color set value "green"
-execute if entity @s[tag=12] run data modify storage secret_page:data 12_hover set value {text:"Secret #12",color:"yellow"}
+execute if entity @s[tag=12] run data modify storage secret_page:data 12_hover set value {text:"Timeless Tracks",extra:[{text:" ✔\n",color:"green"},{text:"Spawn, Outskirts\n",color:"light_purple",italic:1b},{text:"\n[Click to teleport]",color:"green"}],color:"aqua"}
 execute unless entity @s[tag=12] run data modify storage secret_page:data 12_color set value "red"
-execute unless entity @s[tag=12] run data modify storage secret_page:data 12_hover set value {text:"Locked",color:"red"}
+execute unless entity @s[tag=12] run data modify storage secret_page:data 12_hover set value {text:"Timeless Tracks",extra:[{text:" 🔒\n",color:"green"},{text:"Spawn, Outskirts",color:"light_purple",italic:1b}],color:"aqua"}
+
 
 execute if entity @s[tag=13] run data modify storage secret_page:data 13_color set value "green"
-execute if entity @s[tag=13] run data modify storage secret_page:data 13_hover set value {text:"Secret #13",color:"yellow"}
+execute if entity @s[tag=13] run data modify storage secret_page:data 13_hover set value {text:"Placeholder",extra:[{text:" ✔\n",color:"green"},{text:"Spawn, Outskirts\n",color:"light_purple",italic:1b},{text:"\n[Click to teleport]",color:"green"}],color:"aqua"}
 execute unless entity @s[tag=13] run data modify storage secret_page:data 13_color set value "red"
-execute unless entity @s[tag=13] run data modify storage secret_page:data 13_hover set value {text:"Locked",color:"red"}
+execute unless entity @s[tag=13] run data modify storage secret_page:data 13_hover set value {text:"Placeholder",extra:[{text:" 🔒\n",color:"green"},{text:"Spawn, Outskirts",color:"light_purple",italic:1b}],color:"aqua"}
 
 execute if entity @s[tag=14] run data modify storage secret_page:data 14_color set value "green"
-execute if entity @s[tag=14] run data modify storage secret_page:data 14_hover set value {text:"Secret #14",color:"yellow"}
+execute if entity @s[tag=14] run data modify storage secret_page:data 14_hover set value {text:"..In Shining Chambers",extra:[{text:" ✔\n",color:"green"},{text:"Spawn, Underground\n",color:"light_purple",italic:1b},{text:"\n[Click to teleport]",color:"green"}],color:"aqua"}
 execute unless entity @s[tag=14] run data modify storage secret_page:data 14_color set value "red"
-execute unless entity @s[tag=14] run data modify storage secret_page:data 14_hover set value {text:"Locked",color:"red"}
+execute unless entity @s[tag=14] run data modify storage secret_page:data 14_hover set value {text:"Placeholder",extra:[{text:" 🔒\n",color:"green"},{text:"Spawn, Outskirts",color:"light_purple",italic:1b}],color:"aqua"}
 
 execute if entity @s[tag=15] run data modify storage secret_page:data 15_color set value "green"
 execute if entity @s[tag=15] run data modify storage secret_page:data 15_hover set value {text:"Core",extra:[{text:" ✔\n",color:"green"},{text:"Spawn, Underground\n",color:"light_purple",italic:1b},{text:"\n[Click to teleport]",color:"green"}],color:"aqua"}
@@ -100,9 +101,9 @@ execute unless entity @s[tag=19] run data modify storage secret_page:data 19_col
 execute unless entity @s[tag=19] run data modify storage secret_page:data 19_hover set value {text:"Dank Depths",extra:[{text:" 🔒\n",color:"red"},{text:"Spawn, Surface",color:"light_purple",italic:1b}],color:"aqua"}
 
 execute if entity @s[tag=20] run data modify storage secret_page:data 20_color set value "green"
-execute if entity @s[tag=20] run data modify storage secret_page:data 20_hover set value {text:"Secret #20",color:"yellow"}
+execute if entity @s[tag=20] run data modify storage secret_page:data 20_hover set value {text:"40 Fathoms",extra:[{text:" ✔\n",color:"green"},{text:"Spawn, Surface\n",color:"light_purple",italic:1b},{text:"\n[Click to teleport]",color:"green"}],color:"aqua"}
 execute unless entity @s[tag=20] run data modify storage secret_page:data 20_color set value "red"
-execute unless entity @s[tag=20] run data modify storage secret_page:data 20_hover set value {text:"Locked",color:"red"}
+execute unless entity @s[tag=20] run data modify storage secret_page:data 20_hover set value {text:"40 Fathoms",extra:[{text:" 🔒\n",color:"red"},{text:"Spawn, Surface",color:"light_purple",italic:1b}],color:"aqua"}
 
 execute if entity @s[tag=21] run data modify storage secret_page:data 21_color set value "green"
 execute if entity @s[tag=21] run data modify storage secret_page:data 21_hover set value {text:"Bullseye",extra:[{text:" ✔\n",color:"green"},{text:"Spawn, Surface\n",color:"light_purple",italic:1b},{text:"\n[Click to teleport]",color:"green"}],color:"aqua"}
@@ -121,9 +122,9 @@ execute unless entity @s[tag=23] run data modify storage secret_page:data 23_col
 execute unless entity @s[tag=23] run data modify storage secret_page:data 23_hover set value {text:"A Great Lie",extra:[{text:" 🔒\n",color:"red"},{text:"Spawn, Outskirts",color:"light_purple",italic:1b}],color:"aqua"}
 
 execute if entity @s[tag=24] run data modify storage secret_page:data 24_color set value "green"
-execute if entity @s[tag=24] run data modify storage secret_page:data 24_hover set value {text:"Cozy Quarters",extra:[{text:" ✔\n",color:"green"},{text:"Spawn, Surface\n",color:"light_purple",italic:1b},{text:"\n[Click to teleport]",color:"green"}],color:"aqua"}
+execute if entity @s[tag=24] run data modify storage secret_page:data 24_hover set value {text:"Living Quarters",extra:[{text:" ✔\n",color:"green"},{text:"Spawn, Surface\n",color:"light_purple",italic:1b},{text:"\n[Click to teleport]",color:"green"}],color:"aqua"}
 execute unless entity @s[tag=24] run data modify storage secret_page:data 24_color set value "red"
-execute unless entity @s[tag=24] run data modify storage secret_page:data 24_hover set value {text:"Cozy Quarters",extra:[{text:" 🔒\n",color:"red"},{text:"Spawn, Surface",color:"light_purple",italic:1b}],color:"aqua"}
+execute unless entity @s[tag=24] run data modify storage secret_page:data 24_hover set value {text:"Living Quarters",extra:[{text:" 🔒\n",color:"red"},{text:"Spawn, Surface",color:"light_purple",italic:1b}],color:"aqua"}
 
 execute if entity @s[tag=25] run data modify storage secret_page:data 25_color set value "green"
 execute if entity @s[tag=25] run data modify storage secret_page:data 25_hover set value {text:"Secret #25",color:"yellow"}
