@@ -1,17 +1,3 @@
-scoreboard players set #Scale dummy 1000
-execute store result score #RoundedX dummy run data get entity @s Pos[0] 1
-execute store result score #RoundedY dummy run data get entity @s Pos[1] 1
-execute store result score #RoundedZ dummy run data get entity @s Pos[2] 1
-scoreboard players operation #RoundedX dummy *= #Scale dummy
-scoreboard players operation #RoundedX dummy *= #Scale dummy
-scoreboard players operation #RoundedX dummy *= #Scale dummy
-execute store result score #X dummy run data get entity @s Pos[0] 1000
-execute store result score #Y dummy run data get entity @s Pos[1] 1000
-execute store result score #Z dummy run data get entity @s Pos[2] 1000
-scoreboard players operation #X dummy -= #RoundedX dummy
-scoreboard players operation #Y dummy -= #RoundedY dummy
-scoreboard players operation #Z dummy -= #RoundedZ dummy
-scoreboard players reset #Scale dummy
-scoreboard players reset #RoundedX dummy
-scoreboard players reset #RoundedY dummy
-scoreboard players reset #RoundedZ dummy
+# Create and store relative block position. 0.0 to 1.0 (scaled; 0 to 10000)
+execute run summon minecraft:marker ~ ~ ~ {Tags:["__COL"]}
+execute as @e[type=minecraft:marker,tag=__COL,limit=1] at @s run function util:collision/sub_init
