@@ -1,6 +1,6 @@
 {
     "values": [
-        "util:core_load",
+        "core:core_load",
         "items:george/load",
         "inventory:load"
     ]

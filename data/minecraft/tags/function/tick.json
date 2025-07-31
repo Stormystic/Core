@@ -1,5 +1,5 @@
 {
     "values": [
-        "util:core_tick"
+        "core:core_tick"
     ]
 }

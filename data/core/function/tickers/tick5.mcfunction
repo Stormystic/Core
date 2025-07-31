@@ -25,9 +25,9 @@ function util:secrets/check
 execute as @e[tag=tornado] at @s run function weather:tornussy/break
 
 # Zones
-function util:zones/void
-function util:zones/arena
-function util:zones/spleef
-function util:zones/wizard
+function core:zones/void
+function core:zones/arena
+function core:zones/spleef
+function core:zones/wizard
 
 function items:heart_high/check
